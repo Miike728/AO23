@@ -5,3 +5,7 @@ C:\Users\Alumno\Documents\VS Net\Ejemplo1\obj\Debug\Ejemplo1.csproj.AssemblyRefe
 C:\Users\Alumno\Documents\VS Net\Ejemplo1\obj\Debug\Ejemplo1.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Documents\VS Net\Ejemplo1\obj\Debug\Ejemplo1.exe
 C:\Users\Alumno\Documents\VS Net\Ejemplo1\obj\Debug\Ejemplo1.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\Ejemplo1\obj\Debug\Ejemplo1.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23\Ejemplo1\obj\Debug\Ejemplo1.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23\Ejemplo1\obj\Debug\Ejemplo1.exe
+C:\Users\Alumno\Documents\GitHub\AO23\Ejemplo1\obj\Debug\Ejemplo1.pdb
