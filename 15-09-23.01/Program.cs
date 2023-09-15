@@ -25,6 +25,16 @@ namespace _15_09_23._01
             Console.WriteLine("A+B=" + suma);
             Console.ReadLine();
 
+            
+            //string x, y, z;
+            //Console.WriteLine("X=?");
+            //x = Console.ReadLine();
+            //Console.WriteLine("Y=?");
+            //y = Console.ReadLine();
+
+            //z = x + y ;
+            //Console.WriteLine("Z=" + z);
+            //Console.ReadLine();
 
         }
     }
