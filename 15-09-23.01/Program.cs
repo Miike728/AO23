@@ -22,7 +22,7 @@ namespace _15_09_23._01
             //Calcular
             suma = a + b;
 
-            Console.WriteLine(suma);
+            Console.WriteLine("A+B=" + suma);
             Console.ReadLine();
 
 
