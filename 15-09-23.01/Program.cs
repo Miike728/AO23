@@ -10,6 +10,22 @@ namespace _15_09_23._01
     {
         static void Main(string[] args)
         {
+
+            //Variables
+            int a, b, suma;
+            // System.Int32 a, b, suma;
+
+            //Inicializar A y B
+            a = 9;
+            b = 3;
+
+            //Calcular
+            suma = a + b;
+
+            Console.WriteLine(suma);
+            Console.ReadLine();
+
+
         }
     }
 }
