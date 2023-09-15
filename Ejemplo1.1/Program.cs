@@ -26,7 +26,6 @@ namespace Ejemplo1
              * c
              */
             Console.ReadLine();
-
         }
     }
 }
