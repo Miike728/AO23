@@ -1,0 +1,6 @@
+C:\Users\Alumno\Documents\GitHub\AO23\20-09-23.03\bin\Debug\20-09-23.03.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23\20-09-23.03\bin\Debug\20-09-23.03.exe
+C:\Users\Alumno\Documents\GitHub\AO23\20-09-23.03\bin\Debug\20-09-23.03.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\20-09-23.03\obj\Debug\20-09-23.03.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23\20-09-23.03\obj\Debug\20-09-23.03.exe
+C:\Users\Alumno\Documents\GitHub\AO23\20-09-23.03\obj\Debug\20-09-23.03.pdb

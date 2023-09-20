@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23\20-09-23.01\obj\Debug\20-09-23.01.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23\20-09-23.01\obj\Debug\20-09-23.01.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23\20-09-23.01\bin\Debug\20-09-23.01.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23\20-09-23.01\bin\Debug\20-09-23.01.exe
+C:\Users\Alumno\Documents\GitHub\AO23\20-09-23.01\bin\Debug\20-09-23.01.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\20-09-23.01\obj\Debug\20-09-23.01.exe
+C:\Users\Alumno\Documents\GitHub\AO23\20-09-23.01\obj\Debug\20-09-23.01.pdb
