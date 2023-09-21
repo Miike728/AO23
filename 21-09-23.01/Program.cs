@@ -36,10 +36,10 @@ namespace _21_09_23._01
             //abcd
             int abc;
             int xyz;
-            Console.Write("Introduce el valor 1");
+            Console.Write("Introduce el valor 1: ");
             abc = int.Parse(Console.ReadLine());
-            Console.Write("/n");
-            Console.Write("Introduce el valor 2");
+            Console.WriteLine();
+            Console.Write("Introduce el valor 2: ");
             xyz = int.Parse(Console.ReadLine());
             abc = abc + xyz;
             Console.WriteLine("Total=" + abc);
