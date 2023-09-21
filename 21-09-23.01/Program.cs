@@ -45,6 +45,7 @@ namespace _21_09_23._01
             Console.WriteLine("Total=" + abc);
 
             Console.ReadLine();
+
         }
     }
 }
