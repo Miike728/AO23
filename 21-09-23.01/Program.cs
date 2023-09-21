@@ -23,8 +23,23 @@ namespace _21_09_23._01
             num2 = 10;
             num3 = 5;
 
-            //Modificar variables
 
+
+            //Modificar variables
+            num1 = (short)(num1 + 1); //Cambia tipo de variable a short y modifca el valor
+            
+            int x1 = 10;
+            x1 = x1 + 1;
+
+
+
+            //abcd
+            int abc = 10;
+            int xyz;
+            Console.WriteLine("Introduce el valor");
+            xyz = int.Parse(Console.ReadLine());
+            abc = abc + xyz;
+            Console.WriteLine("Total=" + xyz);
 
         }
     }
