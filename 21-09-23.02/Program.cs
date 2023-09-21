@@ -11,26 +11,31 @@ namespace _21_09_23._02
         static void Main(string[] args)
         {
             //Variables
-            int base1;
-            int altura;
-            
+            double base1;
+            double altura;
+
+            inicio:
+
             // Entrada base
             Console.Write("Base del triángulo: ");
-            base1 = int.Parse(Console.ReadLine());
+            base1 = double.Parse(Console.ReadLine());
             Console.WriteLine();
 
             // Entrada altura
             Console.Write("Altura del triángulo: ");
-            altura = int.Parse(Console.ReadLine());
+            altura = double.Parse(Console.ReadLine());
             Console.WriteLine();
 
             // Calcular el área
-            int area = base1 * altura / 2;
+            double area = base1 * altura / 2;
 
             // Imprimir el área
             Console.WriteLine("El área del triángulo es de: " + area);
             Console.ReadLine();
-
+            //if (Console.ReadKey().Key != ConsoleKey.R) ;
+            //{
+            //    goto inicio;
+            //}
         }
     }
 }
