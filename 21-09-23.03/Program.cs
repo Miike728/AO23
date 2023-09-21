@@ -26,6 +26,7 @@ namespace _21_09_23._03
             Console.WriteLine(" | Edad: " + edad);
 
             Console.ReadKey();
+
         }
     }
 }
