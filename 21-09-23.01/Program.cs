@@ -41,6 +41,7 @@ namespace _21_09_23._01
             abc = abc + xyz;
             Console.WriteLine("Total=" + xyz);
 
+            Console.ReadLine();
         }
     }
 }
