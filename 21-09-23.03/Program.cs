@@ -27,7 +27,8 @@ namespace _21_09_23._03
             Console.WriteLine();
 
             Console.Write("DNI: " + dni);
-            Console.WriteLine(" | Edad: " + edad);
+            Console.Write(" | Edad: " + edad);
+            Console.WriteLine(" | Salario: " + salario);
 
             Console.ReadKey();
 
