@@ -36,6 +36,7 @@ namespace _25_09_2023._01._1
             Console.WriteLine("r1= " + r1);
             Console.WriteLine("r1Copia= " + r1Copia);
             Console.ReadKey();
+            
         }
     }
 }
