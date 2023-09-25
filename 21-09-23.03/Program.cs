@@ -14,6 +14,8 @@ namespace _21_09_23._03
             byte edad;
             float salario;
 
+            abc:
+
             Console.Write("Introduce el DNI: ");
             dni = Console.ReadLine();
             Console.WriteLine();
@@ -21,7 +23,7 @@ namespace _21_09_23._03
             Console.Write("Introduce la edad: ");
             edad = byte.Parse(Console.ReadLine());
             Console.WriteLine();
-
+            
             Console.Write("Introduce el salario: ");
             salario = float.Parse(Console.ReadLine());
             Console.WriteLine();
@@ -31,6 +33,9 @@ namespace _21_09_23._03
             Console.WriteLine(" | Salario: " + salario);
 
             Console.ReadKey();
+
+            Console.Clear();
+            goto abc;
 
         }
     }
