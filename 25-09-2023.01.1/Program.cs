@@ -23,6 +23,15 @@ namespace _25_09_2023._01._1
             double numero2 = 5.678;
             float numero2Copia = (float)numero2;
 
+
+            short n3 = 300;
+            byte n3Copia = (byte)n3;
+
+            Console.WriteLine(n3Copia);
+            Console.ReadKey();
+
+
+
         }
     }
 }
