@@ -5,3 +5,10 @@ C:\Users\Alumno\Documents\GitHub\AO23\25-09-2023.01.1\obj\Debug\25-09-2023.01.1.
 C:\Users\Alumno\Documents\GitHub\AO23\25-09-2023.01.1\obj\Debug\25-09-2023.01.1.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Documents\GitHub\AO23\25-09-2023.01.1\obj\Debug\25-09-2023.01.1.exe
 C:\Users\Alumno\Documents\GitHub\AO23\25-09-2023.01.1\obj\Debug\25-09-2023.01.1.pdb
+C:\Users\Miike\source\repos\25-09-2023.01.1\bin\Debug\25-09-2023.01.1.exe.config
+C:\Users\Miike\source\repos\25-09-2023.01.1\bin\Debug\25-09-2023.01.1.exe
+C:\Users\Miike\source\repos\25-09-2023.01.1\bin\Debug\25-09-2023.01.1.pdb
+C:\Users\Miike\source\repos\25-09-2023.01.1\obj\Debug\25-09-2023.01.1.csproj.AssemblyReference.cache
+C:\Users\Miike\source\repos\25-09-2023.01.1\obj\Debug\25-09-2023.01.1.csproj.CoreCompileInputs.cache
+C:\Users\Miike\source\repos\25-09-2023.01.1\obj\Debug\25-09-2023.01.1.exe
+C:\Users\Miike\source\repos\25-09-2023.01.1\obj\Debug\25-09-2023.01.1.pdb
