@@ -200,7 +200,6 @@ namespace MiniProgramas
             double precioInicial;
             double porcentajeDescuento;
             double precioFinal = 0;
-            double descuento;
             double ahorro;
 
             Console.Write("Introduce el precio del producto:");
@@ -218,7 +217,23 @@ namespace MiniProgramas
         }
         static void Opcion15()
         {
+            double d, a, v, raiz, AL;
 
+            Console.Write("Introduce 'a': ");
+            a = double.Parse(Console.ReadLine());
+            Console.WriteLine();
+
+            raiz = Math.Sqrt(3);
+            d = (raiz * a);
+            AL = 4 * (a * a);
+
+            v = a * a * a;
+
+            Console.WriteLine("D= " + d);
+            Console.WriteLine("AL= " + AL);
+            Console.WriteLine("V= " + v);
+
+            Console.ReadLine();
         }
 
     }
