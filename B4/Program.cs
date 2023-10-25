@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Threading;         //Thread.Sleep(1000);
-using System.Diagnostics.Eventing.Reader;
 
 namespace B4
 {
@@ -16,31 +11,37 @@ namespace B4
             int ejercicio;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("Elige un ejercicio (4-101): ");
-            Console.ForegroundColor= ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.White;
             ejercicio = int.Parse(Console.ReadLine());
 
 
             //EJERCICIO 4
             if (ejercicio == 4)
             {
+                // Variables
                 double num1, num2, num3;
+                // Texto verde del ejercicio 4
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 4");
                 Console.ForegroundColor = ConsoleColor.White;
+                // SOlicitar los números al usuario
                 Console.Write("Introduce el primer numero: ");
                 num1 = double.Parse(Console.ReadLine());
                 Console.Write("Introduce el segundo numero: ");
                 num2 = double.Parse(Console.ReadLine());
                 Console.Write("Introduce el tercer numero: ");
                 num3 = double.Parse(Console.ReadLine());
+                // Cálculo de la media
                 double media = (num1 + num2 + num3) / 3;
+                // Comprobar si es aprobado o suspenso
                 if (media >= 5)
                 {
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
                     Console.Write("Alumno aprobado");
                 }
-                else if (media < 5)
+                // En cualquier otro caso es suspenso
+                else
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("Alumno suspenso");
@@ -51,19 +52,24 @@ namespace B4
             //EJERCICIO 5
             else if (ejercicio == 5)
             {
+                // Variables
                 double numero1, numero2, suma;
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 5");
                 Console.ForegroundColor = ConsoleColor.White;
+                // Solicitar al usuario los números
                 Console.Write("Introduce el primer número: ");
                 numero1 = double.Parse(Console.ReadLine());
                 Console.Write("Introduce el segundo número: ");
                 numero2 = double.Parse(Console.ReadLine());
+                // Calcular suma
                 suma = numero1 + numero2;
                 Console.ForegroundColor = ConsoleColor.Blue;
-                if (suma >= 0)
+                // Comprobar la condición
+                if (suma > 0)
                 {
+                    // Si es mayor que 0 entonces calcula la raíz. Se podría poner mayor o igual que 0 pero no tendría mucho sentido
                     double raiz = Math.Sqrt(suma);
                     Console.Write("La raíz cuadrada de la suma es: " + raiz);
                 }
@@ -78,6 +84,7 @@ namespace B4
             //EJERCICIO 6
             else if (ejercicio == 6)
             {
+                // Variables
                 string password, defaultPassword;
                 defaultPassword = "1234";
 
@@ -85,8 +92,10 @@ namespace B4
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 6");
                 Console.ForegroundColor = ConsoleColor.White;
+                // Solicitar al usuario la contraseña
                 Console.Write("Introduce la contraseña: ");
                 password = Console.ReadLine();
+                // COmprobar si la coontraseña es correcta
                 if (password == defaultPassword)
                 {
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
@@ -103,11 +112,13 @@ namespace B4
             //EJERCICIO 7
             else if (ejercicio == 7)
             {
+                // Variable
                 double numero1, numero2;
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 7");
                 Console.ForegroundColor = ConsoleColor.White;
+                // Entrada de los 2 números
                 Console.Write("Introduce el primer número: ");
                 numero1 = double.Parse(Console.ReadLine());
                 Console.Write("Introduce el segundo número: ");
@@ -145,16 +156,15 @@ namespace B4
                 Console.WriteLine("EJERCICIO 8");
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.Write("Introduce la presión en atm: ");
-                presion = Convert.ToDouble(Console.ReadLine());
+                presion = double.Parse(Console.ReadLine());
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("EJERCICIO 8");
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("Presión: " + presion + "atm");
-
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.Write("Introduce la temperatura en Kelvin: ");
-                temperatura = Convert.ToDouble(Console.ReadLine());
+                temperatura = double.Parse(Console.ReadLine());
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("EJERCICIO 8");
@@ -190,7 +200,8 @@ namespace B4
             //EJERCICIO 9
             else if (ejercicio == 9)
             {
-                int numero;
+                // Declarar variables
+                double numero;
                 bool noMultiplo2 = false;
                 bool noMultiplo3 = false;
 
@@ -200,15 +211,14 @@ namespace B4
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.ForegroundColor = ConsoleColor.Red;
 
-                // Pedimos al usuario que introduzca un número
+                // Entrada de número
                 Console.Write("Introduce un número: ");
-                numero = int.Parse(Console.ReadLine());
+                numero = double.Parse(Console.ReadLine());
 
                 Console.ForegroundColor = ConsoleColor.Blue;
                 // Comprobamos si el número es múltiplo de 2
                 if (numero % 2 == 0)
                 {
-                    // Si lo es, imprimimos un mensaje de confirmación
                     Console.WriteLine("El número " + numero + " es múltiplo de 2");
                 }
                 else
@@ -219,7 +229,6 @@ namespace B4
                 // Comprobamos si el número es múltiplo de 3
                 if (numero % 3 == 0)
                 {
-                    // Si lo es, imprimimos un mensaje de confirmación
                     Console.WriteLine("El número " + numero + " es múltiplo de 3");
                 }
                 else
@@ -239,6 +248,7 @@ namespace B4
             //EJERCICIO 10
             else if (ejercicio == 10)
             {
+                // Declarar variables
                 double precio;
                 double descuento;
 
@@ -246,6 +256,7 @@ namespace B4
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 10");
                 Console.ForegroundColor = ConsoleColor.White;
+                // Entrada de datos
                 Console.Write("Introduce el precio: ");
                 precio = double.Parse(Console.ReadLine());
                 Console.Clear();
@@ -254,7 +265,7 @@ namespace B4
                 Console.WriteLine("EJERCICIO 10");
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("Precio introducido: " + precio);
-
+                // Condiciones
                 if (precio < 100)
                 {
                     descuento = 0.1;
@@ -263,7 +274,9 @@ namespace B4
                 {
                     descuento = 0.15;
                 }
+                // Cálculos
                 double precioFinal = precio - (descuento * precio);
+                // Mostrar resultados en consola
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Descuento aplicado: " + descuento * 100 + "%");
                 Console.WriteLine("Precio final: " + precioFinal);
@@ -273,12 +286,14 @@ namespace B4
             //EJERCICIO 11
             else if (ejercicio == 11)
             {
+                // Variable
                 double calificacion;
 
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 11");
                 Console.ForegroundColor = ConsoleColor.White;
+                // Entrada de datos
                 Console.Write("Introduce la calificación: ");
                 calificacion = double.Parse(Console.ReadLine());
                 Console.Clear();
@@ -287,28 +302,28 @@ namespace B4
                 Console.WriteLine("EJERCICIO 11");
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("Calificación introducida: " + calificacion);
-
+                // Condiciones
                 if (calificacion < 0 || calificacion > 10)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("ERROR: Nota no válida");
                     Thread.Sleep(1000);
                 }
-                else if (calificacion >= 0 && calificacion < 5)
+                else if (calificacion < 5)
                 {
                     Console.Write("Nota: ");
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("Suspenso");
                     Console.ReadLine();
                 }
-                else if (calificacion >= 5 && calificacion < 6.5)
+                else if (calificacion < 6.5)
                 {
                     Console.Write("Nota: ");
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
                     Console.Write("Aprobado");
                     Console.ReadLine();
                 }
-                else if (calificacion >= 6.5 && calificacion < 8.5)
+                else if (calificacion < 8.5)
                 {
                     Console.Write("Nota: ");
                     Console.ForegroundColor = ConsoleColor.Yellow;
@@ -331,10 +346,11 @@ namespace B4
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 12");
                 Console.ForegroundColor = ConsoleColor.White;
+                // Entrada de datos
                 Console.Write("Introduce un número: ");
-                int numero = int.Parse(Console.ReadLine());
-                int numeroInicial = numero;
-
+                double numero = double.Parse(Console.ReadLine());
+                double numeroInicial = numero;
+                // Condiciones
                 if (numero % 4 == 0)
                 {
                     numero += 25; // Es lo mismo que poner "numero = numero + 25"
@@ -347,7 +363,7 @@ namespace B4
                 {
                     numero += 100;
                 }
-
+                // Mostrar resultados en consola
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 12");
@@ -361,15 +377,16 @@ namespace B4
             //EJERCICIO 13
             else if (ejercicio == 13)
             {
-                decimal temp;
+                // Variable
+                double temp;
 
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 13");
                 Console.ForegroundColor = ConsoleColor.White;
-
+                // Entrada de datos
                 Console.Write("Introduce la temperatura: ");
-                temp = decimal.Parse(Console.ReadLine());
+                temp = double.Parse(Console.ReadLine());
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
@@ -378,7 +395,7 @@ namespace B4
                 Console.WriteLine("Temperatura introducida: " + temp);
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.Write("Estado: ");
-
+                // Condiciones
                 if (temp < 0)
                 {
                     Console.WriteLine("SÓLIDO");
@@ -405,35 +422,35 @@ namespace B4
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 14");
                 Console.ForegroundColor = ConsoleColor.White;
-
+                // Menú
                 Console.WriteLine("Elige una opción:");
                 Console.WriteLine("1. Sumar");
                 Console.WriteLine("2. Restar");
                 Console.WriteLine("3. Multiplicar");
                 Console.WriteLine("4. Dividir");
                 Console.WriteLine("5. Raíz de la suma");
-
-                int opcion = int.Parse(Console.ReadLine());
+                // Esperar a que el usuario elija opción
+                double opcion = double.Parse(Console.ReadLine());
 
                 switch (opcion)
                 {
                     case 1:
                         // Sumar los números
                         Console.Write("Introduce el primer número: ");
-                        int num1 = int.Parse(Console.ReadLine());
+                        double num1 = double.Parse(Console.ReadLine());
                         Console.Write("Introduce el segundo número: ");
-                        int num2 = int.Parse(Console.ReadLine());
+                        double num2 = double.Parse(Console.ReadLine());
                         double suma = num1 + num2;
-                        Console.ForegroundColor= ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine("La suma es: " + suma);
                         Console.ReadLine();
                         break;
                     case 2:
                         // Restar los números
                         Console.Write("Introduce el primer número: ");
-                        int num12 = int.Parse(Console.ReadLine());
+                        double num12 = double.Parse(Console.ReadLine());
                         Console.Write("Introduce el segundo número: ");
-                        int num22 = int.Parse(Console.ReadLine());
+                        double num22 = double.Parse(Console.ReadLine());
                         double resta = num12 - num22;
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine("La resta es: " + resta);
@@ -442,9 +459,9 @@ namespace B4
                     case 3:
                         // Multiplicar los números
                         Console.Write("Introduce el primer número: ");
-                        int num13 = int.Parse(Console.ReadLine());
+                        double num13 = double.Parse(Console.ReadLine());
                         Console.Write("Introduce el segundo número: ");
-                        int num23 = int.Parse(Console.ReadLine());
+                        double num23 = double.Parse(Console.ReadLine());
                         double multiplicacion = num13 * num23;
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine("La multiplicación es: " + multiplicacion);
@@ -453,9 +470,9 @@ namespace B4
                     case 4:
                         // Dividir los números
                         Console.Write("Introduce el primer número: ");
-                        int num14 = int.Parse(Console.ReadLine());
+                        double num14 = double.Parse(Console.ReadLine());
                         Console.Write("Introduce el segundo número: ");
-                        int num24 = int.Parse(Console.ReadLine());
+                        double num24 = double.Parse(Console.ReadLine());
                         double division = num14 / num24;
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine("La división es: " + division);
@@ -464,9 +481,9 @@ namespace B4
                     case 5:
                         // Calcular la raíz cuadrada de la suma de los números
                         Console.Write("Introduce el primer número: ");
-                        int num15 = int.Parse(Console.ReadLine());
+                        double num15 = double.Parse(Console.ReadLine());
                         Console.Write("Introduce el segundo número: ");
-                        int num25 = int.Parse(Console.ReadLine());
+                        double num25 = double.Parse(Console.ReadLine());
                         double raiz = Math.Sqrt(num15 + num25);
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine("La raíz cuadrada de la suma es: " + raiz);
@@ -474,7 +491,7 @@ namespace B4
                         break;
                     default:
                         // Opción no válida
-                        Console.ForegroundColor= ConsoleColor.Red;
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.Write("Opción no válida");
                         Thread.Sleep(500);
                         Console.Write("!");
@@ -490,38 +507,146 @@ namespace B4
             //EJERCICIO 15
             else if (ejercicio == 15)
             {
-
-
+                bool cuotaMinima = false;
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 15");
                 Console.ForegroundColor = ConsoleColor.White;
 
+                // Pedimos al usuario la cantidad de litros consumidos
+                Console.Write("Introduce la cantidad de litros consumidos: ");
+                double litros = double.Parse(Console.ReadLine());
 
+                // Calculamos el gasto
+                double gasto = 0;
+                if (litros <= 50)
+                {
+                    // Primeros 50l gratis
+                    gasto = 0;
+                }
+                else if (litros <= 200)
+                {
+                    // De 50l a 200l, precio de 4,75 euros el litro
+                    gasto = (litros - 50) * 4.75;
+                }
+                else
+                {
+                    // Desde 200l, precio de 20 euros el litro
+                    gasto = (litros - 200) * 20 + 150 * 4.75;
+                }
+
+                // Cuota mínima
+                if (gasto < 45)
+                {
+                    gasto = 45;
+                    cuotaMinima = true;
+                }
+
+                // Mostrar en consola el resultado
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("El gasto de agua es de " + gasto + " euros");
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                if (cuotaMinima)
+                {
+                    Console.WriteLine("Cuota mínima aplicada");
+                }
+                else
+                {
+                    Console.WriteLine("Cuota mínima NO aplicada");
+                }
+                Console.ReadLine();
             }
 
             //EJERCICIO 16
             else if (ejercicio == 16)
             {
-
+                // Variables
+                double precio1, precio2, precio3;
+                double descuento = 0;
 
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 16");
                 Console.ForegroundColor = ConsoleColor.White;
+                // Leer los precios
+                Console.Write("Introduzca el precio del primer artículo: ");
+                precio1 = double.Parse(Console.ReadLine());
+                Console.Write("Introduzca el precio del segundo artículo: ");
+                precio2 = double.Parse(Console.ReadLine());
+                Console.Write("Introduzca el precio del tercer artículo: ");
+                precio3 = double.Parse(Console.ReadLine());
 
+                // Calcular suma de los números
+                double sumaTotal = precio1 + precio2 + precio3;
+
+                // Calcular el descuento
+                if (sumaTotal < 500)
+                {
+                    // No hay descuento
+                }
+                else if (sumaTotal < 1000)
+                {
+                    descuento = sumaTotal * 0.03;
+                }
+                else if (sumaTotal < 2000)
+                {
+                    descuento = sumaTotal * 0.05;
+                }
+                else if (sumaTotal <= 3000)
+                {
+                    descuento = sumaTotal * 0.07;
+                }
+                else
+                {
+                    descuento = sumaTotal * 0.10;
+                }
+
+                // Calcular el total a pagar
+                double importeTotal = sumaTotal - descuento;
+
+                // Enseñar los resultados por pantalla
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("La suma total de los precios es: " + sumaTotal + " euros");
+                Console.WriteLine("El importe total a pagar es: " + importeTotal + " euros");
+                Console.ReadLine();
             }
 
             //EJERCICIO 17
             else if (ejercicio == 17)
             {
-
-
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 17");
                 Console.ForegroundColor = ConsoleColor.White;
 
+                // Entrada de datos
+                Console.Write("Introduce la tasa por hora: ");
+                double tasaPorHora = double.Parse(Console.ReadLine());
+                Console.Write("Introduce las horas trabajadas: ");
+                double horasTrabajadas = double.Parse(Console.ReadLine());
+
+                // Cálculos
+                double salarioBruto = 0;
+                if (horasTrabajadas <= 38)
+                {
+                    salarioBruto = tasaPorHora * horasTrabajadas;
+                }
+                else
+                {
+                    salarioBruto = tasaPorHora * 38 + (horasTrabajadas - 38) * (tasaPorHora * 1.5);
+                }
+
+                double salarioNeto = salarioBruto;
+                if (salarioBruto > 300)
+                {
+                    salarioNeto = salarioBruto - salarioBruto * 0.1;
+                }
+
+                // Imprimir los resultados
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("Salario bruto: " + salarioBruto + " euros");
+                Console.Write("Salario neto: " + salarioNeto + " euros");
+                Console.ReadLine();
             }
 
             //EJERCICIO 18
