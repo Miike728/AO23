@@ -652,48 +652,214 @@ namespace B4
             //EJERCICIO 18
             else if (ejercicio == 18)
             {
-
+                // Variable
+                int indicador;
 
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 18");
                 Console.ForegroundColor = ConsoleColor.White;
+                //Entrada del valor
+                Console.Write("Introduce un valor: ");
+                indicador = int.Parse(Console.ReadLine());
+                // Switch
+                switch (indicador)
+                {
+                    case 1:
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        Console.WriteLine("CALOR");
+                        Console.ReadLine();
+                        break;
+                    case 2:
+                        Console.ForegroundColor= ConsoleColor.DarkYellow;
+                        Console.Write("TEMPLADO");
+                        Console.ReadLine();
+                        break;
+                    case 3:
+                        Console.ForegroundColor = ConsoleColor.DarkBlue;
+                        Console.Write("FRIO");
+                        Console.ReadLine();
+                        break;
+                    case 4:
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.Write("FUERA DE RANGO");
+                        Console.ReadLine();
+                        break;
+                    default:
+                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        Console.Write("ERROR");
+                        Thread.Sleep(200);
+                        Console.Write("!");
+                        Thread.Sleep(200);
+                        Console.Write("!");
+                        Thread.Sleep(200);
+                        Console.Write("!");
+                        Thread.Sleep(750);
+                        break;
+                }
             }
-
+            
             //EJERCICIO 19
             else if (ejercicio == 19)
             {
-
+                // Variable 
+                char color;
 
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 19");
                 Console.ForegroundColor = ConsoleColor.White;
+                //Entrada de valor de color
+                Console.Write("Introduce un valor: ");
+                color = char.Parse(Console.ReadLine());
 
+                // Switch
+                switch (color)
+                {
+                    case 'r':
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("ROJO");
+                        break;
+                    case 'R':
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("ROJO");
+                        break;
+                    case 'v':
+                        Console.ForegroundColor = ConsoleColor.DarkGreen;
+                        Console.WriteLine("VERDE");
+                        break;
+                    case 'V':
+                        Console.ForegroundColor = ConsoleColor.DarkGreen;
+                        Console.WriteLine("VERDE");
+                        break;
+                    case 'a':
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                        Console.WriteLine("AZUL");
+                        break;
+                    case 'A':
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                        Console.WriteLine("AZUL");
+                        break;
+                    default:
+                        Console.BackgroundColor = ConsoleColor.White;
+                        Console.ForegroundColor= ConsoleColor.Black;
+                        Console.WriteLine("NEGRO");
+                        break;
+                }    
+                Console.ReadLine();
             }
 
             //EJERCICIO 20
             else if (ejercicio == 20)
             {
-
+                //Declaración de variables
+                double numero;
 
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 20");
                 Console.ForegroundColor = ConsoleColor.White;
-
+                // Pedimos al usuario que introduzca un número
+                Console.Write("Introduce un número: ");
+                numero = double.Parse(Console.ReadLine());
+                
+                // Comprobar cuantas cifras tiene el número
+                if (numero <0)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("El número es negativo");
+                }
+                else if (numero <10)
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("El número tiene 1 cifra");
+                }
+                else if (numero <100)
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("El número tiene 2 cifras");
+                }
+                else if (numero < 1000)
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("El número tiene 3 cifras");
+                }
+                else if (numero < 10000)
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("El número tiene 4 cifras");
+                }
+                else if (numero < 100000)
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("El número tiene 5 cifras");
+                }
+                else if (numero < 1000000)
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("El número tiene 6 cifras");
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("El número tiene más de 6 cifras");
+                }
+            Console.ReadLine();
             }
 
             //EJERCICIO 21
             else if (ejercicio == 21)
             {
-
-
+                // Variables
+                double a, b, c, x1, x2;
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 21");
                 Console.ForegroundColor = ConsoleColor.White;
 
+                Console.Write("Introduce el coeficiente \"a\" ");
+                a = double.Parse(Console.ReadLine());
+                Console.Write("Introduce el coeficiente \"b\" ");
+                b = double.Parse(Console.ReadLine());
+                Console.Write("Introduce el coeficiente \"c\" ");
+                c = double.Parse(Console.ReadLine());
+
+                if (a == 0)
+                {
+                    x1 = -c / -b;
+                    x2 = x1;
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("x1= " + x1);
+                    Console.WriteLine("x2= " + x2);
+                }
+                else if (b == 0)
+                {
+                    if (-c / a >= 0)
+                    {
+                        x1 = Math.Sqrt((-c) / (a));
+                        x2 = Math.Sqrt(-((-c) / (a)));
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                        Console.WriteLine("x1= " + x1);
+                        Console.WriteLine("x2= " + x2);
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Raíz negativa, no hay solución");
+                    }
+                }
+                else if (c == 0)
+                {
+                    x1 = 0;
+                    x2 = (-a) / (-b);
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("x1= " + x1);
+                    Console.WriteLine("x2= " + x2);
+                }
+                ////////////////
+                
+
+                Console.ReadLine();
             }
 
             //EJERCICIO 22
