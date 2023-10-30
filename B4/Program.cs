@@ -7,20 +7,27 @@ namespace B4
     {
         static void Main(string[] args)
         {
-
+            
             int ejercicio;
+
+        string repetirMain;
+        // Bucle do-while para repetir el programa completo
+        do
+        {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write("Elige un ejercicio (4-101): ");
+            Console.Write("Elige un ejercicio (4-23): ");
             Console.ForegroundColor = ConsoleColor.White;
             ejercicio = int.Parse(Console.ReadLine());
-
 
             //EJERCICIO 4
             if (ejercicio == 4)
             {
                 // Variables
                 double num1, num2, num3;
-                // Texto verde del ejercicio 4
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 4");
@@ -46,7 +53,13 @@ namespace B4
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("Alumno suspenso");
                 }
-                Console.ReadLine();
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor= ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 5
@@ -54,6 +67,10 @@ namespace B4
             {
                 // Variables
                 double numero1, numero2, suma;
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 5");
@@ -77,8 +94,13 @@ namespace B4
                 {
                     Console.Write("No se puede calcular la raíz cuadrada de un número negativo.");
                 }
-
-                Console.ReadLine();
+                    // Preguntar al usuario si quiere repetir
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                    repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 6
@@ -87,7 +109,10 @@ namespace B4
                 // Variables
                 string password, defaultPassword;
                 defaultPassword = "1234";
-
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 6");
@@ -106,7 +131,13 @@ namespace B4
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("Contraseña incorrecta.");
                 }
-                Console.ReadLine();
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 7
@@ -114,6 +145,10 @@ namespace B4
             {
                 // Variable
                 double numero1, numero2;
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 7");
@@ -131,7 +166,6 @@ namespace B4
 
                     Console.ForegroundColor = ConsoleColor.Blue;
                     Console.Write("El resultado es: " + resultado);
-                    Console.ReadLine();
                 }
                 else
                 {
@@ -140,8 +174,15 @@ namespace B4
 
                     Console.ForegroundColor = ConsoleColor.Blue;
                     Console.Write("El resultado es: " + resultado);
-                    Console.ReadLine();
                 }
+
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 8
@@ -150,6 +191,10 @@ namespace B4
                 // Variables
                 double presion, temperatura;
 
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 // Leer presión y temperatura
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
@@ -194,7 +239,13 @@ namespace B4
                     Console.ForegroundColor = ConsoleColor.Blue;
                     Console.WriteLine("Todo en orden");
                 }
-                Console.ReadLine();
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 9
@@ -204,7 +255,10 @@ namespace B4
                 double numero;
                 bool noMultiplo2 = false;
                 bool noMultiplo3 = false;
-
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 9");
@@ -242,7 +296,13 @@ namespace B4
                     Console.WriteLine("El número " + numero + " NO es múltiplo de 2 ni de 3");
                 }
 
-                Console.ReadLine();
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 10
@@ -251,7 +311,10 @@ namespace B4
                 // Declarar variables
                 double precio;
                 double descuento;
-
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 10");
@@ -280,8 +343,15 @@ namespace B4
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Descuento aplicado: " + descuento * 100 + "%");
                 Console.WriteLine("Precio final: " + precioFinal);
-                Console.ReadLine();
-            }
+
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s") ;
+        }
 
             //EJERCICIO 11
             else if (ejercicio == 11)
@@ -289,6 +359,10 @@ namespace B4
                 // Variable
                 double calificacion;
 
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 11");
@@ -307,41 +381,48 @@ namespace B4
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("ERROR: Nota no válida");
-                    Thread.Sleep(1000);
+                    Thread.Sleep(700);
                 }
                 else if (calificacion < 5)
                 {
                     Console.Write("Nota: ");
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("Suspenso");
-                    Console.ReadLine();
                 }
                 else if (calificacion < 6.5)
                 {
                     Console.Write("Nota: ");
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
                     Console.Write("Aprobado");
-                    Console.ReadLine();
                 }
                 else if (calificacion < 8.5)
                 {
                     Console.Write("Nota: ");
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.Write("Notable");
-                    Console.ReadLine();
                 }
                 else
                 {
                     Console.Write("Nota: ");
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
                     Console.Write("Sobresaliente");
-                    Console.ReadLine();
                 }
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 12
             else if (ejercicio == 12)
             {
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 12");
@@ -371,7 +452,14 @@ namespace B4
                 Console.WriteLine("Número inicial: " + numeroInicial);
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Número final: " + numero);
-                Console.ReadLine();
+
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 13
@@ -379,7 +467,10 @@ namespace B4
             {
                 // Variable
                 double temp;
-
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 13");
@@ -412,12 +503,22 @@ namespace B4
                 {
                     Console.WriteLine("PLASMA");
                 }
-                Console.ReadLine();
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 14
             else if (ejercicio == 14)
             {
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 14");
@@ -443,7 +544,6 @@ namespace B4
                         double suma = num1 + num2;
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine("La suma es: " + suma);
-                        Console.ReadLine();
                         break;
                     case 2:
                         // Restar los números
@@ -454,7 +554,6 @@ namespace B4
                         double resta = num12 - num22;
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine("La resta es: " + resta);
-                        Console.ReadLine();
                         break;
                     case 3:
                         // Multiplicar los números
@@ -465,7 +564,6 @@ namespace B4
                         double multiplicacion = num13 * num23;
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine("La multiplicación es: " + multiplicacion);
-                        Console.ReadLine();
                         break;
                     case 4:
                         // Dividir los números
@@ -476,7 +574,6 @@ namespace B4
                         double division = num14 / num24;
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine("La división es: " + division);
-                        Console.ReadLine();
                         break;
                     case 5:
                         // Calcular la raíz cuadrada de la suma de los números
@@ -487,7 +584,6 @@ namespace B4
                         double raiz = Math.Sqrt(num15 + num25);
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine("La raíz cuadrada de la suma es: " + raiz);
-                        Console.ReadLine();
                         break;
                     default:
                         // Opción no válida
@@ -502,12 +598,23 @@ namespace B4
                         Thread.Sleep(500);
                         break;
                 }
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 15
             else if (ejercicio == 15)
             {
                 bool cuotaMinima = false;
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 15");
@@ -554,7 +661,13 @@ namespace B4
                 {
                     Console.WriteLine("Cuota mínima NO aplicada");
                 }
-                Console.ReadLine();
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 16
@@ -564,6 +677,10 @@ namespace B4
                 double precio1, precio2, precio3;
                 double descuento = 0;
 
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 16");
@@ -608,12 +725,22 @@ namespace B4
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("La suma total de los precios es: " + sumaTotal + " euros");
                 Console.WriteLine("El importe total a pagar es: " + importeTotal + " euros");
-                Console.ReadLine();
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 17
             else if (ejercicio == 17)
             {
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 17");
@@ -646,7 +773,14 @@ namespace B4
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Salario bruto: " + salarioBruto + " euros");
                 Console.Write("Salario neto: " + salarioNeto + " euros");
-                Console.ReadLine();
+                
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 18
@@ -655,6 +789,10 @@ namespace B4
                 // Variable
                 int indicador;
 
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 18");
@@ -668,22 +806,18 @@ namespace B4
                     case 1:
                         Console.ForegroundColor = ConsoleColor.DarkRed;
                         Console.WriteLine("CALOR");
-                        Console.ReadLine();
                         break;
                     case 2:
                         Console.ForegroundColor= ConsoleColor.DarkYellow;
                         Console.Write("TEMPLADO");
-                        Console.ReadLine();
                         break;
                     case 3:
                         Console.ForegroundColor = ConsoleColor.DarkBlue;
                         Console.Write("FRIO");
-                        Console.ReadLine();
                         break;
                     case 4:
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.Write("FUERA DE RANGO");
-                        Console.ReadLine();
                         break;
                     default:
                         Console.ForegroundColor = ConsoleColor.Magenta;
@@ -697,6 +831,13 @@ namespace B4
                         Thread.Sleep(750);
                         break;
                 }
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
             
             //EJERCICIO 19
@@ -705,6 +846,10 @@ namespace B4
                 // Variable 
                 char color;
 
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 19");
@@ -745,8 +890,15 @@ namespace B4
                         Console.ForegroundColor= ConsoleColor.Black;
                         Console.WriteLine("NEGRO");
                         break;
-                }    
-                Console.ReadLine();
+                }
+
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 20
@@ -754,7 +906,10 @@ namespace B4
             {
                 //Declaración de variables
                 double numero;
-
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 20");
@@ -804,7 +959,13 @@ namespace B4
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("El número tiene más de 6 cifras");
                 }
-            Console.ReadLine();
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 21
@@ -812,6 +973,10 @@ namespace B4
             {
                 // Variables
                 double a, b, c, x1, x2;
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 21");
@@ -857,33 +1022,118 @@ namespace B4
                     Console.WriteLine("x2= " + x2);
                 }
                 ////////////////
-                
 
-                Console.ReadLine();
+
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 22
             else if (ejercicio == 22)
             {
 
-
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 22");
                 Console.ForegroundColor = ConsoleColor.White;
 
+                // Pedir el año al usuario
+                Console.Write("Introduce un año: ");
+                int año = int.Parse(Console.ReadLine());
+
+                // Comprobar si es bisiesto
+                bool esBisiesto = (año % 4 == 0);
+                if (esBisiesto)
+                {
+                    esBisiesto = (año % 100 != 0) || (año % 400 == 0);
+                }
+
+                // Mostrar el resultado
+                if (esBisiesto)
+                {
+                    Console.ForegroundColor= ConsoleColor.Blue;
+                    Console.WriteLine("El año " + año + " es bisiesto");
+                }
+                else
+                {
+                    Console.ForegroundColor= ConsoleColor.Blue;
+                    Console.WriteLine("El año " + año + " no es bisiesto");
+                }
+
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             //EJERCICIO 23
             else if (ejercicio == 23)
             {
 
-
+                string repetir;
+                // Bucle do-while para repetir el ejercicio
+                do
+                {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
                 Console.WriteLine("EJERCICIO 23");
                 Console.ForegroundColor = ConsoleColor.White;
 
+                // Declaramos las variables
+                double num1, num2, num3;
+                // Leemos los tres números
+                Console.Write("Introduce el primer número: ");
+                num1 = double.Parse(Console.ReadLine());
+                Console.Write("Introduce el segundo número: ");
+                num2 = double.Parse(Console.ReadLine());
+                Console.Write("Introduce el tercer número: ");
+                num3 = double.Parse(Console.ReadLine());
+                // Ordenar los numeros
+                if (num1 > num2)
+                {
+                    double temp = num1;
+                    num1 = num2;
+                    num2 = temp;
+                }
+
+                if (num1 > num3)
+                {
+                    double temp = num1;
+                    num1 = num3;
+                    num3 = temp;
+                }
+
+                if (num2 > num3)
+                {
+                    double temp = num2;
+                    num2 = num3;
+                    num3 = temp;
+                }
+
+                // Escribir números en consola ordenados
+                Console.ForegroundColor= ConsoleColor.Blue;
+                Console.Write("Los números ordenados de menor a mayor son: ");
+                Console.Write(num1 + ", " + num2 + ", " + num3);
+                
+                // Preguntar al usuario si quiere repetir
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                repetir = Console.ReadLine();
+                } while (repetir == "s");
             }
 
             else
@@ -891,9 +1141,15 @@ namespace B4
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("El ejercicio \"" + ejercicio + "\" no es válido.");
-                //////////////Thread.Sleep(1000);
-                Console.ReadLine();
+                Thread.Sleep(1000);
             }
+
+            // Preguntar al usuario si quiere repetir el programa completo
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.Write("¿Quieres reiniciar el programa? (S/N): ");
+            repetirMain = Console.ReadLine();
+            } while (repetirMain == "s");
 
         }
     }
