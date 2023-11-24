@@ -310,6 +310,33 @@ namespace B5
                 }
 
 
+                //EJERCICIO 22
+                else if (ejercicio == 22)
+                {
+                    string repetir;
+                    // Bucle do-while para repetir el ejercicio
+                    do
+                    {
+                        writeTitle("EJERCICIO 22");
+                        for (int i = 0; i < 10; i++)
+                        {
+                            for (int j = 0; j < 10; j++)
+                            {
+                                Console.Write("* ");
+
+                            }
+                            Console.WriteLine();
+                        }
+
+                        // Preguntar al usuario si quiere repetir
+                        Console.WriteLine();
+                        Console.WriteLine();
+                        Console.ForegroundColor = ConsoleColor.Cyan;
+                        Console.Write("¿Quieres repetir este ejercicio? (S/N): ");
+                        repetir = Console.ReadLine();
+                    } while (repetir == "s");
+                }
+
 
                 else
                 {
