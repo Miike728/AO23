@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23\Examen_24-11\bin\Debug\Examen_24-11.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23\Examen_24-11\bin\Debug\Examen_24-11.exe
+C:\Users\Alumno\Documents\GitHub\AO23\Examen_24-11\bin\Debug\Examen_24-11.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\Examen_24-11\obj\Debug\Examen_24-11.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23\Examen_24-11\obj\Debug\Examen_24-11.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23\Examen_24-11\obj\Debug\Examen_24-11.exe
+C:\Users\Alumno\Documents\GitHub\AO23\Examen_24-11\obj\Debug\Examen_24-11.pdb
