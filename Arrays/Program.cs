@@ -114,20 +114,24 @@ namespace Arrays
                 int menor;
                 menor = a[0];
 
-                for (int i = 0; i < 9; i++)
+                for (int i = 1; i < a.Length; i++)
                 {
-                    menor = a[i];
-
-                    if (a[i] < menor)
+                    if (menor > a[i])
                     {
                         menor = a[i];
                     }
-                    Console.Write(menor);
-
 
                 }
+                Console.Write(menor);
 
             }
+
+
+            if (ejercicio == 4)
+            {
+
+            }
+
 
 
 
