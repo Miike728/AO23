@@ -106,9 +106,82 @@ namespace Arrays2
 
                 Console.ForegroundColor = ConsoleColor.White;
 
+                int contador44 = 0;
+                for (int i = 0; i< cebolla.GetLength(0); i++)
+                {
+                    if (cebolla[i, 1]  == 0)
+                    {
+                        contador44++;
+                    }
+                }
 
+                Console.WriteLine();
+                Console.WriteLine("Ceros en la segunda columna: " + contador44);
+                Console.WriteLine();
+
+                int suma2 = 0;
+                for (int i = 0; i < cebolla.GetLength(0); i++)
+                {
+                    for (int j = 0;j < cebolla.GetLength(1);j++)
+                    {
+                        suma2 += cebolla[j, i];
+                    }
+                }
+
+                Console.WriteLine("Suma: " + suma2);
+                double media2 = suma2 / (cebolla.Length);
+                Console.WriteLine("Media: " + media2);
 
             }
+
+            if (ejercicio == 46)
+            {
+                int[,] array = new int[3, 3];
+                Random rand = new Random();
+
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("Números generados:");
+                for (int i = 0; i < array.GetLength(0); i++)
+                {
+                    for (int j = 0; j < array.GetLength(1); j++)
+                    {
+                        array[i, j] = rand.Next(0, 100);
+                        Console.Write(array[i, j] + " ");
+                    }
+                    Console.WriteLine();
+                }
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine();
+
+                int[,] arrayT = new int[3, 3];
+
+                for (int i = 0; i < array.GetLength(0); i++)
+                {
+                    for (int j = 0; j < array.GetLength(1); j++)
+                    {
+                        arrayT[i, j] = array[j, i];
+
+                    }
+                }
+
+
+                Console.WriteLine("Matriz traspuesta:");
+                for (int i = 0; i < arrayT.GetLength(0); i++)
+                {
+                    for (int j = 0; j < arrayT.GetLength(1); j++)
+                    {
+                        Console.Write(arrayT[i, j] + " ");
+                    }
+                    Console.WriteLine();
+                }
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine();
+
+            }
+
+
+
+
             Console.ReadLine();
         }
 
