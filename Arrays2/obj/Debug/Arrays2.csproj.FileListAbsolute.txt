@@ -5,3 +5,10 @@ C:\Users\Alumno\Documents\GitHub\AO23\Arrays2\obj\Debug\Arrays2.csproj.AssemblyR
 C:\Users\Alumno\Documents\GitHub\AO23\Arrays2\obj\Debug\Arrays2.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Documents\GitHub\AO23\Arrays2\obj\Debug\Arrays2.exe
 C:\Users\Alumno\Documents\GitHub\AO23\Arrays2\obj\Debug\Arrays2.pdb
+C:\Users\Miike\source\repos\Arrays2\bin\Debug\Arrays2.exe.config
+C:\Users\Miike\source\repos\Arrays2\bin\Debug\Arrays2.exe
+C:\Users\Miike\source\repos\Arrays2\bin\Debug\Arrays2.pdb
+C:\Users\Miike\source\repos\Arrays2\obj\Debug\Arrays2.csproj.AssemblyReference.cache
+C:\Users\Miike\source\repos\Arrays2\obj\Debug\Arrays2.csproj.CoreCompileInputs.cache
+C:\Users\Miike\source\repos\Arrays2\obj\Debug\Arrays2.exe
+C:\Users\Miike\source\repos\Arrays2\obj\Debug\Arrays2.pdb

@@ -22,17 +22,17 @@ namespace Arrays2
 
             if (ejercicio == 44)
             {
-                int [,] cebolla = new int[3, 3];
-                Random lechuga = new Random();
+                int[,] array44 = new int[3, 3];
+                Random random44 = new Random();
 
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Números generados:");
-                for (int i = 0;  i < cebolla.GetLength(0); i++)
+                for (int i = 0; i < array44.GetLength(0); i++)
                 {
-                    for (int j = 0; j < cebolla.GetLength(1); j++)
+                    for (int j = 0; j < array44.GetLength(1); j++)
                     {
-                        cebolla[i, j] = lechuga.Next(0, 50);
-                        Console.Write(  cebolla[i, j] + " ");
+                        array44[i, j] = random44.Next(0, 50);
+                        Console.Write(array44[i, j] + " ");
                     }
                     Console.WriteLine();
                 }
@@ -43,7 +43,7 @@ namespace Arrays2
                 int fila = int.Parse(Console.ReadLine());
                 Console.WriteLine();
                 int contador = 0;
-                while (fila < 0 || fila > 2)    
+                while (fila < 0 || fila > 2)
                 {
                     Console.ForegroundColor = ConsoleColor.DarkRed;
                     if (contador == 0)
@@ -60,7 +60,7 @@ namespace Arrays2
                     }
                     else
                     {
-                        Console.Write("Ya me cansé, nos vemos");
+                        Console.Write("Ya me cansé.");
                         Thread.Sleep(3);
                         exit();
                     }
@@ -71,25 +71,25 @@ namespace Arrays2
                 Console.WriteLine();
 
                 Console.Write("Valores de la fila elegida (" + fila + "): ");
-                for (int i = 0; i < cebolla.GetLength(0); i++)
+                for (int i = 0; i < array44.GetLength(0); i++)
                 {
-                    Console.Write(cebolla[fila, i] + " ");
+                    Console.Write(array44[fila, i] + " ");
                 }
                 Console.WriteLine();
 
-                for (int i = 0; i < cebolla.GetLength(0); i++)
+                for (int i = 0; i < array44.GetLength(0); i++)
                 {
-                    cebolla[i, cebolla.GetLength(0) - 1] = 0;
+                    array44[i, array44.GetLength(0) - 1] = 0;
                 }
 
                 Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Array modificado con ceros:");
-                for (int i = 0; i < cebolla.GetLength(0); i++)
+                for (int i = 0; i < array44.GetLength(0); i++)
                 {
-                    for (int j = 0; j < cebolla.GetLength(1); j++)
+                    for (int j = 0; j < array44.GetLength(1); j++)
                     {
-                        Console.Write(cebolla[i, j] + " ");
+                        Console.Write(array44[i, j] + " ");
                     }
                     Console.WriteLine();
                 }
@@ -97,9 +97,9 @@ namespace Arrays2
                 Console.WriteLine();
 
                 int suma = 0;
-                for (int i = 0; i < cebolla.GetLength(0); i++)
+                for (int i = 0; i < array44.GetLength(0); i++)
                 {
-                    suma += cebolla[0, i];
+                    suma += array44[0, i];
                 }
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine("Suma de los valores de la primera fila: " + suma);
@@ -107,9 +107,9 @@ namespace Arrays2
                 Console.ForegroundColor = ConsoleColor.White;
 
                 int contador44 = 0;
-                for (int i = 0; i< cebolla.GetLength(0); i++)
+                for (int i = 0; i < array44.GetLength(0); i++)
                 {
-                    if (cebolla[i, 1]  == 0)
+                    if (array44[i, 1] == 0)
                     {
                         contador44++;
                     }
@@ -120,16 +120,16 @@ namespace Arrays2
                 Console.WriteLine();
 
                 int suma2 = 0;
-                for (int i = 0; i < cebolla.GetLength(0); i++)
+                for (int i = 0; i < array44.GetLength(0); i++)
                 {
-                    for (int j = 0;j < cebolla.GetLength(1);j++)
+                    for (int j = 0; j < array44.GetLength(1); j++)
                     {
-                        suma2 += cebolla[j, i];
+                        suma2 += array44[j, i];
                     }
                 }
 
                 Console.WriteLine("Suma: " + suma2);
-                double media2 = suma2 / (cebolla.Length);
+                double media2 = suma2 / (array44.Length);
                 Console.WriteLine("Media: " + media2);
 
             }
@@ -164,7 +164,6 @@ namespace Arrays2
                     }
                 }
 
-
                 Console.WriteLine("Matriz traspuesta:");
                 for (int i = 0; i < arrayT.GetLength(0); i++)
                 {
@@ -179,8 +178,119 @@ namespace Arrays2
 
             }
 
+            if (ejercicio == 55)
+            {
+                int[,] array = new int[5, 5];
+                Random rand = new Random();
+
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("Números generados:");
+                for (int i = 0; i < array.GetLength(0); i++)
+                {
+                    for (int j = 0; j < array.GetLength(1); j++)
+                    {
+                        array[i, j] = rand.Next(1, 100);
+                        Console.Write(array[i, j] + " ");
+                    }
+                    Console.WriteLine();
+                }
+
+                int contador = 0;
+                while (contador < 3)
+                {
+                    int x = rand.Next(0, 5);
+                    int y = rand.Next(0, 5);
+                    if (array[x, y] != 0)
+                    {
+                        array[x, y] = 0;
+                        contador++;
+                    }
+                }
+                Console.WriteLine();
+                Console.WriteLine("Array con 3 ceros:");
+                Console.ForegroundColor = ConsoleColor.Blue;
+                for (int i = 0; i < array.GetLength(0); i++)
+                {
+                    for (int j = 0; j < array.GetLength(1); j++)
+                    {
+
+                        if (array[i, j] == 0)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.Write(array[i, j] + " ");
+                            Console.ForegroundColor = ConsoleColor.Blue;
+                        }
+                        else
+                        {
+                            Console.Write(array[i, j] + " ");
+                        }
+                    }
+                    Console.WriteLine();
+                }
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.WriteLine();
+                Console.WriteLine("Tienes 6 vidas, cada vez que falles se te restará una. Si aciertas las 3 posiciones ganas. Suerte!" + Environment.NewLine);
+                Console.ForegroundColor = ConsoleColor.Blue;
+                int vidas = 6;
+                int aciertos = 0;
+                while (aciertos < 3 && vidas > 0)
+                {
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write("Introduce la coordenada X: ");
+                    int x = int.Parse(Console.ReadLine());
+                    Console.Write("Introduce la coordenada Y: ");
+                    int y = int.Parse(Console.ReadLine());
+
+                    while (x < 0 || x > 4 || y < 0 || y > 4)
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        Console.WriteLine("Error, las coordenadas deben estar entre 0 y 4");
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.Write("Introduce la coordenada X: ");
+                        x = int.Parse(Console.ReadLine());
+                        Console.Write("Introduce la coordenada Y: ");
+                        y = int.Parse(Console.ReadLine());
+                    }
+                    
+
+                    if (array[x, y] == 0)
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkGreen;
+                        Console.WriteLine("Has acertado!");
+                        aciertos++;
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Has fallado...");
+                        vidas--;
+                    }
+                    Console.ForegroundColor = ConsoleColor.Magenta;
+                    Console.WriteLine("Te quedan " + vidas + " vidas");
+                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.DarkGreen;
+                }
+                Console.ForegroundColor = ConsoleColor.White;
+                if (aciertos == 3)
+                {
+                    Console.ForegroundColor = ConsoleColor.DarkGreen;
+                    Console.WriteLine("Has ganado!");
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Has perdido...");
+                }
+
+            }
 
 
+
+            if (ejercicio == 99)
+            {
+                
+
+            }
 
             Console.ReadLine();
         }

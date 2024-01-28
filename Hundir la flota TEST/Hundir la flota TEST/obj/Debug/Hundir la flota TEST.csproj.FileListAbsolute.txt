@@ -1,0 +1,7 @@
+C:\Users\Miike\source\repos\Hundir la flota TEST\Hundir la flota TEST\obj\Debug\Hundir la flota TEST.csproj.AssemblyReference.cache
+C:\Users\Miike\source\repos\Hundir la flota TEST\Hundir la flota TEST\obj\Debug\Hundir la flota TEST.csproj.CoreCompileInputs.cache
+C:\Users\Miike\source\repos\Hundir la flota TEST\Hundir la flota TEST\bin\Debug\Hundir la flota TEST.exe.config
+C:\Users\Miike\source\repos\Hundir la flota TEST\Hundir la flota TEST\bin\Debug\Hundir la flota TEST.exe
+C:\Users\Miike\source\repos\Hundir la flota TEST\Hundir la flota TEST\bin\Debug\Hundir la flota TEST.pdb
+C:\Users\Miike\source\repos\Hundir la flota TEST\Hundir la flota TEST\obj\Debug\Hundir la flota TEST.exe
+C:\Users\Miike\source\repos\Hundir la flota TEST\Hundir la flota TEST\obj\Debug\Hundir la flota TEST.pdb
