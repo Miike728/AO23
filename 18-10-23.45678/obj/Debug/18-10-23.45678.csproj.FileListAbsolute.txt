@@ -1,0 +1,8 @@
+C:\Users\Alumno\Documents\GitHub\AO23\18-10-23.45678\bin\Debug\18-10-23.45678.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23\18-10-23.45678\bin\Debug\18-10-23.45678.exe
+C:\Users\Alumno\Documents\GitHub\AO23\18-10-23.45678\bin\Debug\18-10-23.45678.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\18-10-23.45678\obj\Debug\18-10-23.45678.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23\18-10-23.45678\obj\Debug\18-10-23.45678.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Documents\GitHub\AO23\18-10-23.45678\obj\Debug\18-10-23.45678.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23\18-10-23.45678\obj\Debug\18-10-23.45678.exe
+C:\Users\Alumno\Documents\GitHub\AO23\18-10-23.45678\obj\Debug\18-10-23.45678.pdb

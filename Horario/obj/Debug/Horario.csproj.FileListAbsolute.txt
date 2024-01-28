@@ -1,0 +1,8 @@
+C:\Users\Alumno\Documents\GitHub\AO23\Horario\bin\Debug\Horario.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23\Horario\bin\Debug\Horario.exe
+C:\Users\Alumno\Documents\GitHub\AO23\Horario\bin\Debug\Horario.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\Horario\obj\Debug\Horario.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23\Horario\obj\Debug\Horario.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Documents\GitHub\AO23\Horario\obj\Debug\Horario.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23\Horario\obj\Debug\Horario.exe
+C:\Users\Alumno\Documents\GitHub\AO23\Horario\obj\Debug\Horario.pdb

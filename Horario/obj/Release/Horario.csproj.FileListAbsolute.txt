@@ -1,0 +1,3 @@
+C:\Users\Alumno\Documents\GitHub\AO23\Horario\obj\Release\Horario.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23\Horario\obj\Release\Horario.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Documents\GitHub\AO23\Horario\obj\Release\Horario.csproj.CoreCompileInputs.cache
