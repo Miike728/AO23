@@ -229,7 +229,7 @@ namespace Arrays2
                 }
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine();
-                Console.WriteLine("Tienes 6 vidas, cada vez que falles se te restará una. Si aciertas las 3 posiciones ganas. Suerte!" + Environment.NewLine);
+                Console.WriteLine("Tienes 6 vidas, cada vez que falles se restará una. Si aciertas las 3 posiciones ganas");
                 Console.ForegroundColor = ConsoleColor.Blue;
                 int vidas = 6;
                 int aciertos = 0;
