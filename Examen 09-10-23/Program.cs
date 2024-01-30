@@ -27,7 +27,7 @@ namespace Examen_09_10_23
             irpf = double.Parse(Console.ReadLine());
             Console.WriteLine();
 
-            //Michael Pérez
+            //Miike
             //Cálculos
             horasMes = horasSemanales * 4;
             salarioBruto = precioHora * horasMes;
@@ -40,7 +40,7 @@ namespace Examen_09_10_23
 
             //Esperar enter para cerrar
             Console.ReadLine();
-            //Michael Pérez
+            //Miike
 
 
 
@@ -60,7 +60,7 @@ namespace Examen_09_10_23
             Console.Write("Introduce un valor: ");
             valor = int.Parse(Console.ReadLine());
             Console.WriteLine();
-            //Michael Pérez
+            //Miike
 
             //Calculos
             raiz = Math.Sqrt(valor);
@@ -81,7 +81,7 @@ namespace Examen_09_10_23
             Console.Write("El 20% del valor es: " + porcentaje + "\n");
             Console.Write("El 20% del valor almacenado en float es: " + porcentajeFloat + "\n");
 
-            //Michael Pérez
+            //Miike
             //Modificar valor +35%
             valor = valor + (valor * 35) / 100;
             Console.Write("Valor después de aumentar un 35%: " + valor + "\n");
