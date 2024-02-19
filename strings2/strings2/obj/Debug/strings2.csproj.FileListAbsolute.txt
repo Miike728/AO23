@@ -5,3 +5,10 @@ C:\Users\Miike\source\repos\strings2\strings2\obj\Debug\strings2.csproj.Assembly
 C:\Users\Miike\source\repos\strings2\strings2\obj\Debug\strings2.csproj.CoreCompileInputs.cache
 C:\Users\Miike\source\repos\strings2\strings2\obj\Debug\strings2.exe
 C:\Users\Miike\source\repos\strings2\strings2\obj\Debug\strings2.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\strings2\strings2\obj\Debug\strings2.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23\strings2\strings2\obj\Debug\strings2.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23\strings2\strings2\obj\Debug\strings2.exe
+C:\Users\Alumno\Documents\GitHub\AO23\strings2\strings2\obj\Debug\strings2.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\strings2\strings2\bin\Debug\strings2.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23\strings2\strings2\bin\Debug\strings2.exe
+C:\Users\Alumno\Documents\GitHub\AO23\strings2\strings2\bin\Debug\strings2.pdb

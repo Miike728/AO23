@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23\io1\bin\Debug\io1.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23\io1\bin\Debug\io1.exe
+C:\Users\Alumno\Documents\GitHub\AO23\io1\bin\Debug\io1.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\io1\obj\Debug\io1.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23\io1\obj\Debug\io1.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23\io1\obj\Debug\io1.exe
+C:\Users\Alumno\Documents\GitHub\AO23\io1\obj\Debug\io1.pdb
