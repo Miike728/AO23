@@ -1,0 +1,7 @@
+C:\Users\Miike\source\repos\26\26\bin\Debug\26.exe.config
+C:\Users\Miike\source\repos\26\26\bin\Debug\26.exe
+C:\Users\Miike\source\repos\26\26\bin\Debug\26.pdb
+C:\Users\Miike\source\repos\26\26\obj\Debug\26.csproj.AssemblyReference.cache
+C:\Users\Miike\source\repos\26\26\obj\Debug\26.csproj.CoreCompileInputs.cache
+C:\Users\Miike\source\repos\26\26\obj\Debug\26.exe
+C:\Users\Miike\source\repos\26\26\obj\Debug\26.pdb
