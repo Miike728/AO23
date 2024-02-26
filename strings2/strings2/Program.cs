@@ -14,6 +14,21 @@ namespace strings2
         static void Main(string[] args)
         {
             int ejercicio;
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Opciones disponibles:");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("1 - Matrículas");
+            Console.WriteLine("2 - Obtiene el número de veces que aparece un char en un string");
+            Console.WriteLine("3 - DNIs");
+            Console.WriteLine("4 - Leer una cadena de texto y mostrar las palabras que empiezan por b");
+            Console.WriteLine("5 - Procesa un String y devuelve true si contiene el carácter “@”");
+            Console.WriteLine("6 - Recibe un String y devuelve el número de palabras que contienen un Substring");
+            Console.WriteLine("7 - Algoritmo que devuelva el dominio al que pertenece un email");
+            Console.WriteLine("8 - Valida si un String tiene el formato AA99");
+            Console.WriteLine("9 - Recibe un String y sustituye todos los espacios por el caracter *");
+            Console.WriteLine("10 - Obtener el salario de cada string y comprobar que es superior a 1000");
+            Console.WriteLine("11 - Ahorcado");
+            Console.WriteLine("26 - ");
             Console.Write("Introduce el número del ejercicio: ");
             ejercicio = int.Parse(Console.ReadLine());
             Console.Clear();
@@ -201,10 +216,14 @@ namespace strings2
                 string letras = "TRWAGMYFPDXBNJZSQVHLCKE";
                 int num = 0;
 
-                for (int i = 0; i < 8; i++)
+                num = int.Parse(dni.Substring(0, 8));
+                /*
+                 * for (int i = 0; i < 8; i++)
                 {
                     num = num * 10 + (dni[i] - '0');
                 }
+                */
+
 
                 char letra = dni[8];
                 letra = char.ToUpper(letra);
@@ -392,7 +411,165 @@ namespace strings2
 
             // ejercicio 11 y 26
             if (ejercicio == 11)
-            {
+            {                
+                //matriz de palabras
+                string[] palabras = { "ordenador", "teclado", "raton", "monitor", "impresora", "altavoces", "auriculares", "microfono", "webcam", "pantalla", "procesador", "tarjeta", "grafica", "memoria", "disco", "fuente", "alimentacion", "placa", "base", "caja", "torre", "portatil", "tablet", "movil", "smartphone" };
+                // palabra aleatoria
+                Random rnd = new Random();
+                int aleatorio = rnd.Next(0, palabras.Length);
+                string palabra = palabras[aleatorio];
+                // contador de vidas
+                int vidas = 6;
+                // palabra oculta
+                string palabraOculta = "";
+                for (int i = 0; i < palabra.Length; i++)
+                {
+                    palabraOculta += "_";
+                }
+                // letras no acertadas
+                string letrasNoAcertadas = "";
+                // letra introducida
+                char letra;
+                
+                // bucle del juego
+                while (vidas > 0 && palabraOculta.Contains("_"))
+                {
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Ejercicio " + ejercicio);    
+                    Console.WriteLine();
+                    //muñeco
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("   +---+");
+                    Console.WriteLine("   |   |");
+
+                    if ( vidas == 6)
+                    {
+                        Console.WriteLine("   O   |");
+                        Console.WriteLine("       |");
+                        Console.WriteLine("       |");
+                        Console.WriteLine("       |");
+                    }
+                    else if (vidas == 5) 
+                    {
+                        Console.WriteLine("   O   |");
+                        Console.WriteLine("   |   |");
+                        Console.WriteLine("       |");
+                        Console.WriteLine("       |");
+
+                    }
+                    else if (vidas == 4)
+                    {
+                        Console.WriteLine("   O   |");
+                        Console.WriteLine("  /|   |");
+                        Console.WriteLine("       |");
+                        Console.WriteLine("       |");
+                    }
+                    else if (vidas == 3)
+                    {
+                        Console.WriteLine("   O   |");
+                        Console.WriteLine("  /|\\  |");
+                        Console.WriteLine("       |");
+                        Console.WriteLine("       |");
+                    }
+                    else if (vidas == 2)
+                    {
+                        Console.WriteLine("   O   |");
+                        Console.WriteLine("  /|\\  |");
+                        Console.WriteLine("   |   |");
+                        Console.WriteLine("       |");
+                    }
+                    else if (vidas == 1)
+                    {
+                        Console.WriteLine("   O   |");
+                        Console.WriteLine("  /|\\  |");
+                        Console.WriteLine("   |   |");
+                        Console.WriteLine("  /    |");
+                    }
+                    else
+                    {
+                        Console.WriteLine("   O   |");
+                        Console.WriteLine("  /|\\  |");
+                        Console.WriteLine("   |   |");
+                        Console.WriteLine("  / \\  |");
+                    }
+
+                    Console.WriteLine("==========");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    //colores vidas
+                    Console.WriteLine();
+                    Console.Write("Vidas: ");
+
+                    if (vidas == 6)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine(vidas);
+                    } else if (vidas == 5)
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkGreen;
+                        Console.WriteLine(vidas);
+                    } else if (vidas == 4)
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+                        Console.WriteLine(vidas);
+                    } else if (vidas == 3)
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+                        Console.WriteLine(vidas);
+                    } else if (vidas == 2)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine(vidas);
+                    } else if (vidas == 1)
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        Console.WriteLine(vidas);
+                    } else
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine(vidas);
+                    }
+                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("Letras no acertadas: " + letrasNoAcertadas);
+                    Console.WriteLine(Environment.NewLine);
+                    Console.WriteLine("Palabra: " + palabraOculta);
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine(Environment.NewLine);
+                    Console.Write("Introduce una letra: ");
+                    letra = char.Parse(Console.ReadLine());
+                    if (palabra.Contains(letra))
+                    {
+                        for (int i = 0; i < palabra.Length; i++)
+                        {
+                            if (palabra[i] == letra)
+                            {
+                                palabraOculta = palabraOculta.Substring(0, i) + letra + palabraOculta.Substring(i + 1);                                
+                            }
+                        }
+                    }
+                    else
+                    {
+                        letrasNoAcertadas += letra;
+                        vidas--;
+                    }
+                }
+                if (vidas == 0)
+                {
+                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Has perdido. La palabra era " + palabra);
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+                else
+                {
+                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Has ganado. La palabra era " + palabra);
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+
 
             }
 
