@@ -1,3 +1,2 @@
 12345678A*Juan Perez?25?1500
 87654321B*Ramon Rios?25?2501
-11111111C*Antonio Rodriguez?40?3000
