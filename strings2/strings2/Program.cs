@@ -422,6 +422,7 @@ namespace strings2
                 int vidas = 6;
                 // palabra oculta
                 string palabraOculta = "";
+                //llenar palabra oculta con guiones del tamaño de la palabra aleatoria
                 for (int i = 0; i < palabra.Length; i++)
                 {
                     palabraOculta += "_";
@@ -548,7 +549,7 @@ namespace strings2
                             if (palabra[i] == letra)
                             {
                                 //cambiar la letra en la palabra oculta para mostrarla
-                                palabraOculta = palabraOculta.Substring(0, i) + letra + palabraOculta.Substring(i + 1);                                
+                                palabraOculta = palabraOculta.Substring(0, i) + letra + palabraOculta.Substring(i + 1);                         
                             }
                         }
                     }
@@ -583,6 +584,7 @@ namespace strings2
                 // Crear un fichero con los registros
                 String ruta = Directory.GetCurrentDirectory();
                 String rutaFichero = ruta + "\\registros.txt";
+                //crear la variable local
                 String[] registros = new String[50];
                 StreamWriter fichero = new StreamWriter(rutaFichero);
 
@@ -691,7 +693,9 @@ namespace strings2
                     //Recorrer los registros
                     while ((linea = ficheroLectura.ReadLine()) != null)
                     {
+                        //Dividir el registro en partes
                         String[] campos = linea.Split('*', '?', '?');
+                        //Coger la parte del salario y comprobar si es superior a 2500
                         if (int.Parse(campos[3]) > 2500)
                         {
                             Console.WriteLine(linea);
@@ -720,12 +724,15 @@ namespace strings2
                                 Console.ForegroundColor = ConsoleColor.Cyan;
                                 Console.Write("Introduce el nuevo salario: ");
                                 campos[3] = Console.ReadLine();
+                                //Actualizar el registro en la matriz local, dividiendo las partes con los caracteres especiales como estaban
                                 registros[i] = campos[0] + "*" + campos[1] + "?" + campos[2] + "?" + campos[3];
 
                                 //Guardar el resgitro modificado en el archivo
                                 StreamWriter ficheroEscritura = new StreamWriter(rutaFichero);
+                                //Recorrer la matriz y volcarla al fichero
                                 for (int i2 = 0; i2 < registros.Length; i++)
                                 {
+                                    //Si el registro no es nulo, escribirlo en el fichero
                                     if (registros[i2] != null)
                                     {
                                         ficheroEscritura.WriteLine(registros[i2]);
@@ -775,6 +782,7 @@ namespace strings2
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Opcion no valida");
                 }
             }
