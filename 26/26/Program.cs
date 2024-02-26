@@ -29,7 +29,6 @@ namespace _26
 
 
             //Menu con las opciones
-            //rehacer el menu con colores y decoracion:
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Menu");
             Console.WriteLine("----");
@@ -173,7 +172,6 @@ namespace _26
             }
             else if (apartado == 6)
             {
-                //Eliminar registro. A partir del DNI se elimina el registro primero de la matriz y después se vuelca al fichero ya eliminado.
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
                 Console.Write("Introduce el DNI del registro a eliminar: ");
                 string eliminar = Console.ReadLine();
