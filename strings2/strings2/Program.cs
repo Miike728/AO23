@@ -500,7 +500,6 @@ namespace strings2
                     //colores vidas
                     Console.WriteLine();
                     Console.Write("Vidas: ");
-
                     if (vidas == 6)
                     {
                         Console.ForegroundColor = ConsoleColor.Green;
@@ -539,22 +538,28 @@ namespace strings2
                     Console.WriteLine(Environment.NewLine);
                     Console.Write("Introduce una letra: ");
                     letra = char.Parse(Console.ReadLine());
+                    //comprobar si la letra está en la palabra
                     if (palabra.Contains(letra))
                     {
+                        //recorrer la palabra
                         for (int i = 0; i < palabra.Length; i++)
                         {
+                            //comprobar si la letra está en la palabra
                             if (palabra[i] == letra)
                             {
+                                //cambiar la letra en la palabra oculta para mostrarla
                                 palabraOculta = palabraOculta.Substring(0, i) + letra + palabraOculta.Substring(i + 1);                                
                             }
                         }
                     }
                     else
                     {
+                        //si la letra no está en la palabra, restar una vida y añadir la letra a las no acertadas
                         letrasNoAcertadas += letra;
                         vidas--;
                     }
                 }
+                //si se acban las vidas o se acierta la palabra mostrar mensaje
                 if (vidas == 0)
                 {
                     Console.WriteLine();
