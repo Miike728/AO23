@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23\colecciones1\bin\Debug\colecciones1.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23\colecciones1\bin\Debug\colecciones1.exe
+C:\Users\Alumno\Documents\GitHub\AO23\colecciones1\bin\Debug\colecciones1.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\colecciones1\obj\Debug\colecciones1.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23\colecciones1\obj\Debug\colecciones1.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23\colecciones1\obj\Debug\colecciones1.exe
+C:\Users\Alumno\Documents\GitHub\AO23\colecciones1\obj\Debug\colecciones1.pdb
