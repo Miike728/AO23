@@ -1,0 +1,5 @@
+serie*10
+serie2*8
+serie3*7
+serie4*5
+1231231*2
