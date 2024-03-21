@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23\ExamenColecciones\bin\Debug\ExamenColecciones.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23\ExamenColecciones\bin\Debug\ExamenColecciones.exe
+C:\Users\Alumno\Documents\GitHub\AO23\ExamenColecciones\bin\Debug\ExamenColecciones.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\ExamenColecciones\obj\Debug\ExamenColecciones.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23\ExamenColecciones\obj\Debug\ExamenColecciones.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23\ExamenColecciones\obj\Debug\ExamenColecciones.exe
+C:\Users\Alumno\Documents\GitHub\AO23\ExamenColecciones\obj\Debug\ExamenColecciones.pdb

@@ -16,5 +16,10 @@ namespace Boletin9
         {
             InitializeComponent();
         }
+
+        private void txtCorreo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
