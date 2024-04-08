@@ -1,0 +1,12 @@
+C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\bin\Debug\Boletin9.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\bin\Debug\Boletin9.exe
+C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\bin\Debug\Boletin9.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.Form1.resources
+C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.Properties.Resources.resources
+C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.csproj.GenerateResource.cache
+C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.exe
+C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.ej1.resources
+C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.ej2.resources

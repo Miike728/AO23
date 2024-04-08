@@ -17,9 +17,34 @@ namespace Boletin9
             InitializeComponent();
         }
 
-        private void txtCorreo_TextChanged(object sender, EventArgs e)
+        private void btnEj1_Click(object sender, EventArgs e)
         {
+            ej1 ejercicio1 = new ej1();
+            ejercicio1.ShowDialog();
+        }
 
+        private void btnEj2_Click(object sender, EventArgs e)
+        {
+            ej2 ejercicio2 = new ej2();
+            ejercicio2.ShowDialog();
+        }
+
+        private void btnEj3_Click(object sender, EventArgs e)
+        {
+            ej3 ejercicio3 = new ej3();
+            ejercicio3.ShowDialog();
+        }
+
+        private void btnEj4_Click(object sender, EventArgs e)
+        {
+            ej4 ejercicio4 = new ej4();
+            ejercicio4.ShowDialog();
+        }
+
+        private void btnEj5_Click(object sender, EventArgs e)
+        {
+            ej5 ejercicio5 = new ej5();
+            ejercicio5.ShowDialog();
         }
     }
 }
