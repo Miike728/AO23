@@ -1,0 +1,7 @@
+C:\Users\Miike\source\repos\horario3\horario3\bin\Debug\horario3.exe.config
+C:\Users\Miike\source\repos\horario3\horario3\bin\Debug\horario3.exe
+C:\Users\Miike\source\repos\horario3\horario3\bin\Debug\horario3.pdb
+C:\Users\Miike\source\repos\horario3\horario3\obj\Debug\horario3.csproj.AssemblyReference.cache
+C:\Users\Miike\source\repos\horario3\horario3\obj\Debug\horario3.csproj.CoreCompileInputs.cache
+C:\Users\Miike\source\repos\horario3\horario3\obj\Debug\horario3.exe
+C:\Users\Miike\source\repos\horario3\horario3\obj\Debug\horario3.pdb
