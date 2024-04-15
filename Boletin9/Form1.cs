@@ -46,5 +46,23 @@ namespace Boletin9
             ej5 ejercicio5 = new ej5();
             ejercicio5.ShowDialog();
         }
+
+        private void btnEj6_Click(object sender, EventArgs e)
+        {
+            ej6 ejercicio6 = new ej6();
+            ejercicio6.ShowDialog();
+        }
+
+        private void btnEj7_Click(object sender, EventArgs e)
+        {
+            ej7 ejercicio7 = new ej7();
+            ejercicio7.ShowDialog();
+        }
+
+        private void btnEj8_Click(object sender, EventArgs e)
+        {
+            ej8 ejercicio8 = new ej8();
+            ejercicio8.ShowDialog();
+        }
     }
 }

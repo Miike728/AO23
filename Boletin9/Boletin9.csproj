@@ -108,6 +108,18 @@
     <EmbeddedResource Include="ej2.resx">
       <DependentUpon>ej2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ej3.resx">
+      <DependentUpon>ej3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej4.resx">
+      <DependentUpon>ej4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej5.resx">
+      <DependentUpon>ej5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej6.resx">
+      <DependentUpon>ej6.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

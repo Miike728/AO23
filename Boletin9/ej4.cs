@@ -12,9 +12,35 @@ namespace Boletin9
 {
     public partial class ej4 : Form
     {
+        int horas, minutos, segundos;
+
+
         public ej4()
         {
             InitializeComponent();
+        }
+
+        private void ej4_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            minutos = horas * 60;
+            segundos = minutos * 60;
+            txtMinutos.Text = minutos.ToString();
+            txtSegundos.Text = segundos.ToString();
+
+        }
+
+        private void txtHoras_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                horas = int.Parse(txtHoras.Text);
+            }
+            catch (Exception) { }
         }
     }
 }
