@@ -14,3 +14,5 @@ C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.ej3.resources
 C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.ej4.resources
 C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.ej5.resources
 C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.ej6.resources
+C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.ej7.resources
+C:\Users\Alumno\Documents\GitHub\AO23\Boletin9\obj\Debug\Boletin9.ej8.resources

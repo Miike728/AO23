@@ -28,31 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnCentigrados = new System.Windows.Forms.Button();
+            this.btnFahrenheit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtCentigrados = new System.Windows.Forms.TextBox();
+            this.txtFahrenheit = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCentigrados
             // 
-            this.button1.Location = new System.Drawing.Point(15, 90);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Convertir a C";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCentigrados.Location = new System.Drawing.Point(15, 90);
+            this.btnCentigrados.Name = "btnCentigrados";
+            this.btnCentigrados.Size = new System.Drawing.Size(107, 23);
+            this.btnCentigrados.TabIndex = 0;
+            this.btnCentigrados.Text = "Convertir a C";
+            this.btnCentigrados.UseVisualStyleBackColor = true;
+            this.btnCentigrados.Click += new System.EventHandler(this.btnCentigrados_Click);
             // 
-            // button2
+            // btnFahrenheit
             // 
-            this.button2.Location = new System.Drawing.Point(146, 90);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Convertir a F";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnFahrenheit.Location = new System.Drawing.Point(146, 90);
+            this.btnFahrenheit.Name = "btnFahrenheit";
+            this.btnFahrenheit.Size = new System.Drawing.Size(107, 23);
+            this.btnFahrenheit.TabIndex = 1;
+            this.btnFahrenheit.Text = "Convertir a F";
+            this.btnFahrenheit.UseVisualStyleBackColor = true;
+            this.btnFahrenheit.Click += new System.EventHandler(this.btnFahrenheit_Click);
             // 
             // label1
             // 
@@ -72,31 +74,33 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Grados fahrenheit";
             // 
-            // textBox1
+            // txtCentigrados
             // 
-            this.textBox1.Location = new System.Drawing.Point(153, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 4;
+            this.txtCentigrados.Location = new System.Drawing.Point(153, 6);
+            this.txtCentigrados.Name = "txtCentigrados";
+            this.txtCentigrados.Size = new System.Drawing.Size(100, 22);
+            this.txtCentigrados.TabIndex = 4;
+            this.txtCentigrados.TextChanged += new System.EventHandler(this.txtCentigrados_TextChanged);
             // 
-            // textBox2
+            // txtFahrenheit
             // 
-            this.textBox2.Location = new System.Drawing.Point(153, 47);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 5;
+            this.txtFahrenheit.Location = new System.Drawing.Point(153, 47);
+            this.txtFahrenheit.Name = "txtFahrenheit";
+            this.txtFahrenheit.Size = new System.Drawing.Size(100, 22);
+            this.txtFahrenheit.TabIndex = 5;
+            this.txtFahrenheit.TextChanged += new System.EventHandler(this.txtFahrenheit_TextChanged);
             // 
             // ej6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(279, 134);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtFahrenheit);
+            this.Controls.Add(this.txtCentigrados);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnFahrenheit);
+            this.Controls.Add(this.btnCentigrados);
             this.Name = "ej6";
             this.Text = "ej6";
             this.ResumeLayout(false);
@@ -106,11 +110,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnCentigrados;
+        private System.Windows.Forms.Button btnFahrenheit;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtCentigrados;
+        private System.Windows.Forms.TextBox txtFahrenheit;
     }
 }

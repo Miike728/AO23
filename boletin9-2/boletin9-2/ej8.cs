@@ -17,6 +17,7 @@ namespace boletin9_2
         string operacion = ""; // Variable para guardar la operación
         double numeroActual = 0; // Variable para guardar el número actual
         double memoria = 0; // Variable para guardar la memoria
+        bool nuevaOperacion = false; // Variables para indicar si hay una operación pendiente
 
         public ej8()
         {
@@ -25,57 +26,137 @@ namespace boletin9_2
 
         private void btn7_Click(object sender, EventArgs e)
         {
-            txtCalculadora.Text += "7"; // Añade el número 7 al final del texto
+            if (nuevaOperacion) // Si hay una nueva operación
+            {
+                txtCalculadora.Text = "7"; // Añade el número al texto
+                nuevaOperacion = false; // Pone en false la variable para continuar
+            }
+            else
+            {
+                txtCalculadora.Text += "7"; // Si no hay nueva operación, añade el número al texto únicamente
+            }
         }
 
         private void btn8_Click(object sender, EventArgs e)
         {
-            txtCalculadora.Text += "8";
+            if (nuevaOperacion)
+            {
+                txtCalculadora.Text = "8"; 
+                nuevaOperacion = false; 
+            }
+            else
+            {
+                txtCalculadora.Text += "8";
+            }
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
-            txtCalculadora.Text += "9";
+            if (nuevaOperacion)
+            {
+                txtCalculadora.Text = "9";
+                nuevaOperacion = false;
+            }
+            else
+            {
+                txtCalculadora.Text += "9";
+            }
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
-            txtCalculadora.Text += "4";
+            if (nuevaOperacion)
+            {
+                txtCalculadora.Text = "4";
+                nuevaOperacion = false;
+            }
+            else
+            {
+                txtCalculadora.Text += "4";
+            }
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
-            txtCalculadora.Text += "5";
+            if (nuevaOperacion)
+            {
+                txtCalculadora.Text = "5";
+                nuevaOperacion = false;
+            }
+            else
+            {
+                txtCalculadora.Text += "5";
+            }
         }
 
         private void btn6_Click(object sender, EventArgs e)
         {
-            txtCalculadora.Text += "6";
+            if (nuevaOperacion)
+            {
+                txtCalculadora.Text = "6";
+                nuevaOperacion = false;
+            }
+            else
+            {
+                txtCalculadora.Text += "6";
+            }
         }
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            txtCalculadora.Text += "1";
+            if (nuevaOperacion)
+            {
+                txtCalculadora.Text = "1";
+                nuevaOperacion = false;
+            }
+            else
+            {
+                txtCalculadora.Text += "1";
+            }
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
-            txtCalculadora.Text += "2";
+            if (nuevaOperacion)
+            {
+                txtCalculadora.Text = "2";
+                nuevaOperacion = false;
+            }
+            else
+            {
+                txtCalculadora.Text += "2";
+            }
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
-            txtCalculadora.Text += "3";
+            if (nuevaOperacion)
+            {
+                txtCalculadora.Text = "3";
+                nuevaOperacion = false;
+            }
+            else
+            {
+                txtCalculadora.Text += "3";
+            }
         }
 
         private void btn0_Click(object sender, EventArgs e)
         {
-            txtCalculadora.Text += "0";
+            if (nuevaOperacion)
+            {
+                txtCalculadora.Text = "0";
+                nuevaOperacion = false;
+            }
+            else
+            {
+                txtCalculadora.Text += "0";
+            }
         }
 
         private void btnPunto_Click(object sender, EventArgs e)
         {
-            txtCalculadora.Text += ".";
+            txtCalculadora.Text += ""; // añade una coma al texto, porque el punto no funciona
         }
 
         private void btnC_Click(object sender, EventArgs e)
@@ -97,61 +178,75 @@ namespace boletin9_2
 
         private void txtCalculadora_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
-        private void btnDiv_Click(object sender, EventArgs e)
-        {
-            acumulado = Double.Parse(txtCalculadora.Text); // Guarda el número actual en acumulado
-            operacion = "/"; // Guarda la operación que se va a realizar
-            txtCalculadora.Text = ""; // Limpia el texto para el siguiente número
-        }
-
-        private void btnResta_Click(object sender, EventArgs e)
-        {
-            acumulado = Double.Parse(txtCalculadora.Text);
-            operacion = "-";
-            txtCalculadora.Text = "";
-        }
-
-        private void btnMultipl_Click(object sender, EventArgs e)
-        {
-            acumulado = Double.Parse(txtCalculadora.Text);
-            operacion = "*";
-            txtCalculadora.Text = "";
-        }
-
-        private void btnSuma_Click(object sender, EventArgs e)
-        {
-            acumulado += Double.Parse(txtCalculadora.Text);
-            operacion = "+";
-            txtCalculadora.Text = "";
-        }
-
-        private void btnIgual_Click(object sender, EventArgs e)
-        {
-            numeroActual = Double.Parse(txtCalculadora.Text); // Guarda el número actual en una variable
-            switch (operacion) // Realiza la operación correspondiente
+            private void RealizarCalculo()
             {
-                case "+": // Si la operación es suma, suma el acumulado con el número actual
-                    txtCalculadora.Text = (acumulado + numeroActual).ToString();
-                    break; // Break para salir del switch
-                case "-": // Si la operación es resta, resta el acumulado con el número actual
-                    txtCalculadora.Text = (acumulado - numeroActual).ToString();
-                    break;
-                case "*": // Si la operación es multiplicación, multiplica el acumulado con el número actual
-                    txtCalculadora.Text = (acumulado * numeroActual).ToString();
-                    break;
-                case "/": // Si la operación es división, divide el acumulado con el número actual
-                    if (numeroActual != 0) // Comprueba que el número actual no sea 0
-                        txtCalculadora.Text = (acumulado / numeroActual).ToString(); // Divide el acumulado con el número actual
-                    else // Si el número actual es 0
-                        txtCalculadora.Text = "Error"; // Muestra un error
-                    break;
+                double numeroActual = double.Parse(txtCalculadora.Text); // Obtiene el número actual y lo guarda en una variable
+                switch (operacion) // Realiza la operación correspondiente según la variable operación
+                {
+                    case "+":
+                        acumulado += numeroActual;
+                        break;
+                    case "-":
+                        acumulado -= numeroActual;
+                        break;
+                    case "*":
+                        acumulado *= numeroActual;
+                        break;
+                    case "/":
+                        if (numeroActual != 0)
+                            acumulado /= numeroActual;
+                        else
+                        {
+                            txtCalculadora.Text = "Error"; // Si se intenta dividir por 0, aparece unerror
+                            return;
+                        }
+                        break;
+                    default:
+                        acumulado = numeroActual; // Si no hay operación, el acumulado es el número actual, para poder seguir
+                        break;
+                }
+                txtCalculadora.Text = acumulado.ToString(); // Muestra el resultado acumulado en el texto
+                nuevaOperacion = true; // Marca que el siguiente número deberá iniciar una nueva operación
             }
-            acumulado = 0; // Reset acumulado para la siguiente operación
-            operacion = ""; // Reset operación para la siguiente operación
-        }
+
+            // Métodos para los botones de operaciones
+            private void btnDiv_Click(object sender, EventArgs e)
+            {
+                if (!nuevaOperacion) // Si no hay una nueva operación
+                    RealizarCalculo(); // Realiza el cálculo en la función
+                operacion = "/"; //Define la operación
+            }
+
+            private void btnResta_Click(object sender, EventArgs e)
+            {
+                if (!nuevaOperacion)
+                    RealizarCalculo();
+                operacion = "-";
+            }
+
+            private void btnMultipl_Click(object sender, EventArgs e)
+            {
+                if (!nuevaOperacion)
+                    RealizarCalculo();
+                operacion = "*";
+            }
+
+            private void btnSuma_Click(object sender, EventArgs e)
+            {
+                if (!nuevaOperacion)
+                    RealizarCalculo();
+                operacion = "+";
+            }
+
+            private void btnIgual_Click(object sender, EventArgs e)
+            {
+                RealizarCalculo(); // Completa el cálculo final
+                operacion = ""; // Resetea la operación
+                nuevaOperacion = true; // Permite iniciar una nueva operaación
+            }
 
         private void btnPorcent_Click(object sender, EventArgs e)
         {
