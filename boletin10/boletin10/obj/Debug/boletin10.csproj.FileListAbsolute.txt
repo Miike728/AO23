@@ -10,3 +10,13 @@ C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.csproj.CoreC
 C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.exe
 C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.pdb
 C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej2.resources
+C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej2_AO.resources
+C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej2_AW.resources
+C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej2_EIE.resources
+C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej2_FOL.resources
+C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej2_MME.resources
+C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej2_RL.resources
+C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej2_SI.resources
+C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej2_SOM.resources
+C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej2_SOR.resources
+C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej2_SR.resources

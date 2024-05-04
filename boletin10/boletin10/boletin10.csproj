@@ -58,6 +58,66 @@
     <Compile Include="ej2.Designer.cs">
       <DependentUpon>ej2.cs</DependentUpon>
     </Compile>
+    <Compile Include="ej2_AO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej2_AO.Designer.cs">
+      <DependentUpon>ej2_AO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej2_AW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej2_AW.Designer.cs">
+      <DependentUpon>ej2_AW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej2_EIE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej2_EIE.Designer.cs">
+      <DependentUpon>ej2_EIE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej2_FOL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej2_FOL.Designer.cs">
+      <DependentUpon>ej2_FOL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej2_MME.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej2_MME.Designer.cs">
+      <DependentUpon>ej2_MME.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej2_RL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej2_RL.Designer.cs">
+      <DependentUpon>ej2_RL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej2_SI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej2_SI.Designer.cs">
+      <DependentUpon>ej2_SI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej2_SOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej2_SOM.Designer.cs">
+      <DependentUpon>ej2_SOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej2_SOR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej2_SOR.Designer.cs">
+      <DependentUpon>ej2_SOR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej2_SR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej2_SR.Designer.cs">
+      <DependentUpon>ej2_SR.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +131,36 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ej2.resx">
       <DependentUpon>ej2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej2_AO.resx">
+      <DependentUpon>ej2_AO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej2_AW.resx">
+      <DependentUpon>ej2_AW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej2_EIE.resx">
+      <DependentUpon>ej2_EIE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej2_FOL.resx">
+      <DependentUpon>ej2_FOL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej2_MME.resx">
+      <DependentUpon>ej2_MME.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej2_RL.resx">
+      <DependentUpon>ej2_RL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej2_SI.resx">
+      <DependentUpon>ej2_SI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej2_SOM.resx">
+      <DependentUpon>ej2_SOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej2_SOR.resx">
+      <DependentUpon>ej2_SOR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej2_SR.resx">
+      <DependentUpon>ej2_SR.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

@@ -61,7 +61,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(55, 60);
+            this.label1.Location = new System.Drawing.Point(29, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 13);
             this.label1.TabIndex = 0;
@@ -70,7 +70,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(52, 136);
+            this.label2.Location = new System.Drawing.Point(26, 112);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 13);
             this.label2.TabIndex = 1;
@@ -79,7 +79,7 @@
             // chkLaserJet
             // 
             this.chkLaserJet.AutoSize = true;
-            this.chkLaserJet.Location = new System.Drawing.Point(159, 60);
+            this.chkLaserJet.Location = new System.Drawing.Point(133, 36);
             this.chkLaserJet.Name = "chkLaserJet";
             this.chkLaserJet.Size = new System.Drawing.Size(50, 17);
             this.chkLaserJet.TabIndex = 2;
@@ -90,7 +90,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(47, 98);
+            this.label3.Location = new System.Drawing.Point(21, 74);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(72, 13);
             this.label3.TabIndex = 3;
@@ -99,7 +99,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(396, 64);
+            this.label4.Location = new System.Drawing.Point(370, 40);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(64, 13);
             this.label4.TabIndex = 4;
@@ -108,7 +108,7 @@
             // chkBigNotebook
             // 
             this.chkBigNotebook.AutoSize = true;
-            this.chkBigNotebook.Location = new System.Drawing.Point(171, 98);
+            this.chkBigNotebook.Location = new System.Drawing.Point(145, 74);
             this.chkBigNotebook.Name = "chkBigNotebook";
             this.chkBigNotebook.Size = new System.Drawing.Size(50, 17);
             this.chkBigNotebook.TabIndex = 5;
@@ -119,7 +119,7 @@
             // chkDigicam
             // 
             this.chkDigicam.AutoSize = true;
-            this.chkDigicam.Location = new System.Drawing.Point(511, 55);
+            this.chkDigicam.Location = new System.Drawing.Point(485, 31);
             this.chkDigicam.Name = "chkDigicam";
             this.chkDigicam.Size = new System.Drawing.Size(44, 17);
             this.chkDigicam.TabIndex = 6;
@@ -130,7 +130,7 @@
             // chkMP4
             // 
             this.chkMP4.AutoSize = true;
-            this.chkMP4.Location = new System.Drawing.Point(511, 93);
+            this.chkMP4.Location = new System.Drawing.Point(485, 69);
             this.chkMP4.Name = "chkMP4";
             this.chkMP4.Size = new System.Drawing.Size(50, 17);
             this.chkMP4.TabIndex = 7;
@@ -141,7 +141,7 @@
             // chkModem
             // 
             this.chkModem.AutoSize = true;
-            this.chkModem.Location = new System.Drawing.Point(511, 136);
+            this.chkModem.Location = new System.Drawing.Point(485, 112);
             this.chkModem.Name = "chkModem";
             this.chkModem.Size = new System.Drawing.Size(50, 17);
             this.chkModem.TabIndex = 8;
@@ -152,7 +152,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(396, 102);
+            this.label5.Location = new System.Drawing.Point(370, 78);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(67, 13);
             this.label5.TabIndex = 9;
@@ -161,7 +161,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(406, 140);
+            this.label6.Location = new System.Drawing.Point(380, 116);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(73, 13);
             this.label6.TabIndex = 10;
@@ -170,7 +170,7 @@
             // chkSmartDesktop
             // 
             this.chkSmartDesktop.AutoSize = true;
-            this.chkSmartDesktop.Location = new System.Drawing.Point(159, 136);
+            this.chkSmartDesktop.Location = new System.Drawing.Point(133, 112);
             this.chkSmartDesktop.Name = "chkSmartDesktop";
             this.chkSmartDesktop.Size = new System.Drawing.Size(50, 17);
             this.chkSmartDesktop.TabIndex = 11;
@@ -181,7 +181,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(76, 212);
+            this.label7.Location = new System.Drawing.Point(50, 188);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(51, 13);
             this.label7.TabIndex = 12;
@@ -189,7 +189,7 @@
             // 
             // txtTotal
             // 
-            this.txtTotal.Location = new System.Drawing.Point(149, 209);
+            this.txtTotal.Location = new System.Drawing.Point(123, 185);
             this.txtTotal.Multiline = true;
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(100, 42);
@@ -197,7 +197,7 @@
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(385, 202);
+            this.btnCalculate.Location = new System.Drawing.Point(359, 178);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(75, 23);
             this.btnCalculate.TabIndex = 14;
@@ -207,7 +207,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(480, 202);
+            this.btnCancel.Location = new System.Drawing.Point(454, 178);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 15;
@@ -217,7 +217,7 @@
             // 
             // numericLaserJet
             // 
-            this.numericLaserJet.Location = new System.Drawing.Point(215, 57);
+            this.numericLaserJet.Location = new System.Drawing.Point(189, 33);
             this.numericLaserJet.Name = "numericLaserJet";
             this.numericLaserJet.Size = new System.Drawing.Size(76, 20);
             this.numericLaserJet.TabIndex = 16;
@@ -225,35 +225,35 @@
             // 
             // numericBigNotebook
             // 
-            this.numericBigNotebook.Location = new System.Drawing.Point(227, 97);
+            this.numericBigNotebook.Location = new System.Drawing.Point(201, 73);
             this.numericBigNotebook.Name = "numericBigNotebook";
             this.numericBigNotebook.Size = new System.Drawing.Size(76, 20);
             this.numericBigNotebook.TabIndex = 17;
             // 
             // numericSmartDesktop
             // 
-            this.numericSmartDesktop.Location = new System.Drawing.Point(227, 135);
+            this.numericSmartDesktop.Location = new System.Drawing.Point(201, 111);
             this.numericSmartDesktop.Name = "numericSmartDesktop";
             this.numericSmartDesktop.Size = new System.Drawing.Size(76, 20);
             this.numericSmartDesktop.TabIndex = 18;
             // 
             // numericDigicam
             // 
-            this.numericDigicam.Location = new System.Drawing.Point(580, 52);
+            this.numericDigicam.Location = new System.Drawing.Point(554, 28);
             this.numericDigicam.Name = "numericDigicam";
             this.numericDigicam.Size = new System.Drawing.Size(76, 20);
             this.numericDigicam.TabIndex = 19;
             // 
             // numericMP4
             // 
-            this.numericMP4.Location = new System.Drawing.Point(580, 90);
+            this.numericMP4.Location = new System.Drawing.Point(554, 66);
             this.numericMP4.Name = "numericMP4";
             this.numericMP4.Size = new System.Drawing.Size(76, 20);
             this.numericMP4.TabIndex = 20;
             // 
             // numericModem
             // 
-            this.numericModem.Location = new System.Drawing.Point(580, 136);
+            this.numericModem.Location = new System.Drawing.Point(554, 112);
             this.numericModem.Name = "numericModem";
             this.numericModem.Size = new System.Drawing.Size(76, 20);
             this.numericModem.TabIndex = 21;
