@@ -101,17 +101,24 @@ namespace boletin10
 
             //Mostrar el total en el textbox
             txtTotal.Text = total.ToString();
+            total = 0; // Despues de mostrar el total, reiniciar la variable para futuros cálculos
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            //Limpiar los checkbox y el textbox
+            //Limpiar los checkbox, numeric y el textbox
             chkLaserJet.Checked = false;
             chkBigNotebook.Checked = false;
             chkSmartDesktop.Checked = false;
             chkDigicam.Checked = false;
             chkMP4.Checked = false;
             chkModem.Checked = false;
+            numericLaserJet.Value = 0;
+            numericBigNotebook.Value = 0;
+            numericSmartDesktop.Value = 0;
+            numericDigicam.Value = 0;
+            numericMP4.Value = 0;
+            numericModem.Value = 0;
             txtTotal.Text = "";
             total = 0;
         }
