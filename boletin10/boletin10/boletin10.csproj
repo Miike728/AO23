@@ -124,6 +124,24 @@
     <Compile Include="ej3.Designer.cs">
       <DependentUpon>ej3.cs</DependentUpon>
     </Compile>
+    <Compile Include="ej4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej4.Designer.cs">
+      <DependentUpon>ej4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej5.Designer.cs">
+      <DependentUpon>ej5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej6.Designer.cs">
+      <DependentUpon>ej6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ej3.resx">
       <DependentUpon>ej3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej4.resx">
+      <DependentUpon>ej4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

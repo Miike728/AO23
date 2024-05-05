@@ -1,0 +1,8 @@
+Registros del ComboBox:
+123
+abc
+
+Registros del ListBox:
+1233
+c
+xyz
