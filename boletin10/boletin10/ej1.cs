@@ -100,7 +100,7 @@ namespace boletin10
             }
 
             //Mostrar el total en el textbox
-            txtTotal.Text = total.ToString();
+            txtTotal.Text = "$" + total.ToString();
             total = 0; // Despues de mostrar el total, reiniciar la variable para futuros cálculos
         }
 
@@ -124,6 +124,11 @@ namespace boletin10
         }
 
         private void numericLaserJet_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTotal_TextChanged(object sender, EventArgs e)
         {
 
         }

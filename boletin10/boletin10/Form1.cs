@@ -30,5 +30,11 @@ namespace boletin10
             ej2 ej2 = new ej2();
             ej2.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ej3 ej3 = new ej3();
+            ej3.Show();
+        }
     }
 }
