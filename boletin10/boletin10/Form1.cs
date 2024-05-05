@@ -54,5 +54,38 @@ namespace boletin10
             ej6 ej6 = new ej6();
             ej6.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ej7 ej7 = new ej7();
+            ej7.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            ej8 ej8 = new ej8();
+            ej8.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            ej9 ej9 = new ej9();
+            ej9.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

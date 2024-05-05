@@ -142,6 +142,24 @@
     <Compile Include="ej6.Designer.cs">
       <DependentUpon>ej6.cs</DependentUpon>
     </Compile>
+    <Compile Include="ej7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej7.Designer.cs">
+      <DependentUpon>ej7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej8.Designer.cs">
+      <DependentUpon>ej8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej9.Designer.cs">
+      <DependentUpon>ej9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,6 +216,15 @@
     <EmbeddedResource Include="ej6.resx">
       <DependentUpon>ej6.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ej7.resx">
+      <DependentUpon>ej7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej8.resx">
+      <DependentUpon>ej8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej9.resx">
+      <DependentUpon>ej9.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -232,6 +259,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\gato.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lobo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gato2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -24,3 +24,6 @@ C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej3.resource
 C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej4.resources
 C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej5.resources
 C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej6.resources
+C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej7.resources
+C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej8.resources
+C:\Users\Miike\source\repos\boletin10\boletin10\obj\Debug\boletin10.ej9.resources
