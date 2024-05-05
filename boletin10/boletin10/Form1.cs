@@ -48,5 +48,11 @@ namespace boletin10
             ej5 ej5 = new ej5();
             ej5.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ej6 ej6 = new ej6();
+            ej6.Show();
+        }
     }
 }

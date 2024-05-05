@@ -192,6 +192,12 @@
     <EmbeddedResource Include="ej4.resx">
       <DependentUpon>ej4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ej5.resx">
+      <DependentUpon>ej5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej6.resx">
+      <DependentUpon>ej6.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -203,6 +209,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -216,6 +223,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tigre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lobo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gato.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
