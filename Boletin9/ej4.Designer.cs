@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txtHoras = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnConvertir = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtMinutos = new System.Windows.Forms.TextBox();
             this.txtSegundos = new System.Windows.Forms.TextBox();
@@ -54,15 +54,15 @@
             this.txtHoras.TabIndex = 1;
             this.txtHoras.TextChanged += new System.EventHandler(this.txtHoras_TextChanged);
             // 
-            // button1
+            // btnConvertir
             // 
-            this.button1.Location = new System.Drawing.Point(101, 84);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 43);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Convertir";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnConvertir.Location = new System.Drawing.Point(101, 84);
+            this.btnConvertir.Name = "btnConvertir";
+            this.btnConvertir.Size = new System.Drawing.Size(91, 43);
+            this.btnConvertir.TabIndex = 2;
+            this.btnConvertir.Text = "Convertir";
+            this.btnConvertir.UseVisualStyleBackColor = true;
+            this.btnConvertir.Click += new System.EventHandler(this.btnConvertir_Click);
             // 
             // label2
             // 
@@ -105,7 +105,7 @@
             this.Controls.Add(this.txtSegundos);
             this.Controls.Add(this.txtMinutos);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnConvertir);
             this.Controls.Add(this.txtHoras);
             this.Controls.Add(this.label1);
             this.Name = "ej4";
@@ -120,7 +120,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtHoras;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnConvertir;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtMinutos;
         private System.Windows.Forms.TextBox txtSegundos;

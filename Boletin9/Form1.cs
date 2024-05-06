@@ -64,5 +64,10 @@ namespace Boletin9
             ej8 ejercicio8 = new ej8();
             ejercicio8.ShowDialog();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

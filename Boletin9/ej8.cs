@@ -281,22 +281,32 @@ namespace Boletin9
 
         private void btnMS_Click(object sender, EventArgs e)
         {
-            memoria = Double.Parse(txtCalculadora.Text); // Guarda el número actual en la memoria
+            try // Evitar crash si no hay número
+            {
+                memoria = Double.Parse(txtCalculadora.Text); // Guarda el número actual en la memoria
+            }
+            catch (Exception) // Si hay error, no hace nada
+            {
+                MessageBox.Show("Error. Ningún número para guardar."); // Muestra un mensaje de error
+            }
         }
 
         private void btnMR_Click(object sender, EventArgs e)
         {
             txtCalculadora.Text = memoria.ToString(); // Muestra el número guardado en la memoria
+            nuevaOperacion = false;
         }
 
         private void btnMMas_Click(object sender, EventArgs e)
         {
             memoria += Double.Parse(txtCalculadora.Text); // Suma el número actual a la memoria
+            txtCalculadora.Text = memoria.ToString(); // Muestra el resultado en el texto
         }
 
         private void btnMMenos_Click(object sender, EventArgs e)
         {
             memoria -= Double.Parse(txtCalculadora.Text); // Resta el número actual a la memoria
+            txtCalculadora.Text = memoria.ToString(); // Muestra el resultado en el texto
         }
 
         private void btnMC_Click(object sender, EventArgs e)

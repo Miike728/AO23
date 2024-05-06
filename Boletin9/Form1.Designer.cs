@@ -40,9 +40,10 @@
             // 
             // btnEj1
             // 
-            this.btnEj1.Location = new System.Drawing.Point(12, 12);
+            this.btnEj1.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Bold);
+            this.btnEj1.Location = new System.Drawing.Point(24, 23);
             this.btnEj1.Name = "btnEj1";
-            this.btnEj1.Size = new System.Drawing.Size(103, 49);
+            this.btnEj1.Size = new System.Drawing.Size(137, 60);
             this.btnEj1.TabIndex = 0;
             this.btnEj1.Text = "Ejercicio 1";
             this.btnEj1.UseVisualStyleBackColor = true;
@@ -50,9 +51,10 @@
             // 
             // btnEj2
             // 
-            this.btnEj2.Location = new System.Drawing.Point(121, 12);
+            this.btnEj2.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Bold);
+            this.btnEj2.Location = new System.Drawing.Point(187, 23);
             this.btnEj2.Name = "btnEj2";
-            this.btnEj2.Size = new System.Drawing.Size(103, 49);
+            this.btnEj2.Size = new System.Drawing.Size(137, 60);
             this.btnEj2.TabIndex = 1;
             this.btnEj2.Text = "Ejercicio 2";
             this.btnEj2.UseVisualStyleBackColor = true;
@@ -60,9 +62,10 @@
             // 
             // btnEj3
             // 
-            this.btnEj3.Location = new System.Drawing.Point(230, 12);
+            this.btnEj3.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Bold);
+            this.btnEj3.Location = new System.Drawing.Point(344, 23);
             this.btnEj3.Name = "btnEj3";
-            this.btnEj3.Size = new System.Drawing.Size(103, 49);
+            this.btnEj3.Size = new System.Drawing.Size(137, 60);
             this.btnEj3.TabIndex = 2;
             this.btnEj3.Text = "Ejercicio 3";
             this.btnEj3.UseVisualStyleBackColor = true;
@@ -70,9 +73,10 @@
             // 
             // btnEj4
             // 
-            this.btnEj4.Location = new System.Drawing.Point(339, 12);
+            this.btnEj4.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Bold);
+            this.btnEj4.Location = new System.Drawing.Point(506, 23);
             this.btnEj4.Name = "btnEj4";
-            this.btnEj4.Size = new System.Drawing.Size(103, 49);
+            this.btnEj4.Size = new System.Drawing.Size(137, 60);
             this.btnEj4.TabIndex = 3;
             this.btnEj4.Text = "Ejercicio 4";
             this.btnEj4.UseVisualStyleBackColor = true;
@@ -80,9 +84,10 @@
             // 
             // btnEj5
             // 
-            this.btnEj5.Location = new System.Drawing.Point(12, 67);
+            this.btnEj5.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Bold);
+            this.btnEj5.Location = new System.Drawing.Point(24, 107);
             this.btnEj5.Name = "btnEj5";
-            this.btnEj5.Size = new System.Drawing.Size(103, 49);
+            this.btnEj5.Size = new System.Drawing.Size(137, 60);
             this.btnEj5.TabIndex = 4;
             this.btnEj5.Text = "Ejercicio 5";
             this.btnEj5.UseVisualStyleBackColor = true;
@@ -90,9 +95,10 @@
             // 
             // btnEj6
             // 
-            this.btnEj6.Location = new System.Drawing.Point(121, 67);
+            this.btnEj6.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Bold);
+            this.btnEj6.Location = new System.Drawing.Point(187, 107);
             this.btnEj6.Name = "btnEj6";
-            this.btnEj6.Size = new System.Drawing.Size(103, 49);
+            this.btnEj6.Size = new System.Drawing.Size(137, 60);
             this.btnEj6.TabIndex = 5;
             this.btnEj6.Text = "Ejercicio 6";
             this.btnEj6.UseVisualStyleBackColor = true;
@@ -100,9 +106,10 @@
             // 
             // btnEj7
             // 
-            this.btnEj7.Location = new System.Drawing.Point(230, 67);
+            this.btnEj7.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Bold);
+            this.btnEj7.Location = new System.Drawing.Point(344, 107);
             this.btnEj7.Name = "btnEj7";
-            this.btnEj7.Size = new System.Drawing.Size(103, 49);
+            this.btnEj7.Size = new System.Drawing.Size(137, 60);
             this.btnEj7.TabIndex = 6;
             this.btnEj7.Text = "Ejercicio 7";
             this.btnEj7.UseVisualStyleBackColor = true;
@@ -110,9 +117,10 @@
             // 
             // btnEj8
             // 
-            this.btnEj8.Location = new System.Drawing.Point(339, 67);
+            this.btnEj8.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Bold);
+            this.btnEj8.Location = new System.Drawing.Point(506, 107);
             this.btnEj8.Name = "btnEj8";
-            this.btnEj8.Size = new System.Drawing.Size(103, 49);
+            this.btnEj8.Size = new System.Drawing.Size(137, 60);
             this.btnEj8.TabIndex = 7;
             this.btnEj8.Text = "Ejercicio 8";
             this.btnEj8.UseVisualStyleBackColor = true;
@@ -122,7 +130,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(670, 321);
+            this.ClientSize = new System.Drawing.Size(670, 194);
             this.Controls.Add(this.btnEj8);
             this.Controls.Add(this.btnEj7);
             this.Controls.Add(this.btnEj6);
@@ -133,6 +141,7 @@
             this.Controls.Add(this.btnEj1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

@@ -12,6 +12,7 @@ namespace Boletin9
 {
     public partial class ej4 : Form
     {
+        // Variables
         int horas, minutos, segundos;
 
 
@@ -25,8 +26,9 @@ namespace Boletin9
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnConvertir_Click(object sender, EventArgs e)
         {
+            // Convertir horas a minutos y segundos
             minutos = horas * 60;
             segundos = minutos * 60;
             txtMinutos.Text = minutos.ToString();
@@ -36,6 +38,7 @@ namespace Boletin9
 
         private void txtHoras_TextChanged(object sender, EventArgs e)
         {
+            // Obtener horas del textbox
             try
             {
                 horas = int.Parse(txtHoras.Text);

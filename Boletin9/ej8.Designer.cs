@@ -61,6 +61,7 @@
             // 
             // btnBinario
             // 
+            this.btnBinario.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBinario.Location = new System.Drawing.Point(373, 281);
             this.btnBinario.Margin = new System.Windows.Forms.Padding(4);
             this.btnBinario.Name = "btnBinario";
@@ -72,6 +73,7 @@
             // 
             // btnCos
             // 
+            this.btnCos.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCos.Location = new System.Drawing.Point(484, 215);
             this.btnCos.Margin = new System.Windows.Forms.Padding(4);
             this.btnCos.Name = "btnCos";
@@ -83,6 +85,7 @@
             // 
             // btnRaiz
             // 
+            this.btnRaiz.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRaiz.Location = new System.Drawing.Point(373, 215);
             this.btnRaiz.Margin = new System.Windows.Forms.Padding(4);
             this.btnRaiz.Name = "btnRaiz";
@@ -94,6 +97,7 @@
             // 
             // btnSen
             // 
+            this.btnSen.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSen.Location = new System.Drawing.Point(595, 215);
             this.btnSen.Margin = new System.Windows.Forms.Padding(4);
             this.btnSen.Name = "btnSen";
@@ -105,6 +109,7 @@
             // 
             // btnMR
             // 
+            this.btnMR.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMR.Location = new System.Drawing.Point(595, 149);
             this.btnMR.Margin = new System.Windows.Forms.Padding(4);
             this.btnMR.Name = "btnMR";
@@ -116,6 +121,8 @@
             // 
             // btnMMas
             // 
+            this.btnMMas.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMMas.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMMas.Location = new System.Drawing.Point(373, 149);
             this.btnMMas.Margin = new System.Windows.Forms.Padding(4);
             this.btnMMas.Name = "btnMMas";
@@ -127,6 +134,7 @@
             // 
             // btnMC
             // 
+            this.btnMC.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMC.Location = new System.Drawing.Point(595, 83);
             this.btnMC.Margin = new System.Windows.Forms.Padding(4);
             this.btnMC.Name = "btnMC";
@@ -138,6 +146,7 @@
             // 
             // btnMS
             // 
+            this.btnMS.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMS.Location = new System.Drawing.Point(484, 83);
             this.btnMS.Margin = new System.Windows.Forms.Padding(4);
             this.btnMS.Name = "btnMS";
@@ -149,6 +158,7 @@
             // 
             // btnMMenos
             // 
+            this.btnMMenos.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMMenos.Location = new System.Drawing.Point(484, 149);
             this.btnMMenos.Margin = new System.Windows.Forms.Padding(4);
             this.btnMMenos.Name = "btnMMenos";
@@ -160,16 +170,18 @@
             // 
             // txtCalculadora
             // 
-            this.txtCalculadora.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCalculadora.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCalculadora.Location = new System.Drawing.Point(13, 15);
             this.txtCalculadora.Margin = new System.Windows.Forms.Padding(4);
             this.txtCalculadora.Multiline = true;
             this.txtCalculadora.Name = "txtCalculadora";
             this.txtCalculadora.Size = new System.Drawing.Size(452, 111);
             this.txtCalculadora.TabIndex = 47;
+            this.txtCalculadora.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // btnPorcent
             // 
+            this.btnPorcent.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPorcent.Location = new System.Drawing.Point(283, 338);
             this.btnPorcent.Margin = new System.Windows.Forms.Padding(4);
             this.btnPorcent.Name = "btnPorcent";
@@ -181,6 +193,7 @@
             // 
             // btnSuma
             // 
+            this.btnSuma.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuma.Location = new System.Drawing.Point(284, 275);
             this.btnSuma.Margin = new System.Windows.Forms.Padding(4);
             this.btnSuma.Name = "btnSuma";
@@ -192,6 +205,7 @@
             // 
             // btnResta
             // 
+            this.btnResta.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnResta.Location = new System.Drawing.Point(283, 212);
             this.btnResta.Margin = new System.Windows.Forms.Padding(4);
             this.btnResta.Name = "btnResta";
@@ -203,6 +217,7 @@
             // 
             // btnIgual
             // 
+            this.btnIgual.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIgual.Location = new System.Drawing.Point(215, 338);
             this.btnIgual.Margin = new System.Windows.Forms.Padding(4);
             this.btnIgual.Name = "btnIgual";
@@ -214,6 +229,7 @@
             // 
             // btnMultipl
             // 
+            this.btnMultipl.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMultipl.Location = new System.Drawing.Point(215, 275);
             this.btnMultipl.Margin = new System.Windows.Forms.Padding(4);
             this.btnMultipl.Name = "btnMultipl";
@@ -225,6 +241,7 @@
             // 
             // btnDiv
             // 
+            this.btnDiv.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDiv.Location = new System.Drawing.Point(215, 212);
             this.btnDiv.Margin = new System.Windows.Forms.Padding(4);
             this.btnDiv.Name = "btnDiv";
@@ -236,6 +253,7 @@
             // 
             // btnCE
             // 
+            this.btnCE.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCE.Location = new System.Drawing.Point(283, 149);
             this.btnCE.Margin = new System.Windows.Forms.Padding(4);
             this.btnCE.Name = "btnCE";
@@ -247,6 +265,7 @@
             // 
             // btnC
             // 
+            this.btnC.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnC.Location = new System.Drawing.Point(215, 149);
             this.btnC.Margin = new System.Windows.Forms.Padding(4);
             this.btnC.Name = "btnC";
@@ -258,6 +277,7 @@
             // 
             // btnPunto
             // 
+            this.btnPunto.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPunto.Location = new System.Drawing.Point(151, 338);
             this.btnPunto.Margin = new System.Windows.Forms.Padding(4);
             this.btnPunto.Name = "btnPunto";
@@ -269,6 +289,7 @@
             // 
             // btn0
             // 
+            this.btn0.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.Location = new System.Drawing.Point(24, 338);
             this.btn0.Margin = new System.Windows.Forms.Padding(4);
             this.btn0.Name = "btn0";
@@ -280,6 +301,7 @@
             // 
             // btn3
             // 
+            this.btn3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.Location = new System.Drawing.Point(151, 275);
             this.btn3.Margin = new System.Windows.Forms.Padding(4);
             this.btn3.Name = "btn3";
@@ -291,6 +313,7 @@
             // 
             // btn5
             // 
+            this.btn5.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.Location = new System.Drawing.Point(87, 212);
             this.btn5.Margin = new System.Windows.Forms.Padding(4);
             this.btn5.Name = "btn5";
@@ -302,6 +325,7 @@
             // 
             // btn2
             // 
+            this.btn2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.Location = new System.Drawing.Point(87, 275);
             this.btn2.Margin = new System.Windows.Forms.Padding(4);
             this.btn2.Name = "btn2";
@@ -313,6 +337,7 @@
             // 
             // btn1
             // 
+            this.btn1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.Location = new System.Drawing.Point(24, 275);
             this.btn1.Margin = new System.Windows.Forms.Padding(4);
             this.btn1.Name = "btn1";
@@ -324,6 +349,7 @@
             // 
             // btn9
             // 
+            this.btn9.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.Location = new System.Drawing.Point(151, 149);
             this.btn9.Margin = new System.Windows.Forms.Padding(4);
             this.btn9.Name = "btn9";
@@ -335,6 +361,7 @@
             // 
             // btn6
             // 
+            this.btn6.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.Location = new System.Drawing.Point(151, 212);
             this.btn6.Margin = new System.Windows.Forms.Padding(4);
             this.btn6.Name = "btn6";
@@ -346,6 +373,7 @@
             // 
             // btn4
             // 
+            this.btn4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.Location = new System.Drawing.Point(24, 212);
             this.btn4.Margin = new System.Windows.Forms.Padding(4);
             this.btn4.Name = "btn4";
@@ -357,6 +385,7 @@
             // 
             // btn8
             // 
+            this.btn8.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.Location = new System.Drawing.Point(87, 149);
             this.btn8.Margin = new System.Windows.Forms.Padding(4);
             this.btn8.Name = "btn8";
@@ -368,6 +397,7 @@
             // 
             // btn7
             // 
+            this.btn7.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.Location = new System.Drawing.Point(24, 149);
             this.btn7.Margin = new System.Windows.Forms.Padding(4);
             this.btn7.Name = "btn7";

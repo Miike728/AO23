@@ -11,21 +11,22 @@ using System.Windows.Forms;
 namespace Boletin9
 {
     public partial class ej3 : Form
-    {
+    {// Variables
         int lado, cuadrado, ladoMayor, ladoMenor, rectangulo, base1, altura, triangulo;
         string resultado;
 
         private void txtAltura_TextChanged(object sender, EventArgs e)
         {
-            try
+            try // Control de errores
             {
-                altura = int.Parse(txtAltura.Text);
+                altura = int.Parse(txtAltura.Text); // COnvertir a int, y guardar en variable
             }
             catch (Exception) { }
         }
 
         private void btnTriangulo_Click(object sender, EventArgs e)
         {
+            // Hacer el calculo y mostrarlo en el textbox
             triangulo = base1 * altura;
             resultado = triangulo.ToString();
             txtResultado.Text = resultado;
@@ -40,7 +41,7 @@ namespace Boletin9
         {
             try
             {
-                ladoMenor = int.Parse(txtLadoMenor.Text);
+                ladoMenor = int.Parse(txtLadoMenor.Text); // Convertir a int y guardar en variable
             }
             catch (Exception) { }
         }
@@ -49,13 +50,14 @@ namespace Boletin9
         {
             try
             {
-                base1 = int.Parse(txtBase.Text);
+                base1 = int.Parse(txtBase.Text); // Convertir a int y guardar en variable
             }
             catch (Exception) { }
         }
 
         private void btnRectangulo_Click(object sender, EventArgs e)
         {
+            // Calculo del rectangulo y mostrarl en el textbox
             rectangulo = ladoMayor * ladoMenor;
             resultado = rectangulo.ToString();
             txtResultado.Text = resultado;
@@ -63,6 +65,7 @@ namespace Boletin9
 
         private void btnCuadrado_Click(object sender, EventArgs e)
         {
+            // Calculo del cuadrado y mostrarlo en el textbox
             cuadrado = lado * lado;
             resultado = cuadrado.ToString();
             txtResultado.Text = resultado;
@@ -71,6 +74,7 @@ namespace Boletin9
 
         private void txtLadoMayor_TextChanged(object sender, EventArgs e)
         {
+            // Convertir a int y `guardar, con control de errores
             try
             {
                 ladoMayor = int.Parse(txtLadoMayor.Text);
@@ -80,6 +84,7 @@ namespace Boletin9
 
         private void txtLado_TextChanged(object sender, EventArgs e)
         {
+            // Igual que el anterior
             try
             {
                 lado = int.Parse(txtLado.Text);

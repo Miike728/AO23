@@ -17,6 +17,7 @@ namespace Boletin9
 
         private void txtCalc2_TextChanged(object sender, EventArgs e)
         {
+            // Si el usuario no introduce un número, se captura la excepción
             try
             {
                 num2 = double.Parse(txtCalc2.Text);
@@ -24,6 +25,7 @@ namespace Boletin9
             catch (Exception) { }
         }
 
+        //ZOna de botones de operaciones
         private void btnSuma_Click(object sender, EventArgs e)
         {
             lblSuma.Show();
@@ -67,11 +69,12 @@ namespace Boletin9
         public ej5()
         {
             InitializeComponent();
-            txtCalc1.Focus();
+            txtCalc1.Focus(); // Pone el foco en el textbox
         }
 
         private void txtCalc1_TextChanged(object sender, EventArgs e)
         {
+            // Si el usuario no introduce un número, se captura la excepción
             try
             {
                 num1 = double.Parse(txtCalc1.Text);

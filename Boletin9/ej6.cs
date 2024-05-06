@@ -39,16 +39,16 @@ namespace Boletin9
         private void btnCentigrados_Click(object sender, EventArgs e)
         {
             centigrados = (fahrenheit - 32) * 5 / 9; // Fórmula para convertir de fahrenheit a centígrados
-            txtCentigrados.Text = centigrados.ToString(); // Mostrar el resultado en el textbox
+            txtCentigrados.Text = centigrados.ToString(); // Mostrar resultado en el textbox
         }
 
         private void txtCentigrados_TextChanged(object sender, EventArgs e)
         {
             try // Try catch para evitar errores
             {
-                centigrados = Convert.ToDouble(txtCentigrados.Text); // Convertir el texto a double
+                centigrados = Convert.ToDouble(txtCentigrados.Text);
             }
-            catch (Exception) // Si hay un error, no hace nada y tampoco crashea
+            catch (Exception)
             {
             }
         }

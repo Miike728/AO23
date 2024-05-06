@@ -23,11 +23,14 @@ namespace Boletin9
 
         private void btnPulsar_Click(object sender, EventArgs e)
         {
+            // Guardar los valores de los textbox en las variables
             nombre = txtNombre.Text;
             correo = txtCorreo.Text;
 
+            // Guardar el resultado en la variable resultado
             resultado = "Nombre: " + nombre + "  Correo: " + correo;
-
+            
+            // Mostrar el resultado en un MessageBox
             MessageBox.Show(resultado);
 
         }

@@ -12,6 +12,7 @@ namespace Boletin9
 {
     public partial class ej2 : Form
     {
+        // Variables
         int dia, mes, año;
         string mesTexto;
 
@@ -45,6 +46,7 @@ namespace Boletin9
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
+            // Limpiar los textbox
             txtDia.Text = "";
             txtMes.Text = "";
             txtAño.Text = "";
@@ -108,7 +110,7 @@ namespace Boletin9
                 mesTexto = "Diciembre";
             }
 
-            txtSalida.Text = dia + " de " + mesTexto + " de " + año; ;
+            txtSalida.Text = dia + " de " + mesTexto + " de " + año; // Mostrar el resultado en el textbox
 
         }
 
