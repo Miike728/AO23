@@ -16,5 +16,10 @@ namespace boletin10
         {
             InitializeComponent();
         }
+
+        private void ej7_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

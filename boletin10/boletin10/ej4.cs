@@ -51,13 +51,13 @@ namespace boletin10
         {
             System.IO.StreamWriter file = new System.IO.StreamWriter("registros.txt"); // Crear archivo
             file.WriteLine("Registros del ComboBox:"); // Escribir en el archivo
-            foreach (var item in comboBoxRegistros.Items) // Para cada item en el ComboBox
+            foreach (string item in comboBoxRegistros.Items) // Para cada item en el ComboBox
             {
                 file.WriteLine(item); // Escribir el item en el archivo
             }
             file.WriteLine(""); // Espacio en blanco
             file.WriteLine("Registros del ListBox:");
-            foreach (var item in listBoxRegistros.Items) // Lo mismo para el ListBox
+            foreach (string item in listBoxRegistros.Items) // Lo mismo para el ListBox
             {
                 file.WriteLine(item);
             }

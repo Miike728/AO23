@@ -45,34 +45,38 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 21);
+            this.label1.Location = new System.Drawing.Point(16, 26);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 13);
+            this.label1.Size = new System.Drawing.Size(124, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Cantidad de Metros";
             // 
             // txtMetros
             // 
-            this.txtMetros.Location = new System.Drawing.Point(117, 18);
+            this.txtMetros.Location = new System.Drawing.Point(156, 22);
+            this.txtMetros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMetros.Name = "txtMetros";
-            this.txtMetros.Size = new System.Drawing.Size(100, 20);
+            this.txtMetros.Size = new System.Drawing.Size(132, 22);
             this.txtMetros.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 62);
+            this.label2.Location = new System.Drawing.Point(16, 76);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 13);
+            this.label2.Size = new System.Drawing.Size(125, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Tipo de Conversión";
             // 
             // radioMilimetros
             // 
             this.radioMilimetros.AutoSize = true;
-            this.radioMilimetros.Location = new System.Drawing.Point(24, 78);
+            this.radioMilimetros.Location = new System.Drawing.Point(32, 96);
+            this.radioMilimetros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioMilimetros.Name = "radioMilimetros";
-            this.radioMilimetros.Size = new System.Drawing.Size(73, 17);
+            this.radioMilimetros.Size = new System.Drawing.Size(89, 20);
             this.radioMilimetros.TabIndex = 3;
             this.radioMilimetros.TabStop = true;
             this.radioMilimetros.Text = "Milímetros";
@@ -81,9 +85,10 @@
             // radioCentimetros
             // 
             this.radioCentimetros.AutoSize = true;
-            this.radioCentimetros.Location = new System.Drawing.Point(24, 102);
+            this.radioCentimetros.Location = new System.Drawing.Point(32, 126);
+            this.radioCentimetros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioCentimetros.Name = "radioCentimetros";
-            this.radioCentimetros.Size = new System.Drawing.Size(82, 17);
+            this.radioCentimetros.Size = new System.Drawing.Size(99, 20);
             this.radioCentimetros.TabIndex = 4;
             this.radioCentimetros.TabStop = true;
             this.radioCentimetros.Text = "Centímetros";
@@ -92,9 +97,10 @@
             // radioDecimetros
             // 
             this.radioDecimetros.AutoSize = true;
-            this.radioDecimetros.Location = new System.Drawing.Point(24, 126);
+            this.radioDecimetros.Location = new System.Drawing.Point(32, 155);
+            this.radioDecimetros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioDecimetros.Name = "radioDecimetros";
-            this.radioDecimetros.Size = new System.Drawing.Size(78, 17);
+            this.radioDecimetros.Size = new System.Drawing.Size(97, 20);
             this.radioDecimetros.TabIndex = 5;
             this.radioDecimetros.TabStop = true;
             this.radioDecimetros.Text = "Decimetros";
@@ -103,9 +109,10 @@
             // radioKilometros
             // 
             this.radioKilometros.AutoSize = true;
-            this.radioKilometros.Location = new System.Drawing.Point(24, 150);
+            this.radioKilometros.Location = new System.Drawing.Point(32, 185);
+            this.radioKilometros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioKilometros.Name = "radioKilometros";
-            this.radioKilometros.Size = new System.Drawing.Size(73, 17);
+            this.radioKilometros.Size = new System.Drawing.Size(91, 20);
             this.radioKilometros.TabIndex = 6;
             this.radioKilometros.TabStop = true;
             this.radioKilometros.Text = "Kilometros";
@@ -114,24 +121,27 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(167, 83);
+            this.label3.Location = new System.Drawing.Point(223, 102);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 13);
+            this.label3.Size = new System.Drawing.Size(69, 16);
             this.label3.TabIndex = 7;
             this.label3.Text = "Resultado";
             // 
             // txtResultado
             // 
-            this.txtResultado.Location = new System.Drawing.Point(170, 99);
+            this.txtResultado.Location = new System.Drawing.Point(227, 122);
+            this.txtResultado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(100, 20);
+            this.txtResultado.Size = new System.Drawing.Size(132, 22);
             this.txtResultado.TabIndex = 8;
             // 
             // btnConvertir
             // 
-            this.btnConvertir.Location = new System.Drawing.Point(12, 190);
+            this.btnConvertir.Location = new System.Drawing.Point(16, 234);
+            this.btnConvertir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnConvertir.Name = "btnConvertir";
-            this.btnConvertir.Size = new System.Drawing.Size(75, 23);
+            this.btnConvertir.Size = new System.Drawing.Size(100, 28);
             this.btnConvertir.TabIndex = 9;
             this.btnConvertir.Text = "Convertir";
             this.btnConvertir.UseVisualStyleBackColor = true;
@@ -139,9 +149,10 @@
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(110, 190);
+            this.btnNuevo.Location = new System.Drawing.Point(147, 234);
+            this.btnNuevo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(107, 23);
+            this.btnNuevo.Size = new System.Drawing.Size(143, 28);
             this.btnNuevo.TabIndex = 10;
             this.btnNuevo.Text = "Nuevo Cálculo";
             this.btnNuevo.UseVisualStyleBackColor = true;
@@ -149,9 +160,10 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(235, 190);
+            this.btnSalir.Location = new System.Drawing.Point(313, 234);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 23);
+            this.btnSalir.Size = new System.Drawing.Size(100, 28);
             this.btnSalir.TabIndex = 11;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -159,9 +171,9 @@
             // 
             // ej3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(332, 233);
+            this.ClientSize = new System.Drawing.Size(443, 287);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.btnConvertir);
@@ -174,8 +186,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtMetros);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ej3";
             this.Text = "ej3";
+            this.Load += new System.EventHandler(this.ej3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -71,5 +71,10 @@ namespace boletin10
                 MessageBox.Show("Selecciona una opción", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void ej3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

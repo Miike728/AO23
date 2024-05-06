@@ -1,8 +1,10 @@
 Registros del ComboBox:
-123
-abc
+xyz
+1234
 
 Registros del ListBox:
-1233
-c
-xyz
+asd
+asd
+asd
+asd
+123
