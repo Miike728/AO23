@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace boletin10
 {
@@ -49,7 +50,7 @@ namespace boletin10
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            System.IO.StreamWriter file = new System.IO.StreamWriter("registros.txt"); // Crear archivo
+            StreamWriter file = new StreamWriter("registros.txt"); // Crear archivo
             file.WriteLine("Registros del ComboBox:"); // Escribir en el archivo
             foreach (string item in comboBoxRegistros.Items) // Para cada item en el ComboBox
             {
