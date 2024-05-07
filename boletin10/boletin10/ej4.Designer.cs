@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ej4));
             this.label1 = new System.Windows.Forms.Label();
             this.txtCampo = new System.Windows.Forms.TextBox();
             this.btnCargar = new System.Windows.Forms.Button();
@@ -42,24 +43,27 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 27);
+            this.label1.Location = new System.Drawing.Point(16, 33);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 13);
+            this.label1.Size = new System.Drawing.Size(123, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre del campo";
             // 
             // txtCampo
             // 
-            this.txtCampo.Location = new System.Drawing.Point(114, 24);
+            this.txtCampo.Location = new System.Drawing.Point(152, 30);
+            this.txtCampo.Margin = new System.Windows.Forms.Padding(4);
             this.txtCampo.Name = "txtCampo";
-            this.txtCampo.Size = new System.Drawing.Size(132, 20);
+            this.txtCampo.Size = new System.Drawing.Size(175, 22);
             this.txtCampo.TabIndex = 1;
             // 
             // btnCargar
             // 
-            this.btnCargar.Location = new System.Drawing.Point(287, 22);
+            this.btnCargar.Location = new System.Drawing.Point(383, 27);
+            this.btnCargar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCargar.Name = "btnCargar";
-            this.btnCargar.Size = new System.Drawing.Size(75, 23);
+            this.btnCargar.Size = new System.Drawing.Size(100, 28);
             this.btnCargar.TabIndex = 2;
             this.btnCargar.Text = "Cargar";
             this.btnCargar.UseVisualStyleBackColor = true;
@@ -68,9 +72,10 @@
             // radioComboBox
             // 
             this.radioComboBox.AutoSize = true;
-            this.radioComboBox.Location = new System.Drawing.Point(114, 62);
+            this.radioComboBox.Location = new System.Drawing.Point(152, 76);
+            this.radioComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.radioComboBox.Name = "radioComboBox";
-            this.radioComboBox.Size = new System.Drawing.Size(125, 17);
+            this.radioComboBox.Size = new System.Drawing.Size(157, 20);
             this.radioComboBox.TabIndex = 3;
             this.radioComboBox.TabStop = true;
             this.radioComboBox.Text = "Cargar en ComboBox";
@@ -79,9 +84,10 @@
             // radioListBox
             // 
             this.radioListBox.AutoSize = true;
-            this.radioListBox.Location = new System.Drawing.Point(114, 86);
+            this.radioListBox.Location = new System.Drawing.Point(152, 106);
+            this.radioListBox.Margin = new System.Windows.Forms.Padding(4);
             this.radioListBox.Name = "radioListBox";
-            this.radioListBox.Size = new System.Drawing.Size(108, 17);
+            this.radioListBox.Size = new System.Drawing.Size(133, 20);
             this.radioListBox.TabIndex = 4;
             this.radioListBox.TabStop = true;
             this.radioListBox.Text = "Cargar en ListBox";
@@ -90,33 +96,38 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 120);
+            this.label2.Location = new System.Drawing.Point(16, 148);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 13);
+            this.label2.Size = new System.Drawing.Size(65, 16);
             this.label2.TabIndex = 5;
             this.label2.Text = "Registros";
             // 
             // comboBoxRegistros
             // 
             this.comboBoxRegistros.FormattingEnabled = true;
-            this.comboBoxRegistros.Location = new System.Drawing.Point(15, 146);
+            this.comboBoxRegistros.Location = new System.Drawing.Point(20, 180);
+            this.comboBoxRegistros.Margin = new System.Windows.Forms.Padding(4);
             this.comboBoxRegistros.Name = "comboBoxRegistros";
-            this.comboBoxRegistros.Size = new System.Drawing.Size(432, 21);
+            this.comboBoxRegistros.Size = new System.Drawing.Size(575, 24);
             this.comboBoxRegistros.TabIndex = 6;
             // 
             // listBoxRegistros
             // 
             this.listBoxRegistros.FormattingEnabled = true;
-            this.listBoxRegistros.Location = new System.Drawing.Point(15, 173);
+            this.listBoxRegistros.ItemHeight = 16;
+            this.listBoxRegistros.Location = new System.Drawing.Point(20, 213);
+            this.listBoxRegistros.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxRegistros.Name = "listBoxRegistros";
-            this.listBoxRegistros.Size = new System.Drawing.Size(432, 186);
+            this.listBoxRegistros.Size = new System.Drawing.Size(575, 228);
             this.listBoxRegistros.TabIndex = 7;
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(287, 72);
+            this.btnGuardar.Location = new System.Drawing.Point(383, 89);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(137, 23);
+            this.btnGuardar.Size = new System.Drawing.Size(183, 28);
             this.btnGuardar.TabIndex = 8;
             this.btnGuardar.Text = "Guardar en fichero";
             this.btnGuardar.UseVisualStyleBackColor = true;
@@ -124,9 +135,9 @@
             // 
             // ej4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(459, 365);
+            this.ClientSize = new System.Drawing.Size(612, 449);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.listBoxRegistros);
             this.Controls.Add(this.comboBoxRegistros);
@@ -136,8 +147,13 @@
             this.Controls.Add(this.btnCargar);
             this.Controls.Add(this.txtCampo);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(630, 496);
+            this.MinimumSize = new System.Drawing.Size(630, 496);
             this.Name = "ej4";
-            this.Text = "ej4";
+            this.Text = "Ejercicio 4";
             this.Load += new System.EventHandler(this.ej4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

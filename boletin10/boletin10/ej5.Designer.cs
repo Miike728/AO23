@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ej5));
             this.label1 = new System.Windows.Forms.Label();
             this.txtEmpleado = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -209,9 +210,13 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtEmpleado);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(441, 394);
+            this.MinimumSize = new System.Drawing.Size(441, 394);
             this.Name = "ej5";
-            this.Text = "ej5";
+            this.Text = "Ejercicio 5";
             this.Load += new System.EventHandler(this.ej5_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

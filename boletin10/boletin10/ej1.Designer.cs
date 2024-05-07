@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ej1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.chkLaserJet = new System.Windows.Forms.CheckBox();
@@ -82,7 +83,7 @@
             // 
             this.chkLaserJet.AutoSize = true;
             this.chkLaserJet.Location = new System.Drawing.Point(121, 18);
-            this.chkLaserJet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkLaserJet.Margin = new System.Windows.Forms.Padding(4);
             this.chkLaserJet.Name = "chkLaserJet";
             this.chkLaserJet.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.chkLaserJet.Size = new System.Drawing.Size(57, 20);
@@ -115,7 +116,7 @@
             // 
             this.chkBigNotebook.AutoSize = true;
             this.chkBigNotebook.Location = new System.Drawing.Point(121, 61);
-            this.chkBigNotebook.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkBigNotebook.Margin = new System.Windows.Forms.Padding(4);
             this.chkBigNotebook.Name = "chkBigNotebook";
             this.chkBigNotebook.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.chkBigNotebook.Size = new System.Drawing.Size(57, 20);
@@ -128,7 +129,7 @@
             // 
             this.chkDigicam.AutoSize = true;
             this.chkDigicam.Location = new System.Drawing.Point(439, 17);
-            this.chkDigicam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkDigicam.Margin = new System.Windows.Forms.Padding(4);
             this.chkDigicam.Name = "chkDigicam";
             this.chkDigicam.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.chkDigicam.Size = new System.Drawing.Size(50, 20);
@@ -141,7 +142,7 @@
             // 
             this.chkMP4.AutoSize = true;
             this.chkMP4.Location = new System.Drawing.Point(432, 60);
-            this.chkMP4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkMP4.Margin = new System.Windows.Forms.Padding(4);
             this.chkMP4.Name = "chkMP4";
             this.chkMP4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.chkMP4.Size = new System.Drawing.Size(57, 20);
@@ -154,7 +155,7 @@
             // 
             this.chkModem.AutoSize = true;
             this.chkModem.Location = new System.Drawing.Point(432, 104);
-            this.chkModem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkModem.Margin = new System.Windows.Forms.Padding(4);
             this.chkModem.Name = "chkModem";
             this.chkModem.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.chkModem.Size = new System.Drawing.Size(57, 20);
@@ -187,7 +188,7 @@
             // 
             this.chkSmartDesktop.AutoSize = true;
             this.chkSmartDesktop.Location = new System.Drawing.Point(121, 106);
-            this.chkSmartDesktop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkSmartDesktop.Margin = new System.Windows.Forms.Padding(4);
             this.chkSmartDesktop.Name = "chkSmartDesktop";
             this.chkSmartDesktop.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.chkSmartDesktop.Size = new System.Drawing.Size(57, 20);
@@ -204,13 +205,13 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(48, 16);
             this.label7.TabIndex = 12;
-            this.label7.Text = "= Total";
+            this.label7.Text = "Total =";
             this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // txtTotal
             // 
             this.txtTotal.Location = new System.Drawing.Point(69, 168);
-            this.txtTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotal.Multiline = true;
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(132, 51);
@@ -220,7 +221,7 @@
             // btnCalculate
             // 
             this.btnCalculate.Location = new System.Drawing.Point(351, 184);
-            this.btnCalculate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCalculate.Margin = new System.Windows.Forms.Padding(4);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(100, 35);
             this.btnCalculate.TabIndex = 14;
@@ -231,7 +232,7 @@
             // btnCancel
             // 
             this.btnCancel.Location = new System.Drawing.Point(478, 184);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(100, 35);
             this.btnCancel.TabIndex = 15;
@@ -242,7 +243,7 @@
             // numericLaserJet
             // 
             this.numericLaserJet.Location = new System.Drawing.Point(202, 16);
-            this.numericLaserJet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericLaserJet.Margin = new System.Windows.Forms.Padding(4);
             this.numericLaserJet.Name = "numericLaserJet";
             this.numericLaserJet.Size = new System.Drawing.Size(76, 22);
             this.numericLaserJet.TabIndex = 16;
@@ -251,7 +252,7 @@
             // numericBigNotebook
             // 
             this.numericBigNotebook.Location = new System.Drawing.Point(202, 59);
-            this.numericBigNotebook.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericBigNotebook.Margin = new System.Windows.Forms.Padding(4);
             this.numericBigNotebook.Name = "numericBigNotebook";
             this.numericBigNotebook.Size = new System.Drawing.Size(76, 22);
             this.numericBigNotebook.TabIndex = 17;
@@ -259,7 +260,7 @@
             // numericSmartDesktop
             // 
             this.numericSmartDesktop.Location = new System.Drawing.Point(202, 104);
-            this.numericSmartDesktop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericSmartDesktop.Margin = new System.Windows.Forms.Padding(4);
             this.numericSmartDesktop.Name = "numericSmartDesktop";
             this.numericSmartDesktop.Size = new System.Drawing.Size(76, 22);
             this.numericSmartDesktop.TabIndex = 18;
@@ -267,7 +268,7 @@
             // numericDigicam
             // 
             this.numericDigicam.Location = new System.Drawing.Point(513, 15);
-            this.numericDigicam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericDigicam.Margin = new System.Windows.Forms.Padding(4);
             this.numericDigicam.Name = "numericDigicam";
             this.numericDigicam.Size = new System.Drawing.Size(76, 22);
             this.numericDigicam.TabIndex = 19;
@@ -275,7 +276,7 @@
             // numericMP4
             // 
             this.numericMP4.Location = new System.Drawing.Point(513, 59);
-            this.numericMP4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericMP4.Margin = new System.Windows.Forms.Padding(4);
             this.numericMP4.Name = "numericMP4";
             this.numericMP4.Size = new System.Drawing.Size(76, 22);
             this.numericMP4.TabIndex = 20;
@@ -283,7 +284,7 @@
             // numericModem
             // 
             this.numericModem.Location = new System.Drawing.Point(513, 103);
-            this.numericModem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericModem.Margin = new System.Windows.Forms.Padding(4);
             this.numericModem.Name = "numericModem";
             this.numericModem.Size = new System.Drawing.Size(76, 22);
             this.numericModem.TabIndex = 21;
@@ -315,10 +316,13 @@
             this.Controls.Add(this.chkLaserJet);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(627, 304);
+            this.MinimumSize = new System.Drawing.Size(627, 304);
             this.Name = "ej1";
-            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Text = "ej1";
+            this.Text = "Ejercicio 1";
             this.Load += new System.EventHandler(this.ej1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericLaserJet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericBigNotebook)).EndInit();

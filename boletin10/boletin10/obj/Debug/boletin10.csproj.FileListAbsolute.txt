@@ -56,3 +56,6 @@ C:\Users\Alumno\Documents\GitHub\AO23\boletin10\boletin10\obj\Debug\boletin10.cs
 C:\Users\Alumno\Documents\GitHub\AO23\boletin10\boletin10\obj\Debug\boletin10.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Documents\GitHub\AO23\boletin10\boletin10\obj\Debug\boletin10.exe
 C:\Users\Alumno\Documents\GitHub\AO23\boletin10\boletin10\obj\Debug\boletin10.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\boletin10\boletin10\obj\Debug\boletin10.ej10.resources
+C:\Users\Alumno\Documents\GitHub\AO23\boletin10\boletin10\obj\Debug\boletin10.ej11.resources
+C:\Users\Alumno\Documents\GitHub\AO23\boletin10\boletin10\obj\Debug\boletin10.ej12.resources

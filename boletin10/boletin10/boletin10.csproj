@@ -52,6 +52,24 @@
     <Compile Include="ej1.Designer.cs">
       <DependentUpon>ej1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ej10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej10.Designer.cs">
+      <DependentUpon>ej10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej11.Designer.cs">
+      <DependentUpon>ej11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ej12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ej12.Designer.cs">
+      <DependentUpon>ej12.cs</DependentUpon>
+    </Compile>
     <Compile Include="ej2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +188,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ej1.resx">
       <DependentUpon>ej1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej10.resx">
+      <DependentUpon>ej10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej11.resx">
+      <DependentUpon>ej11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ej12.resx">
+      <DependentUpon>ej12.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ej2.resx">
       <DependentUpon>ej2.cs</DependentUpon>

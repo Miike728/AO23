@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ej9));
             this.groupBoxPrimerPlato = new System.Windows.Forms.GroupBox();
             this.lblPrecioPrimerPlato = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -367,9 +368,13 @@
             this.Controls.Add(this.groupBoxBebida);
             this.Controls.Add(this.groupBoxSegundoPlato);
             this.Controls.Add(this.groupBoxPrimerPlato);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(842, 502);
+            this.MinimumSize = new System.Drawing.Size(842, 502);
             this.Name = "ej9";
-            this.Text = "ej9";
+            this.Text = "Ejercicio 9";
             this.groupBoxPrimerPlato.ResumeLayout(false);
             this.groupBoxPrimerPlato.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPrimerPlato)).EndInit();

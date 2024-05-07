@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ej7));
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.btnDetener = new System.Windows.Forms.Button();
             this.btnReiniciar = new System.Windows.Forms.Button();
@@ -79,9 +80,13 @@
             this.Controls.Add(this.btnReiniciar);
             this.Controls.Add(this.btnDetener);
             this.Controls.Add(this.pictureBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(841, 325);
+            this.MinimumSize = new System.Drawing.Size(841, 325);
             this.Name = "ej7";
-            this.Text = "ej7";
+            this.Text = "Ejercicio 7";
             this.Load += new System.EventHandler(this.ej7_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ej2_MME));
             this.txtProfesor = new System.Windows.Forms.TextBox();
             this.listBoxTemario = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -36,48 +37,58 @@
             // 
             // txtProfesor
             // 
-            this.txtProfesor.Location = new System.Drawing.Point(12, 53);
+            this.txtProfesor.Location = new System.Drawing.Point(16, 65);
+            this.txtProfesor.Margin = new System.Windows.Forms.Padding(4);
             this.txtProfesor.Name = "txtProfesor";
-            this.txtProfesor.Size = new System.Drawing.Size(134, 20);
+            this.txtProfesor.Size = new System.Drawing.Size(177, 22);
             this.txtProfesor.TabIndex = 7;
             // 
             // listBoxTemario
             // 
             this.listBoxTemario.FormattingEnabled = true;
-            this.listBoxTemario.Location = new System.Drawing.Point(225, 53);
+            this.listBoxTemario.ItemHeight = 16;
+            this.listBoxTemario.Location = new System.Drawing.Point(300, 65);
+            this.listBoxTemario.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxTemario.Name = "listBoxTemario";
-            this.listBoxTemario.Size = new System.Drawing.Size(334, 186);
+            this.listBoxTemario.Size = new System.Drawing.Size(444, 228);
             this.listBoxTemario.TabIndex = 6;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(222, 11);
+            this.label2.Location = new System.Drawing.Point(296, 14);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 13);
+            this.label2.Size = new System.Drawing.Size(61, 16);
             this.label2.TabIndex = 5;
             this.label2.Text = "Temario:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 11);
+            this.label1.Location = new System.Drawing.Point(12, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 13);
+            this.label1.Size = new System.Drawing.Size(61, 16);
             this.label1.TabIndex = 4;
             this.label1.Text = "Profesor:";
             // 
             // ej2_MME
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 261);
+            this.ClientSize = new System.Drawing.Size(769, 321);
             this.Controls.Add(this.txtProfesor);
             this.Controls.Add(this.listBoxTemario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(787, 368);
+            this.MinimumSize = new System.Drawing.Size(787, 368);
             this.Name = "ej2_MME";
-            this.Text = "ej2_MME";
+            this.Text = "Montaje y mantenimiento de equipos";
             this.Load += new System.EventHandler(this.ej2_MME_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -13,7 +13,7 @@ namespace boletin10
     public partial class ej2_AO : Form
     {
         // Temario de aplicaciones ofimáticas
-        string[] temario = { "Procesadores de texto", "Hojas de cálculo", "Bases de datos", "Presentaciones", "Correo electrónico" };
+        string[] temario = { "Procesadores de texto", "Hojas de cálculo", "Bases de datos", "Presentaciones", "Programación C#" };
         string profesor = "Ramón Ríos y Martín García";
         public ej2_AO()
         {

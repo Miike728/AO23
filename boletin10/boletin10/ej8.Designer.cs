@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ej8));
             this.pictureDado1 = new System.Windows.Forms.PictureBox();
             this.pictureDado3 = new System.Windows.Forms.PictureBox();
             this.pictureDado4 = new System.Windows.Forms.PictureBox();
@@ -92,9 +93,13 @@
             this.Controls.Add(this.pictureDado3);
             this.Controls.Add(this.pictureDado2);
             this.Controls.Add(this.pictureDado1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(324, 410);
+            this.MinimumSize = new System.Drawing.Size(324, 410);
             this.Name = "ej8";
-            this.Text = "ej8";
+            this.Text = "Ejercicio 8";
             this.Load += new System.EventHandler(this.ej8_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureDado1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureDado3)).EndInit();

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ej3));
             this.label1 = new System.Windows.Forms.Label();
             this.txtMetros = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -55,7 +56,7 @@
             // txtMetros
             // 
             this.txtMetros.Location = new System.Drawing.Point(156, 22);
-            this.txtMetros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMetros.Margin = new System.Windows.Forms.Padding(4);
             this.txtMetros.Name = "txtMetros";
             this.txtMetros.Size = new System.Drawing.Size(132, 22);
             this.txtMetros.TabIndex = 1;
@@ -74,7 +75,7 @@
             // 
             this.radioMilimetros.AutoSize = true;
             this.radioMilimetros.Location = new System.Drawing.Point(32, 96);
-            this.radioMilimetros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioMilimetros.Margin = new System.Windows.Forms.Padding(4);
             this.radioMilimetros.Name = "radioMilimetros";
             this.radioMilimetros.Size = new System.Drawing.Size(89, 20);
             this.radioMilimetros.TabIndex = 3;
@@ -86,7 +87,7 @@
             // 
             this.radioCentimetros.AutoSize = true;
             this.radioCentimetros.Location = new System.Drawing.Point(32, 126);
-            this.radioCentimetros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioCentimetros.Margin = new System.Windows.Forms.Padding(4);
             this.radioCentimetros.Name = "radioCentimetros";
             this.radioCentimetros.Size = new System.Drawing.Size(99, 20);
             this.radioCentimetros.TabIndex = 4;
@@ -98,7 +99,7 @@
             // 
             this.radioDecimetros.AutoSize = true;
             this.radioDecimetros.Location = new System.Drawing.Point(32, 155);
-            this.radioDecimetros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioDecimetros.Margin = new System.Windows.Forms.Padding(4);
             this.radioDecimetros.Name = "radioDecimetros";
             this.radioDecimetros.Size = new System.Drawing.Size(97, 20);
             this.radioDecimetros.TabIndex = 5;
@@ -110,7 +111,7 @@
             // 
             this.radioKilometros.AutoSize = true;
             this.radioKilometros.Location = new System.Drawing.Point(32, 185);
-            this.radioKilometros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioKilometros.Margin = new System.Windows.Forms.Padding(4);
             this.radioKilometros.Name = "radioKilometros";
             this.radioKilometros.Size = new System.Drawing.Size(91, 20);
             this.radioKilometros.TabIndex = 6;
@@ -131,7 +132,7 @@
             // txtResultado
             // 
             this.txtResultado.Location = new System.Drawing.Point(227, 122);
-            this.txtResultado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtResultado.Margin = new System.Windows.Forms.Padding(4);
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.Size = new System.Drawing.Size(132, 22);
             this.txtResultado.TabIndex = 8;
@@ -139,7 +140,7 @@
             // btnConvertir
             // 
             this.btnConvertir.Location = new System.Drawing.Point(16, 234);
-            this.btnConvertir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConvertir.Margin = new System.Windows.Forms.Padding(4);
             this.btnConvertir.Name = "btnConvertir";
             this.btnConvertir.Size = new System.Drawing.Size(100, 28);
             this.btnConvertir.TabIndex = 9;
@@ -150,7 +151,7 @@
             // btnNuevo
             // 
             this.btnNuevo.Location = new System.Drawing.Point(147, 234);
-            this.btnNuevo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNuevo.Margin = new System.Windows.Forms.Padding(4);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(143, 28);
             this.btnNuevo.TabIndex = 10;
@@ -161,7 +162,7 @@
             // btnSalir
             // 
             this.btnSalir.Location = new System.Drawing.Point(313, 234);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(100, 28);
             this.btnSalir.TabIndex = 11;
@@ -186,9 +187,13 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtMetros);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(461, 334);
+            this.MinimumSize = new System.Drawing.Size(461, 334);
             this.Name = "ej3";
-            this.Text = "ej3";
+            this.Text = "Ejercicio 3";
             this.Load += new System.EventHandler(this.ej3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
