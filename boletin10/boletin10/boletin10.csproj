@@ -266,5 +266,41 @@
   <ItemGroup>
     <None Include="Resources\gato2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado5.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

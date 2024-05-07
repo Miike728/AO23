@@ -61,27 +61,31 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(29, 36);
+            this.label1.Location = new System.Drawing.Point(13, 19);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.Size = new System.Drawing.Size(70, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "LaserJet X";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(26, 112);
+            this.label2.Location = new System.Drawing.Point(13, 106);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 13);
+            this.label2.Size = new System.Drawing.Size(96, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Smart Desktop";
             // 
             // chkLaserJet
             // 
             this.chkLaserJet.AutoSize = true;
-            this.chkLaserJet.Location = new System.Drawing.Point(133, 36);
+            this.chkLaserJet.Location = new System.Drawing.Point(121, 18);
+            this.chkLaserJet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkLaserJet.Name = "chkLaserJet";
-            this.chkLaserJet.Size = new System.Drawing.Size(50, 17);
+            this.chkLaserJet.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.chkLaserJet.Size = new System.Drawing.Size(57, 20);
             this.chkLaserJet.TabIndex = 2;
             this.chkLaserJet.Text = "$100";
             this.chkLaserJet.UseVisualStyleBackColor = true;
@@ -90,27 +94,31 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 74);
+            this.label3.Location = new System.Drawing.Point(13, 62);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 13);
+            this.label3.Size = new System.Drawing.Size(90, 16);
             this.label3.TabIndex = 3;
             this.label3.Text = "Big Notebook";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(370, 40);
+            this.label4.Location = new System.Drawing.Point(333, 18);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 13);
+            this.label4.Size = new System.Drawing.Size(80, 16);
             this.label4.TabIndex = 4;
             this.label4.Text = "HD Digicam";
             // 
             // chkBigNotebook
             // 
             this.chkBigNotebook.AutoSize = true;
-            this.chkBigNotebook.Location = new System.Drawing.Point(145, 74);
+            this.chkBigNotebook.Location = new System.Drawing.Point(121, 61);
+            this.chkBigNotebook.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkBigNotebook.Name = "chkBigNotebook";
-            this.chkBigNotebook.Size = new System.Drawing.Size(50, 17);
+            this.chkBigNotebook.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.chkBigNotebook.Size = new System.Drawing.Size(57, 20);
             this.chkBigNotebook.TabIndex = 5;
             this.chkBigNotebook.Text = "$500";
             this.chkBigNotebook.UseVisualStyleBackColor = true;
@@ -119,9 +127,11 @@
             // chkDigicam
             // 
             this.chkDigicam.AutoSize = true;
-            this.chkDigicam.Location = new System.Drawing.Point(485, 31);
+            this.chkDigicam.Location = new System.Drawing.Point(439, 17);
+            this.chkDigicam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkDigicam.Name = "chkDigicam";
-            this.chkDigicam.Size = new System.Drawing.Size(44, 17);
+            this.chkDigicam.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.chkDigicam.Size = new System.Drawing.Size(50, 20);
             this.chkDigicam.TabIndex = 6;
             this.chkDigicam.Text = "$80";
             this.chkDigicam.UseVisualStyleBackColor = true;
@@ -130,9 +140,11 @@
             // chkMP4
             // 
             this.chkMP4.AutoSize = true;
-            this.chkMP4.Location = new System.Drawing.Point(485, 69);
+            this.chkMP4.Location = new System.Drawing.Point(432, 60);
+            this.chkMP4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkMP4.Name = "chkMP4";
-            this.chkMP4.Size = new System.Drawing.Size(50, 17);
+            this.chkMP4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.chkMP4.Size = new System.Drawing.Size(57, 20);
             this.chkMP4.TabIndex = 7;
             this.chkMP4.Text = "$300";
             this.chkMP4.UseVisualStyleBackColor = true;
@@ -141,9 +153,11 @@
             // chkModem
             // 
             this.chkModem.AutoSize = true;
-            this.chkModem.Location = new System.Drawing.Point(485, 112);
+            this.chkModem.Location = new System.Drawing.Point(432, 104);
+            this.chkModem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkModem.Name = "chkModem";
-            this.chkModem.Size = new System.Drawing.Size(50, 17);
+            this.chkModem.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.chkModem.Size = new System.Drawing.Size(57, 20);
             this.chkModem.TabIndex = 8;
             this.chkModem.Text = "$150";
             this.chkModem.UseVisualStyleBackColor = true;
@@ -152,27 +166,31 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(370, 78);
+            this.label5.Location = new System.Drawing.Point(333, 62);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 13);
+            this.label5.Size = new System.Drawing.Size(81, 16);
             this.label5.TabIndex = 9;
             this.label5.Text = "HiTech MP4";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(380, 116);
+            this.label6.Location = new System.Drawing.Point(333, 106);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(73, 13);
+            this.label6.Size = new System.Drawing.Size(91, 16);
             this.label6.TabIndex = 10;
             this.label6.Text = "ADSL Modem";
             // 
             // chkSmartDesktop
             // 
             this.chkSmartDesktop.AutoSize = true;
-            this.chkSmartDesktop.Location = new System.Drawing.Point(133, 112);
+            this.chkSmartDesktop.Location = new System.Drawing.Point(121, 106);
+            this.chkSmartDesktop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkSmartDesktop.Name = "chkSmartDesktop";
-            this.chkSmartDesktop.Size = new System.Drawing.Size(50, 17);
+            this.chkSmartDesktop.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.chkSmartDesktop.Size = new System.Drawing.Size(57, 20);
             this.chkSmartDesktop.TabIndex = 11;
             this.chkSmartDesktop.Text = "$200";
             this.chkSmartDesktop.UseVisualStyleBackColor = true;
@@ -181,26 +199,30 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(50, 188);
+            this.label7.Location = new System.Drawing.Point(13, 168);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 13);
+            this.label7.Size = new System.Drawing.Size(48, 16);
             this.label7.TabIndex = 12;
-            this.label7.Text = "TOTAL =";
+            this.label7.Text = "= Total";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // txtTotal
             // 
-            this.txtTotal.Location = new System.Drawing.Point(123, 185);
+            this.txtTotal.Location = new System.Drawing.Point(69, 168);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTotal.Multiline = true;
             this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(100, 42);
+            this.txtTotal.Size = new System.Drawing.Size(132, 51);
             this.txtTotal.TabIndex = 13;
             this.txtTotal.TextChanged += new System.EventHandler(this.txtTotal_TextChanged);
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(359, 178);
+            this.btnCalculate.Location = new System.Drawing.Point(351, 184);
+            this.btnCalculate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(75, 23);
+            this.btnCalculate.Size = new System.Drawing.Size(100, 35);
             this.btnCalculate.TabIndex = 14;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
@@ -208,9 +230,10 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(454, 178);
+            this.btnCancel.Location = new System.Drawing.Point(478, 184);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(100, 35);
             this.btnCancel.TabIndex = 15;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -218,52 +241,58 @@
             // 
             // numericLaserJet
             // 
-            this.numericLaserJet.Location = new System.Drawing.Point(189, 33);
+            this.numericLaserJet.Location = new System.Drawing.Point(202, 16);
+            this.numericLaserJet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numericLaserJet.Name = "numericLaserJet";
-            this.numericLaserJet.Size = new System.Drawing.Size(76, 20);
+            this.numericLaserJet.Size = new System.Drawing.Size(76, 22);
             this.numericLaserJet.TabIndex = 16;
             this.numericLaserJet.ValueChanged += new System.EventHandler(this.numericLaserJet_ValueChanged);
             // 
             // numericBigNotebook
             // 
-            this.numericBigNotebook.Location = new System.Drawing.Point(201, 73);
+            this.numericBigNotebook.Location = new System.Drawing.Point(202, 59);
+            this.numericBigNotebook.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numericBigNotebook.Name = "numericBigNotebook";
-            this.numericBigNotebook.Size = new System.Drawing.Size(76, 20);
+            this.numericBigNotebook.Size = new System.Drawing.Size(76, 22);
             this.numericBigNotebook.TabIndex = 17;
             // 
             // numericSmartDesktop
             // 
-            this.numericSmartDesktop.Location = new System.Drawing.Point(201, 111);
+            this.numericSmartDesktop.Location = new System.Drawing.Point(202, 104);
+            this.numericSmartDesktop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numericSmartDesktop.Name = "numericSmartDesktop";
-            this.numericSmartDesktop.Size = new System.Drawing.Size(76, 20);
+            this.numericSmartDesktop.Size = new System.Drawing.Size(76, 22);
             this.numericSmartDesktop.TabIndex = 18;
             // 
             // numericDigicam
             // 
-            this.numericDigicam.Location = new System.Drawing.Point(554, 28);
+            this.numericDigicam.Location = new System.Drawing.Point(513, 15);
+            this.numericDigicam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numericDigicam.Name = "numericDigicam";
-            this.numericDigicam.Size = new System.Drawing.Size(76, 20);
+            this.numericDigicam.Size = new System.Drawing.Size(76, 22);
             this.numericDigicam.TabIndex = 19;
             // 
             // numericMP4
             // 
-            this.numericMP4.Location = new System.Drawing.Point(554, 66);
+            this.numericMP4.Location = new System.Drawing.Point(513, 59);
+            this.numericMP4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numericMP4.Name = "numericMP4";
-            this.numericMP4.Size = new System.Drawing.Size(76, 20);
+            this.numericMP4.Size = new System.Drawing.Size(76, 22);
             this.numericMP4.TabIndex = 20;
             // 
             // numericModem
             // 
-            this.numericModem.Location = new System.Drawing.Point(554, 112);
+            this.numericModem.Location = new System.Drawing.Point(513, 103);
+            this.numericModem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numericModem.Name = "numericModem";
-            this.numericModem.Size = new System.Drawing.Size(76, 20);
+            this.numericModem.Size = new System.Drawing.Size(76, 22);
             this.numericModem.TabIndex = 21;
             // 
             // ej1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(695, 283);
+            this.ClientSize = new System.Drawing.Size(609, 257);
             this.Controls.Add(this.numericModem);
             this.Controls.Add(this.numericMP4);
             this.Controls.Add(this.numericDigicam);
@@ -286,7 +315,9 @@
             this.Controls.Add(this.chkLaserJet);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ej1";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Text = "ej1";
             this.Load += new System.EventHandler(this.ej1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericLaserJet)).EndInit();
