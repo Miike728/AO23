@@ -40,6 +40,7 @@
             this.txtProfesor.Location = new System.Drawing.Point(13, 63);
             this.txtProfesor.Margin = new System.Windows.Forms.Padding(4);
             this.txtProfesor.Name = "txtProfesor";
+            this.txtProfesor.ReadOnly = true;
             this.txtProfesor.Size = new System.Drawing.Size(177, 22);
             this.txtProfesor.TabIndex = 7;
             // 

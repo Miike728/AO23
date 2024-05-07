@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace boletin10
 {
+    
+    
+
+
     public partial class ej10 : Form
     {
         public ej10()
         {
             InitializeComponent();
+        }
+
+        private void ej10_Load(object sender, EventArgs e)
+        {
+            
+            
         }
     }
 }

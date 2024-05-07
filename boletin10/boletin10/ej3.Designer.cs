@@ -134,6 +134,7 @@
             this.txtResultado.Location = new System.Drawing.Point(227, 122);
             this.txtResultado.Margin = new System.Windows.Forms.Padding(4);
             this.txtResultado.Name = "txtResultado";
+            this.txtResultado.ReadOnly = true;
             this.txtResultado.Size = new System.Drawing.Size(132, 22);
             this.txtResultado.TabIndex = 8;
             // 

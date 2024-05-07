@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ej10));
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // ej10
@@ -42,10 +44,13 @@
             this.MinimumSize = new System.Drawing.Size(818, 497);
             this.Name = "ej10";
             this.Text = "Ejercicio 10";
+            this.Load += new System.EventHandler(this.ej10_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Timer timer1;
     }
 }

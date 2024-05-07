@@ -179,6 +179,7 @@
             // 
             this.txtTotalMañana.Location = new System.Drawing.Point(114, 304);
             this.txtTotalMañana.Name = "txtTotalMañana";
+            this.txtTotalMañana.ReadOnly = true;
             this.txtTotalMañana.Size = new System.Drawing.Size(44, 22);
             this.txtTotalMañana.TabIndex = 14;
             // 
@@ -186,6 +187,7 @@
             // 
             this.txtTotalNoche.Location = new System.Drawing.Point(345, 304);
             this.txtTotalNoche.Name = "txtTotalNoche";
+            this.txtTotalNoche.ReadOnly = true;
             this.txtTotalNoche.Size = new System.Drawing.Size(44, 22);
             this.txtTotalNoche.TabIndex = 15;
             // 

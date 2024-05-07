@@ -214,6 +214,7 @@
             this.txtTotal.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotal.Multiline = true;
             this.txtTotal.Name = "txtTotal";
+            this.txtTotal.ReadOnly = true;
             this.txtTotal.Size = new System.Drawing.Size(132, 51);
             this.txtTotal.TabIndex = 13;
             this.txtTotal.TextChanged += new System.EventHandler(this.txtTotal_TextChanged);
