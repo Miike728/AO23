@@ -329,5 +329,11 @@
   <ItemGroup>
     <None Include="Resources\dado5.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

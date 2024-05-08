@@ -51,6 +51,7 @@
             this.rbtnRefresco = new System.Windows.Forms.RadioButton();
             this.rbtnAgua = new System.Windows.Forms.RadioButton();
             this.groupBoxPostreCafe = new System.Windows.Forms.GroupBox();
+            this.lblPrecioPostreCafe = new System.Windows.Forms.Label();
             this.pictureBoxPostreCafe = new System.Windows.Forms.PictureBox();
             this.comboBoxCafe = new System.Windows.Forms.ComboBox();
             this.comboBoxPostre = new System.Windows.Forms.ComboBox();
@@ -86,9 +87,9 @@
             this.lblPrecioPrimerPlato.AutoSize = true;
             this.lblPrecioPrimerPlato.Location = new System.Drawing.Point(170, 308);
             this.lblPrecioPrimerPlato.Name = "lblPrecioPrimerPlato";
-            this.lblPrecioPrimerPlato.Size = new System.Drawing.Size(44, 16);
+            this.lblPrecioPrimerPlato.Size = new System.Drawing.Size(34, 16);
             this.lblPrecioPrimerPlato.TabIndex = 10;
-            this.lblPrecioPrimerPlato.Text = "label2";
+            this.lblPrecioPrimerPlato.Text = "0,0 €";
             // 
             // label1
             // 
@@ -118,6 +119,7 @@
             this.rbtnEmpanada.TabStop = true;
             this.rbtnEmpanada.Text = "Empanada";
             this.rbtnEmpanada.UseVisualStyleBackColor = true;
+            this.rbtnEmpanada.CheckedChanged += new System.EventHandler(this.rbtnEmpanada_CheckedChanged);
             // 
             // rbtnEnsalada
             // 
@@ -129,6 +131,7 @@
             this.rbtnEnsalada.TabStop = true;
             this.rbtnEnsalada.Text = "Ensalada";
             this.rbtnEnsalada.UseVisualStyleBackColor = true;
+            this.rbtnEnsalada.CheckedChanged += new System.EventHandler(this.rbtnEnsalada_CheckedChanged);
             // 
             // rbtnCrema
             // 
@@ -170,9 +173,9 @@
             this.lblPrecioSegundoPlato.AutoSize = true;
             this.lblPrecioSegundoPlato.Location = new System.Drawing.Point(23, 310);
             this.lblPrecioSegundoPlato.Name = "lblPrecioSegundoPlato";
-            this.lblPrecioSegundoPlato.Size = new System.Drawing.Size(44, 16);
+            this.lblPrecioSegundoPlato.Size = new System.Drawing.Size(34, 16);
             this.lblPrecioSegundoPlato.TabIndex = 5;
-            this.lblPrecioSegundoPlato.Text = "label3";
+            this.lblPrecioSegundoPlato.Text = "0,0 €";
             // 
             // label2
             // 
@@ -190,6 +193,7 @@
             this.comboBoxSegundoPlato.Name = "comboBoxSegundoPlato";
             this.comboBoxSegundoPlato.Size = new System.Drawing.Size(146, 24);
             this.comboBoxSegundoPlato.TabIndex = 3;
+            this.comboBoxSegundoPlato.SelectedIndexChanged += new System.EventHandler(this.comboBoxSegundoPlato_SelectedIndexChanged);
             // 
             // rbtnPasta
             // 
@@ -201,6 +205,7 @@
             this.rbtnPasta.TabStop = true;
             this.rbtnPasta.Text = "Pasta";
             this.rbtnPasta.UseVisualStyleBackColor = true;
+            this.rbtnPasta.CheckedChanged += new System.EventHandler(this.rbtnPasta_CheckedChanged);
             // 
             // rbtnCarne
             // 
@@ -212,6 +217,7 @@
             this.rbtnCarne.TabStop = true;
             this.rbtnCarne.Text = "Carne";
             this.rbtnCarne.UseVisualStyleBackColor = true;
+            this.rbtnCarne.CheckedChanged += new System.EventHandler(this.rbtnCarne_CheckedChanged);
             // 
             // rbtnPescado
             // 
@@ -223,6 +229,7 @@
             this.rbtnPescado.TabStop = true;
             this.rbtnPescado.Text = "Pescado";
             this.rbtnPescado.UseVisualStyleBackColor = true;
+            this.rbtnPescado.CheckedChanged += new System.EventHandler(this.rbtnPescado_CheckedChanged);
             // 
             // groupBoxBebida
             // 
@@ -243,9 +250,9 @@
             this.lblPrecioBebida.AutoSize = true;
             this.lblPrecioBebida.Location = new System.Drawing.Point(186, 53);
             this.lblPrecioBebida.Name = "lblPrecioBebida";
-            this.lblPrecioBebida.Size = new System.Drawing.Size(44, 16);
+            this.lblPrecioBebida.Size = new System.Drawing.Size(34, 16);
             this.lblPrecioBebida.TabIndex = 4;
-            this.lblPrecioBebida.Text = "label4";
+            this.lblPrecioBebida.Text = "0,0 €";
             // 
             // label3
             // 
@@ -266,6 +273,7 @@
             this.rbtnVino.TabStop = true;
             this.rbtnVino.Text = "Vino";
             this.rbtnVino.UseVisualStyleBackColor = true;
+            this.rbtnVino.CheckedChanged += new System.EventHandler(this.rbtnVino_CheckedChanged);
             // 
             // rbtnRefresco
             // 
@@ -277,6 +285,7 @@
             this.rbtnRefresco.TabStop = true;
             this.rbtnRefresco.Text = "Refresco";
             this.rbtnRefresco.UseVisualStyleBackColor = true;
+            this.rbtnRefresco.CheckedChanged += new System.EventHandler(this.rbtnRefresco_CheckedChanged);
             // 
             // rbtnAgua
             // 
@@ -288,9 +297,11 @@
             this.rbtnAgua.TabStop = true;
             this.rbtnAgua.Text = "Agua";
             this.rbtnAgua.UseVisualStyleBackColor = true;
+            this.rbtnAgua.CheckedChanged += new System.EventHandler(this.rbtnAgua_CheckedChanged);
             // 
             // groupBoxPostreCafe
             // 
+            this.groupBoxPostreCafe.Controls.Add(this.lblPrecioPostreCafe);
             this.groupBoxPostreCafe.Controls.Add(this.pictureBoxPostreCafe);
             this.groupBoxPostreCafe.Controls.Add(this.comboBoxCafe);
             this.groupBoxPostreCafe.Controls.Add(this.comboBoxPostre);
@@ -302,6 +313,15 @@
             this.groupBoxPostreCafe.TabIndex = 3;
             this.groupBoxPostreCafe.TabStop = false;
             this.groupBoxPostreCafe.Text = "Postre / Café";
+            // 
+            // lblPrecioPostreCafe
+            // 
+            this.lblPrecioPostreCafe.AutoSize = true;
+            this.lblPrecioPostreCafe.Location = new System.Drawing.Point(215, 123);
+            this.lblPrecioPostreCafe.Name = "lblPrecioPostreCafe";
+            this.lblPrecioPostreCafe.Size = new System.Drawing.Size(34, 16);
+            this.lblPrecioPostreCafe.TabIndex = 6;
+            this.lblPrecioPostreCafe.Text = "0,0 €";
             // 
             // pictureBoxPostreCafe
             // 
@@ -318,6 +338,7 @@
             this.comboBoxCafe.Name = "comboBoxCafe";
             this.comboBoxCafe.Size = new System.Drawing.Size(177, 24);
             this.comboBoxCafe.TabIndex = 3;
+            this.comboBoxCafe.SelectedIndexChanged += new System.EventHandler(this.comboBoxCafe_SelectedIndexChanged);
             // 
             // comboBoxPostre
             // 
@@ -326,6 +347,7 @@
             this.comboBoxPostre.Name = "comboBoxPostre";
             this.comboBoxPostre.Size = new System.Drawing.Size(181, 24);
             this.comboBoxPostre.TabIndex = 2;
+            this.comboBoxPostre.SelectedIndexChanged += new System.EventHandler(this.comboBoxPostre_SelectedIndexChanged);
             // 
             // rbtnCafe
             // 
@@ -337,6 +359,7 @@
             this.rbtnCafe.TabStop = true;
             this.rbtnCafe.Text = "Café";
             this.rbtnCafe.UseVisualStyleBackColor = true;
+            this.rbtnCafe.CheckedChanged += new System.EventHandler(this.rbtnCafe_CheckedChanged);
             // 
             // rbtnPostre
             // 
@@ -348,6 +371,7 @@
             this.rbtnPostre.TabStop = true;
             this.rbtnPostre.Text = "Postre";
             this.rbtnPostre.UseVisualStyleBackColor = true;
+            this.rbtnPostre.CheckedChanged += new System.EventHandler(this.rbtnPostre_CheckedChanged);
             // 
             // btnCalcularCuenta
             // 
@@ -357,6 +381,7 @@
             this.btnCalcularCuenta.TabIndex = 4;
             this.btnCalcularCuenta.Text = "Calcular Cuenta";
             this.btnCalcularCuenta.UseVisualStyleBackColor = true;
+            this.btnCalcularCuenta.Click += new System.EventHandler(this.btnCalcularCuenta_Click);
             // 
             // ej9
             // 
@@ -375,6 +400,7 @@
             this.MinimumSize = new System.Drawing.Size(842, 502);
             this.Name = "ej9";
             this.Text = "Ejercicio 9";
+            this.Load += new System.EventHandler(this.ej9_Load);
             this.groupBoxPrimerPlato.ResumeLayout(false);
             this.groupBoxPrimerPlato.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPrimerPlato)).EndInit();
@@ -419,5 +445,6 @@
         private System.Windows.Forms.RadioButton rbtnCafe;
         private System.Windows.Forms.RadioButton rbtnPostre;
         private System.Windows.Forms.Button btnCalcularCuenta;
+        private System.Windows.Forms.Label lblPrecioPostreCafe;
     }
 }

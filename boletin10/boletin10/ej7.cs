@@ -23,7 +23,7 @@ namespace boletin10
         private void ej7_Load(object sender, EventArgs e)
         {
             timer1.Start(); // Iniciar timer
-            pictureBox.Image = Properties.Resources.dado1; // Poner imagen dado1 al pictureBox
+            pictureBox.Image = Properties.Resources.donut; // Poner imagen dado1 al pictureBox
             pictureBox.Left = posicionInicial; // Poner pictureBox en posición inicial
         }
 

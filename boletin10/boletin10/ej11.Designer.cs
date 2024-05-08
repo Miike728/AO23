@@ -40,6 +40,7 @@
             this.MaximizeBox = false;
             this.Name = "ej11";
             this.Text = "Ejercicio 11";
+            this.Load += new System.EventHandler(this.ej11_Load);
             this.ResumeLayout(false);
 
         }
