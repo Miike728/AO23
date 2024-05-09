@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace boletin10
 {
+    // Tres en raya un jugador
     
     
 
