@@ -14,29 +14,33 @@ namespace boletin10
     {
         // Arrays de platos y precios
         string[] crema = { "Champiñones", "Puerros", "Zanahoria" };
-        string[] cremaPrecio = { "4", "5", "4,75" };
+        double[] cremaPrecio = { 4, 5, 4,75 };
         string[] ensalada = {"Primavera", "Romana", "César" };
-        string[] ensaladaPrecio = { "3", "4", "4,5" };
+        double[] ensaladaPrecio = { 3, 4, 4,5 };
         string[] empanada = { "Pulpo", "Zamburiñas", "Carne", "Choco" };
-        string[] empanadaPrecio = { "6", "7", "3", "3,5" };
+        double[] empanadaPrecio = { 6, 7, 3, 3,5 };
         string[] pescado = { "Merluza a la plancha", "Lenguado", "Besugo", "Bacalao al horno" };
-        string[] pescadoPrecio = { "4,5", "4,5", "6", "6" };
+        double[] pescadoPrecio = { 4,5, 4,5, 6, 6 };
         string[] carne = { "Milanesa", "Chuleta", "San Jacobos", "Solomillo" };
-        string[] carnePrecio = { "4,5", "7,5", "4,5", "8,5" };
+        double[] carnePrecio = { 4,5, 7,5, 4,5, 8,5 };
         string[] pasta = { "Spaguetti Bolognesa", "Macarrones carbonara", "Trofie al pesto" };
-        string[] pastaPrecio = { "9", "9,5", "10,5" };
+        double[] pastaPrecio = { 9, 9,5, 10,5 };
         string[] postre = { "Fruta/Yogurt", "Brownie Chocolate con helado", "Tarta de Santiago", "Tarta semifría de chocolate y queso" };
-        string[] postrePrecio = { "1,5", "3,5", "3,5", "3,5" };
+        double[] postrePrecio = { 1,5, 3,5, 3,5, 3,5 };
         string[] cafe = { "Con leche", "Cortado", "Solo", "Descafeinado" };
-        string[] cafePrecio = { "1", "1", "1", "1" };
+        double[] cafePrecio = { 1, 1, 1, 1 };
         string[] bebida = { "Agua", "Refresco", "Vino" };
-        string[] bebidaPrecio = { "1", "1,5", "1,5" }; // No hay precios en el boletin
+        double[] bebidaPrecio = { 1, 1,5, 1,5 }; // No hay precios en el boletin
 
-        int primerPlato, segundoPlato, bebidaT, postreCafe; // Totales
+        int primerPlato = 0, segundoPlato = 0, bebidaT = 0, postreCafe = 0; // Totales
+        double precioCrema = 0, precioEnsalada = 0, precioEmpanada = 0, precioPescado = 0, precioCarne = 0, precioPasta = 0, precioPostre = 0, precioCafe = 0, precioBebida = 0; // Precios
+        double total; // Total
 
         private void ej9_Load(object sender, EventArgs e)
         {
-
+            // Cargar imagenes desde resources
+            pictureBoxPostreCafe.Image = Properties.Resources.donut;
+            pictureBoxPrimerPlato.Image = Properties.Resources.ensalada;
         }
 
         private void rbtnEnsalada_CheckedChanged(object sender, EventArgs e)
@@ -75,22 +79,41 @@ namespace boletin10
             comboBoxPrimerPlato.Items.AddRange(crema);
         }
 
+        private void btnCalcularCambio_Click(object sender, EventArgs e)
+        {
+            if (txtEntregadoCliente.Text == "") // Si no se ha introducido el dinero entregado
+            {
+                MessageBox.Show("Introduce el dinero entregado por el cliente"); // Mostrar error
+            }
+            else
+            {
+                double cambio = Convert.ToDouble(txtEntregadoCliente.Text) - Convert.ToDouble(total); // Calcular el cambio
+                MessageBox.Show("Cambio: " + cambio + " €"); // Mostrar el cambio
+            }
+        }
+
         private void rbtnAgua_CheckedChanged(object sender, EventArgs e)
         {
-            bebidaT = 0; // Inde del agua
+            bebidaT = 0; // Index del agua
             lblPrecioBebida.Text = bebidaPrecio[bebidaT] + " €";
+
+            precioBebida = bebidaPrecio[bebidaT];
         }
 
         private void rbtnRefresco_CheckedChanged(object sender, EventArgs e)
         {
-            bebidaT = 1; // Inde del refresco
+            bebidaT = 1; // Index del refresco
             lblPrecioBebida.Text = bebidaPrecio[bebidaT] + " €";
+
+            precioBebida = bebidaPrecio[bebidaT];
         }
 
         private void rbtnVino_CheckedChanged(object sender, EventArgs e)
         {
-            bebidaT = 2; // Inde del vino
+            bebidaT = 2; // Index del vino
             lblPrecioBebida.Text = bebidaPrecio[bebidaT] + " €";
+
+            precioBebida = bebidaPrecio[bebidaT];
         }
 
         private void rbtnPostre_CheckedChanged(object sender, EventArgs e)
@@ -107,20 +130,77 @@ namespace boletin10
 
         private void comboBoxPrimerPlato_SelectedIndexChanged(object sender, EventArgs e)
         {
-            primerPlato = comboBoxPrimerPlato.SelectedIndex; // Guardar el índice seleccionado
-            lblPrecioPrimerPlato.Text = cremaPrecio[primerPlato] + " €"; // Mostrar el precio del índice seleccionado del array de precios
+            // Si está seleccionado el radiobutton de crema
+            if (rbtnCrema.Checked)
+            {
+                primerPlato = comboBoxPrimerPlato.SelectedIndex; // Guardar el índice seleccionado
+                lblPrecioPrimerPlato.Text = cremaPrecio[primerPlato] + " €"; // Mostrar el precio del índice seleccionado del array de precios
+                precioCrema = cremaPrecio[primerPlato]; // Guardar el precio en la variable
+
+            }
+            // Si está seleccionado el radiobutton de ensalada
+            if (rbtnEnsalada.Checked)
+            {
+                primerPlato = comboBoxPrimerPlato.SelectedIndex;
+                lblPrecioPrimerPlato.Text = ensaladaPrecio[primerPlato] + " €";
+
+                precioEnsalada = ensaladaPrecio[primerPlato];
+            }
+            // Si está seleccionado el radiobutton de empanada
+            if (rbtnEmpanada.Checked)
+            {
+                primerPlato = comboBoxPrimerPlato.SelectedIndex;
+                lblPrecioPrimerPlato.Text = empanadaPrecio[primerPlato] + " €";
+
+                precioEmpanada = empanadaPrecio[primerPlato];
+            }
         }
 
         private void comboBoxSegundoPlato_SelectedIndexChanged(object sender, EventArgs e)
         {
-            segundoPlato = comboBoxSegundoPlato.SelectedIndex;
-            lblPrecioSegundoPlato.Text = pastaPrecio[segundoPlato];
+            // Si está seleccionado el radiobutton de pescado
+            if (rbtnPescado.Checked)
+            {
+                segundoPlato = comboBoxSegundoPlato.SelectedIndex;
+                lblPrecioSegundoPlato.Text = pescadoPrecio[segundoPlato] + " €";
+
+                precioPescado = pescadoPrecio[segundoPlato];
+            }
+            // Si está seleccionado el radiobutton de carne
+            if (rbtnCarne.Checked)
+            {
+                segundoPlato = comboBoxSegundoPlato.SelectedIndex;
+                lblPrecioSegundoPlato.Text = carnePrecio[segundoPlato] + " €";
+
+                precioCarne = carnePrecio[segundoPlato];
+            }
+            // Si está seleccionado el radiobutton de pasta
+            if (rbtnPasta.Checked)
+            {
+                segundoPlato = comboBoxSegundoPlato.SelectedIndex;
+                lblPrecioSegundoPlato.Text = pastaPrecio[segundoPlato] + " €";
+
+                precioPasta = pastaPrecio[segundoPlato];
+            }
+
         }
 
         private void btnCalcularCuenta_Click(object sender, EventArgs e)
         {
-            // Sumar el subtotal de los precios
-            double subtotal = Convert.ToDouble(cremaPrecio[primerPlato]) + Convert.ToDouble(pastaPrecio[segundoPlato]) + Convert.ToDouble(bebidaPrecio[bebidaT]) + Convert.ToDouble(postrePrecio[postreCafe]);
+            // Sumar el subtotal de las variables de los platos
+            double subtotal = precioCrema + precioEnsalada + precioEmpanada + precioPescado + precioCarne + precioPasta + precioPostre + precioCafe + precioBebida;
+            // APlicar el iva del 11%
+            double iva = subtotal * 0.11;
+            // Sumar el total
+            total = subtotal + iva;
+
+            // Mostrar message box con subtotal, iva y total
+            MessageBox.Show("Subtotal: " + subtotal + " €\nIVA: " + iva + " €\nTotal: " + total + " €");
+            // Mostrar parte del cambio
+            lblEntregadoCliente.Visible = true;
+            txtEntregadoCliente.Visible = true;
+            btnCalcularCambio.Visible = true;
+            txtEntregadoCliente.Focus(); // Poner el foco en el textbox
         }
 
         private void comboBoxCafe_SelectedIndexChanged(object sender, EventArgs e)
@@ -129,6 +209,8 @@ namespace boletin10
             {
                 postreCafe = comboBoxCafe.SelectedIndex;
                 lblPrecioPostreCafe.Text = cafePrecio[postreCafe] + " €";
+
+                precioCafe = cafePrecio[postreCafe];
             }
         }
 
@@ -138,6 +220,8 @@ namespace boletin10
             {
                 postreCafe = comboBoxPostre.SelectedIndex;
                 lblPrecioPostreCafe.Text = postrePrecio[postreCafe] + " €";
+
+                precioPostre = postrePrecio[postreCafe];
             }
         }
 

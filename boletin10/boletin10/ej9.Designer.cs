@@ -58,6 +58,9 @@
             this.rbtnCafe = new System.Windows.Forms.RadioButton();
             this.rbtnPostre = new System.Windows.Forms.RadioButton();
             this.btnCalcularCuenta = new System.Windows.Forms.Button();
+            this.lblEntregadoCliente = new System.Windows.Forms.Label();
+            this.txtEntregadoCliente = new System.Windows.Forms.TextBox();
+            this.btnCalcularCambio = new System.Windows.Forms.Button();
             this.groupBoxPrimerPlato.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPrimerPlato)).BeginInit();
             this.groupBoxSegundoPlato.SuspendLayout();
@@ -147,9 +150,11 @@
             // 
             // pictureBoxPrimerPlato
             // 
+            this.pictureBoxPrimerPlato.InitialImage = global::boletin10.Properties.Resources.ensalada;
             this.pictureBoxPrimerPlato.Location = new System.Drawing.Point(20, 78);
             this.pictureBoxPrimerPlato.Name = "pictureBoxPrimerPlato";
             this.pictureBoxPrimerPlato.Size = new System.Drawing.Size(100, 97);
+            this.pictureBoxPrimerPlato.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxPrimerPlato.TabIndex = 4;
             this.pictureBoxPrimerPlato.TabStop = false;
             // 
@@ -325,9 +330,11 @@
             // 
             // pictureBoxPostreCafe
             // 
+            this.pictureBoxPostreCafe.InitialImage = global::boletin10.Properties.Resources.donut;
             this.pictureBoxPostreCafe.Location = new System.Drawing.Point(136, 102);
             this.pictureBoxPostreCafe.Name = "pictureBoxPostreCafe";
             this.pictureBoxPostreCafe.Size = new System.Drawing.Size(59, 50);
+            this.pictureBoxPostreCafe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxPostreCafe.TabIndex = 4;
             this.pictureBoxPostreCafe.TabStop = false;
             // 
@@ -383,11 +390,43 @@
             this.btnCalcularCuenta.UseVisualStyleBackColor = true;
             this.btnCalcularCuenta.Click += new System.EventHandler(this.btnCalcularCuenta_Click);
             // 
+            // lblEntregadoCliente
+            // 
+            this.lblEntregadoCliente.AutoSize = true;
+            this.lblEntregadoCliente.Location = new System.Drawing.Point(142, 396);
+            this.lblEntregadoCliente.Name = "lblEntregadoCliente";
+            this.lblEntregadoCliente.Size = new System.Drawing.Size(152, 16);
+            this.lblEntregadoCliente.TabIndex = 5;
+            this.lblEntregadoCliente.Text = "Entregado por el cliente:";
+            this.lblEntregadoCliente.Visible = false;
+            // 
+            // txtEntregadoCliente
+            // 
+            this.txtEntregadoCliente.Location = new System.Drawing.Point(168, 419);
+            this.txtEntregadoCliente.Name = "txtEntregadoCliente";
+            this.txtEntregadoCliente.Size = new System.Drawing.Size(100, 22);
+            this.txtEntregadoCliente.TabIndex = 7;
+            this.txtEntregadoCliente.Visible = false;
+            // 
+            // btnCalcularCambio
+            // 
+            this.btnCalcularCambio.Location = new System.Drawing.Point(315, 396);
+            this.btnCalcularCambio.Name = "btnCalcularCambio";
+            this.btnCalcularCambio.Size = new System.Drawing.Size(80, 45);
+            this.btnCalcularCambio.TabIndex = 9;
+            this.btnCalcularCambio.Text = "Calcular cambio";
+            this.btnCalcularCambio.UseVisualStyleBackColor = true;
+            this.btnCalcularCambio.Visible = false;
+            this.btnCalcularCambio.Click += new System.EventHandler(this.btnCalcularCambio_Click);
+            // 
             // ej9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(824, 455);
+            this.Controls.Add(this.btnCalcularCambio);
+            this.Controls.Add(this.txtEntregadoCliente);
+            this.Controls.Add(this.lblEntregadoCliente);
             this.Controls.Add(this.btnCalcularCuenta);
             this.Controls.Add(this.groupBoxPostreCafe);
             this.Controls.Add(this.groupBoxBebida);
@@ -412,6 +451,7 @@
             this.groupBoxPostreCafe.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPostreCafe)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -446,5 +486,8 @@
         private System.Windows.Forms.RadioButton rbtnPostre;
         private System.Windows.Forms.Button btnCalcularCuenta;
         private System.Windows.Forms.Label lblPrecioPostreCafe;
+        private System.Windows.Forms.Label lblEntregadoCliente;
+        private System.Windows.Forms.TextBox txtEntregadoCliente;
+        private System.Windows.Forms.Button btnCalcularCambio;
     }
 }
