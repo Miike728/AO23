@@ -1,0 +1,11 @@
+C:\Users\Alumno\Documents\GitHub\AO23\ProyectoFinal\bin\Debug\ProyectoFinal.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23\ProyectoFinal\bin\Debug\ProyectoFinal.exe
+C:\Users\Alumno\Documents\GitHub\AO23\ProyectoFinal\bin\Debug\ProyectoFinal.pdb
+C:\Users\Alumno\Documents\GitHub\AO23\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23\ProyectoFinal\obj\Debug\ProyectoFinal.EditorDBs.resources
+C:\Users\Alumno\Documents\GitHub\AO23\ProyectoFinal\obj\Debug\ProyectoFinal.Menu.resources
+C:\Users\Alumno\Documents\GitHub\AO23\ProyectoFinal\obj\Debug\ProyectoFinal.Properties.Resources.resources
+C:\Users\Alumno\Documents\GitHub\AO23\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.GenerateResource.cache
+C:\Users\Alumno\Documents\GitHub\AO23\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23\ProyectoFinal\obj\Debug\ProyectoFinal.exe
+C:\Users\Alumno\Documents\GitHub\AO23\ProyectoFinal\obj\Debug\ProyectoFinal.pdb

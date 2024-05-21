@@ -62,7 +62,7 @@ namespace boletin10
             {
                 file.WriteLine(item);
             }
-            file.Close(); // Cerrar el archivo para liberar recursos
+            file.Close(); // Cerrar el archivo
         }
     }
 }

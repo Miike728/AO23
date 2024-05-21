@@ -14,12 +14,10 @@ namespace boletin10
     public partial class ej2 : Form
     {
         //Varibles:
-        // 1GMI
 
         // Guardar en un array las asignaturas de 1GMI
         string[] asignaturas1GMI = { "Sistemas operativos monopuesto", "Aplicaciones ofimáticas", "Redes locales", "Montaje y mantenimiento de equipos", "Formación y orientación laboral" };
 
-        // 2GMI
 
         // Guardar en un array las asignaturas de 2GMI
         string[] asignaturas2GMI = { "Sistemas operativos en red", "Servicios en red", "Seguridad informática", "Aplicaciones web", "Empresa e iniciativa emprendedora" };

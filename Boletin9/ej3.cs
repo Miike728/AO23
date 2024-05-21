@@ -19,7 +19,7 @@ namespace Boletin9
         {
             try // Control de errores
             {
-                altura = int.Parse(txtAltura.Text); // COnvertir a int, y guardar en variable
+                altura = int.Parse(txtAltura.Text); // Convertir a int, y guardar en variable
             }
             catch (Exception) { }
         }
@@ -30,6 +30,11 @@ namespace Boletin9
             triangulo = base1 * altura;
             resultado = triangulo.ToString();
             txtResultado.Text = resultado;
+        }
+
+        private void ej3_Load(object sender, EventArgs e)
+        {
+
         }
 
         public ej3()
@@ -57,7 +62,7 @@ namespace Boletin9
 
         private void btnRectangulo_Click(object sender, EventArgs e)
         {
-            // Calculo del rectangulo y mostrarl en el textbox
+            // Calculo del rectangulo y mostrar en el textbox
             rectangulo = ladoMayor * ladoMenor;
             resultado = rectangulo.ToString();
             txtResultado.Text = resultado;

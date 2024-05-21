@@ -12,7 +12,7 @@ namespace boletin10
 {
     public partial class ej1 : Form
     {
-        //Crear variable total
+        //Variable total
         int total = 0;
         //Varibles para los precios
         int precioLaserJet = 100;
@@ -101,7 +101,7 @@ namespace boletin10
 
             //Mostrar el total en el textbox
             txtTotal.Text = "$" + total.ToString();
-            total = 0; // Despues de mostrar el total, reiniciar la variable para futuros cálculos
+            total = 0; // Despues de mostrar el total, reiniciar la variable para el siguiente calculo
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

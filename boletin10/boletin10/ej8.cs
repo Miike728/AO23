@@ -127,7 +127,7 @@ namespace boletin10
 
         private void ej8_Load(object sender, EventArgs e) // Lanzar los dados al cargar el form
         {
-            dado1 = rnd.Next(1, 7); // Genera un número aleatorio entre 1 y 6, 7 porque el límite es exclusivo
+            dado1 = rnd.Next(1, 7);
             dado2 = rnd.Next(1, 7);
             dado3 = rnd.Next(1, 7);
             dado4 = rnd.Next(1, 7);

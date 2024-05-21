@@ -209,6 +209,7 @@
             this.Controls.Add(this.label1);
             this.Name = "ej3";
             this.Text = "ej3";
+            this.Load += new System.EventHandler(this.ej3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

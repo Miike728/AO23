@@ -22,7 +22,7 @@ namespace boletin10
 
         private void ej5_Load(object sender, EventArgs e)
         {
-            // Añadir los elementos al combobox
+            // Añadir los turnos al combobox
             comboTurno.Items.Add("Mañana");
             comboTurno.Items.Add("Noche");
         }

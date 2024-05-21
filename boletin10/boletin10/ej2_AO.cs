@@ -14,7 +14,7 @@ namespace boletin10
     {
         // Temario de aplicaciones ofimáticas
         string[] temario = { "Procesadores de texto", "Hojas de cálculo", "Bases de datos", "Presentaciones", "Programación C#" };
-        string profesor = "Ramón Ríos y Martín García";
+        string profesor = "Ramon Ríos y Martín García";
         public ej2_AO()
         {
             InitializeComponent();

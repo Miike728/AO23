@@ -1,0 +1,3 @@
+Intel Core i3-6100, 50,00€
+Intel Core i5-6600, 70,00€
+Intel Core i7-6700, 100,00€

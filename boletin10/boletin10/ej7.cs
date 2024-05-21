@@ -27,9 +27,9 @@ namespace boletin10
             pictureBox.Left = posicionInicial; // Poner pictureBox en posición inicial
         }
 
-        private void timer1_Tick(object sender, EventArgs e) // MOver pictureBox cada tick (1000ms)
+        private void timer1_Tick(object sender, EventArgs e) // Mover picturebox cada tick (1000ms)
         {
-            pictureBox.Left += 10; // Se añade 10 al valor de la propiedad Left (distancia entre el borde izquierdo del margen y el picturebox)
+            pictureBox.Left += 10; // Se suma 10 al valor de la propiedad Left
 
         }
 
