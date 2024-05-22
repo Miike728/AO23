@@ -33,183 +33,59 @@ namespace ProyectoFinal
                 sockets.WriteLine("LGA1700");
                 sockets.Close();
             }
-            // Archivo Procesadores-AM3.txt con precio
-            if (!File.Exists("Procesadores-AM3.txt"))
-            {
-                StreamWriter procesadoresAM3 = new StreamWriter("Procesadores-AM3.txt");
-                procesadoresAM3.WriteLine("AMD FX-6300, 50,00€");
-                procesadoresAM3.WriteLine("AMD FX-8350, 70,00€");
-                procesadoresAM3.WriteLine("AMD FX-9590, 100,00€");
-                procesadoresAM3.Close();
-            }
-            // Archivo Procesadores-AM4.txt con precio
-            if (!File.Exists("Procesadores-AM4.txt"))
-            {
-                StreamWriter procesadoresAM4 = new StreamWriter("Procesadores-AM4.txt");
-                procesadoresAM4.WriteLine("AMD Ryzen 3 1200, 50,00€");
-                procesadoresAM4.WriteLine("AMD Ryzen 5 1600, 70,00€");
-                procesadoresAM4.WriteLine("AMD Ryzen 7 1800X, 100,00€");
-                procesadoresAM4.Close();
-            }
-            // Archivo Procesadores-AM5.txt con precio
-            if (!File.Exists("Procesadores-AM5.txt"))
-            {
-                StreamWriter procesadoresAM5 = new StreamWriter("Procesadores-AM5.txt");
-                procesadoresAM5.WriteLine("AMD Ryzen 3 2200G, 50,00€");
-                procesadoresAM5.WriteLine("AMD Ryzen 5 2600, 70,00€");
-                procesadoresAM5.WriteLine("AMD Ryzen 7 2700X, 100,00€");
-                procesadoresAM5.Close();
-            }
-            // Archivo Procesadores-LGA1200.txt con precio
-            if (!File.Exists("Procesadores-LGA1200.txt"))
-            {
-                StreamWriter procesadoresLGA1200 = new StreamWriter("Procesadores-LGA1200.txt");
-                procesadoresLGA1200.WriteLine("Intel Core i3-10100, 50,00€");
-                procesadoresLGA1200.WriteLine("Intel Core i5-10400, 70,00€");
-                procesadoresLGA1200.WriteLine("Intel Core i7-10700, 100,00€");
-                procesadoresLGA1200.Close();
-            }
-            // Archivo Procesadores-LGA1151.txt con precio
-            if (!File.Exists("Procesadores-LGA1151.txt"))
-            {
-                StreamWriter procesadoresLGA1151 = new StreamWriter("Procesadores-LGA1151.txt");
-                procesadoresLGA1151.WriteLine("Intel Core i3-6100, 50,00€");
-                procesadoresLGA1151.WriteLine("Intel Core i5-6600, 70,00€");
-                procesadoresLGA1151.WriteLine("Intel Core i7-6700, 100,00€");
-                procesadoresLGA1151.Close();
-            }
-            // Archivo Procesadores-LGA1700.txt con precio
-            if (!File.Exists("Procesadores-LGA1700.txt"))
-            {
-                StreamWriter procesadoresLGA1700 = new StreamWriter("Procesadores-LGA1700.txt");
-                procesadoresLGA1700.WriteLine("Intel Core i3-12100, 50,00€");
-                procesadoresLGA1700.WriteLine("Intel Core i5-12400, 70,00€");
-                procesadoresLGA1700.WriteLine("Intel Core i7-12700, 100,00€");
-                procesadoresLGA1700.Close();
-            }
             // Archivo RAM-AM3.txt
             if (!File.Exists("RAM-AM3.txt"))
             {
                 StreamWriter ramAM3 = new StreamWriter("RAM-AM3.txt");
-                ramAM3.WriteLine("DDR3");
+                ramAM3.WriteLine("Corsair Vengeance DDR3 2GB 1600MHz, 50,00€");
+                ramAM3.WriteLine("G.Skill Ripjaws DDR3 4GB 1600MHz, 70,00€");
+                ramAM3.WriteLine("Kingston HyperX DDR3 8GB 1600MHz, 100,00€");
                 ramAM3.Close();
             }
-            // Archivo Procesadores-AM3.txt 
             // Archivo RAM-AM4.txt
             if (!File.Exists("RAM-AM4.txt"))
             {
                 StreamWriter ramAM4 = new StreamWriter("RAM-AM4.txt");
-                ramAM4.WriteLine("DDR4");
+                ramAM4.WriteLine("Corsair Vengeance DDR4 8GB 3200MHz, 50,00€");
+                ramAM4.WriteLine("G.Skill Ripjaws DDR4 16GB 3200MHz, 70,00€");
+                ramAM4.WriteLine("Kingston HyperX DDR4 32GB 3200MHz, 100,00€");
                 ramAM4.Close();
             }
             // Archivo RAM-AM5.txt
             if (!File.Exists("RAM-AM5.txt"))
             {
                 StreamWriter ramAM5 = new StreamWriter("RAM-AM5.txt");
-                ramAM5.WriteLine("DDR5");
+                ramAM5.WriteLine("Corsair Vengeance DDR5 32GB 360000MHz, 50,00€");
+                ramAM5.WriteLine("G.Skill Ripjaws DDR5 64GB 4800MHz, 70,00€");
+                ramAM5.WriteLine("Kingston HyperX DDR5 128GB 4800MHz, 100,00€");
                 ramAM5.Close();
             }
             // Archivo RAM-LGA1200.txt
             if (!File.Exists("RAM-LGA1200.txt"))
             {
                 StreamWriter ramLGA1200 = new StreamWriter("RAM-LGA1200.txt");
-                ramLGA1200.WriteLine("DDR4");
+                ramLGA1200.WriteLine("Corsair Vengeance DDR4 8GB 3200MHz, 50,00€");
+                ramLGA1200.WriteLine("G.Skill Ripjaws DDR4 16GB 3200MHz, 70,00€");
+                ramLGA1200.WriteLine("Kingston HyperX DDR4 32GB 3200MHz, 100,00€");
                 ramLGA1200.Close();
             }
             // Archivo RAM-LGA1151.txt
             if (!File.Exists("RAM-LGA1151.txt"))
             {
                 StreamWriter ramLGA1151 = new StreamWriter("RAM-LGA1151.txt");
-                ramLGA1151.WriteLine("DDR4");
+                ramLGA1151.WriteLine("Corsair Vengeance DDR4 8GB 3200MHz, 50,00€");
+                ramLGA1151.WriteLine("G.Skill Ripjaws DDR4 16GB 3200MHz, 70,00€");
+                ramLGA1151.WriteLine("Kingston HyperX DDR4 32GB 3200MHz, 100,00€");
                 ramLGA1151.Close();
             }
             // Archivo RAM-LGA1700.txt
             if (!File.Exists("RAM-LGA1700.txt"))
             {
                 StreamWriter ramLGA1700 = new StreamWriter("RAM-LGA1700.txt");
-                ramLGA1700.WriteLine("DDR5");
+                ramLGA1700.WriteLine("Corsair Vengeance DDR5 32GB 360000MHz, 50,00€");
+                ramLGA1700.WriteLine("G.Skill Ripjaws DDR5 64GB 4800MHz, 70,00€");
+                ramLGA1700.WriteLine("Kingston HyperX DDR5 128GB 4800MHz, 100,00€");
                 ramLGA1700.Close();
-            }
-            // Archivo TiposDDR3.txt
-            if (!File.Exists("TiposDDR3.txt"))
-            {
-                StreamWriter tiposDDR3 = new StreamWriter("TiposDDR3.txt");
-                tiposDDR3.WriteLine("1333 MHz");
-                tiposDDR3.WriteLine("1600 MHz");
-                tiposDDR3.WriteLine("1866 MHz");
-                tiposDDR3.WriteLine("2133 MHz");
-                tiposDDR3.WriteLine("2400 MHz");
-                tiposDDR3.WriteLine("2666 MHz");
-                tiposDDR3.WriteLine("3000 MHz");
-                tiposDDR3.Close();
-            }
-            // Archivo TiposDDR4.txt
-            if (!File.Exists("TiposDDR4.txt"))
-            {
-                StreamWriter tiposDDR4 = new StreamWriter("TiposDDR4.txt");
-                tiposDDR4.WriteLine("2400 MHz");
-                tiposDDR4.WriteLine("2666 MHz");
-                tiposDDR4.WriteLine("3000 MHz");
-                tiposDDR4.WriteLine("3200 MHz");
-                tiposDDR4.WriteLine("3466 MHz");
-                tiposDDR4.WriteLine("3600 MHz");
-                tiposDDR4.WriteLine("3800 MHz");
-                tiposDDR4.WriteLine("4000 MHz");
-                tiposDDR4.WriteLine("4266 MHz");
-                tiposDDR4.WriteLine("4400 MHz");
-                tiposDDR4.WriteLine("4600 MHz");
-                tiposDDR4.WriteLine("4800 MHz");
-                tiposDDR4.Close();
-            }
-            // Archivo TiposDDR5.txt
-            if (!File.Exists("TiposDDR5.txt"))
-            {
-                StreamWriter tiposDDR5 = new StreamWriter("TiposDDR5.txt");
-                tiposDDR5.WriteLine("4800 MHz");
-                tiposDDR5.WriteLine("5000 MHz");
-                tiposDDR5.WriteLine("5200 MHz");
-                tiposDDR5.WriteLine("5400 MHz");
-                tiposDDR5.WriteLine("5600 MHz");
-                tiposDDR5.WriteLine("5800 MHz");
-                tiposDDR5.WriteLine("6000 MHz");
-                tiposDDR5.WriteLine("6200 MHz");
-                tiposDDR5.WriteLine("6400 MHz");
-                tiposDDR5.WriteLine("6600 MHz");
-                tiposDDR5.WriteLine("6800 MHz");
-                tiposDDR5.WriteLine("7000 MHz");
-                tiposDDR5.Close();
-            }
-            // Archivo TamanosRAM-DDR3.txt
-            if (!File.Exists("TamanosRAM-DDR3.txt"))
-            {
-                StreamWriter tamanosRAMDDR3 = new StreamWriter("TamanosRAM-DDR3.txt");
-                tamanosRAMDDR3.WriteLine("1GB, 1,00€");
-                tamanosRAMDDR3.WriteLine("2GB, 2,00€");
-                tamanosRAMDDR3.WriteLine("4GB, 3,00€");
-                tamanosRAMDDR3.WriteLine("8GB, 5,00€");
-                tamanosRAMDDR3.Close();
-            }
-            // Archivo TamanosRAM-DDR4.txt
-            if (!File.Exists("TamanosRAM-DDR4.txt"))
-            {
-                StreamWriter tamanosRAMDDR4 = new StreamWriter("TamanosRAM-DDR4.txt");
-                tamanosRAMDDR4.WriteLine("4GB, 3,00€");
-                tamanosRAMDDR4.WriteLine("8GB, 5,00€");
-                tamanosRAMDDR4.WriteLine("16GB, 8,00€");
-                tamanosRAMDDR4.WriteLine("32GB, 12,00€");
-                tamanosRAMDDR4.WriteLine("64GB, 20,00€");
-                tamanosRAMDDR4.Close();
-            }
-            // Archivo TamanosRAM-DDR5.txt
-            if (!File.Exists("TamanosRAM-DDR5.txt"))
-            {
-                StreamWriter tamanosRAMDDR5 = new StreamWriter("TamanosRAM-DDR5.txt");
-                tamanosRAMDDR5.WriteLine("8GB, 5,00€");
-                tamanosRAMDDR5.WriteLine("16GB, 8,00€");
-                tamanosRAMDDR5.WriteLine("32GB, 12,00€");
-                tamanosRAMDDR5.WriteLine("64GB, 20,00€");
-                tamanosRAMDDR5.WriteLine("128GB, 30,00€");
-                tamanosRAMDDR5.Close();
             }
             // Archivo GPU.txt
             if (!File.Exists("GPU.txt"))
@@ -222,7 +98,7 @@ namespace ProyectoFinal
             // Archivo NVIDIAgpu.txt
             if (!File.Exists("NVIDIAgpu.txt"))
             {
-                StreamWriter nvidia = new StreamWriter("NVIDIA.txt");
+                StreamWriter nvidia = new StreamWriter("NVIDIAgpu.txt");
                 nvidia.WriteLine("GTX 1080, 100,00€");
                 nvidia.WriteLine("GTX 1650, 150,00€");
                 nvidia.WriteLine("RTX 2080, 200,00€");
@@ -234,7 +110,7 @@ namespace ProyectoFinal
             // Archivo AMDgpu.txt
             if (!File.Exists("AMDgpu.txt"))
             {
-                StreamWriter amd = new StreamWriter("AMD.txt");
+                StreamWriter amd = new StreamWriter("AMDgpu.txt");
                 amd.WriteLine("RX 580, 100,00€");
                 amd.WriteLine("RX 5600XT, 150,00€");
                 amd.WriteLine("RX 6700XT, 200,00€");
@@ -457,6 +333,67 @@ namespace ProyectoFinal
                 refrigeracionLiquida.WriteLine("Cooler Master MasterLiquid ML360R, 100,00€");
                 refrigeracionLiquida.Close();
             }
+            // Archivo ProcesadorAM3.txt
+            if (!File.Exists("ProcesadorAM3.txt"))
+            {
+                StreamWriter procesadorAM3 = new StreamWriter("ProcesadorAM3.txt");
+                procesadorAM3.WriteLine("AMD FX-6300, 50,00€");
+                procesadorAM3.WriteLine("AMD FX-8350, 70,00€");
+                procesadorAM3.WriteLine("AMD FX-9590, 100,00€");
+                procesadorAM3.Close();
+            }
+            // Archivo ProcesadorAM4.txt
+            if (!File.Exists("ProcesadorAM4.txt"))
+            {
+                StreamWriter procesadorAM4 = new StreamWriter("ProcesadorAM4.txt");
+                procesadorAM4.WriteLine("AMD Ryzen 3 1200, 50,00€");
+                procesadorAM4.WriteLine("AMD Ryzen 5 1600, 70,00€");
+                procesadorAM4.WriteLine("AMD Ryzen 7 1800X, 100,00€");
+                procesadorAM4.Close();
+            }
+            // Archivo ProcesadorAM5.txt
+            if (!File.Exists("ProcesadorAM5.txt"))
+            {
+                StreamWriter procesadorAM5 = new StreamWriter("ProcesadorAM5.txt");
+                procesadorAM5.WriteLine("AMD Ryzen 3 2200G, 50,00€");
+                procesadorAM5.WriteLine("AMD Ryzen 5 2600, 70,00€");
+                procesadorAM5.WriteLine("AMD Ryzen 7 2700X, 100,00€");
+                procesadorAM5.Close();
+            }
+            // Archivo ProcesadorLGA1200.txt
+            if (!File.Exists("ProcesadorLGA1200.txt"))
+            {
+                StreamWriter procesadorLGA1200 = new StreamWriter("ProcesadorLGA1200.txt");
+                procesadorLGA1200.WriteLine("Intel Core i3-10100, 50,00€");
+                procesadorLGA1200.WriteLine("Intel Core i5-10400, 70,00€");
+                procesadorLGA1200.WriteLine("Intel Core i7-10700, 100,00€");
+                procesadorLGA1200.Close();
+            }
+            // Archivo ProcesadorLGA1151.txt
+            if (!File.Exists("ProcesadorLGA1151.txt"))
+            {
+                StreamWriter procesadorLGA1151 = new StreamWriter("ProcesadorLGA1151.txt");
+                procesadorLGA1151.WriteLine("Intel Core i5-9400F, 50,00€");
+                procesadorLGA1151.WriteLine("Intel Core i5-9400, 70,00€");
+                procesadorLGA1151.WriteLine("Intel Core i7-6700, 100,00€");
+                procesadorLGA1151.Close();
+            }
+            // Archivo ProcesadorLGA1700.txt
+            if (!File.Exists("ProcesadorLGA1700.txt"))
+            {
+                StreamWriter procesadorLGA1700 = new StreamWriter("ProcesadorLGA1700.txt");
+                procesadorLGA1700.WriteLine("Intel Core i3-12100, 50,00€");
+                procesadorLGA1700.WriteLine("Intel Core i5-12400, 70,00€");
+                procesadorLGA1700.WriteLine("Intel Core i7-12700, 100,00€");
+                procesadorLGA1700.Close();
+            }
+        }
+
+        private void btnDBs_Click(object sender, EventArgs e)
+        {
+            // Abrir la ventana EditoDBs
+            EditorDBs editorDBs = new EditorDBs();
+            editorDBs.Show();
         }
     }
 }

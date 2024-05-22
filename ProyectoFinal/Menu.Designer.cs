@@ -139,6 +139,7 @@
             this.btnDBs.TabIndex = 9;
             this.btnDBs.Text = "Acceder";
             this.btnDBs.UseVisualStyleBackColor = true;
+            this.btnDBs.Click += new System.EventHandler(this.btnDBs_Click);
             // 
             // label7
             // 
