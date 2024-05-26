@@ -1,0 +1,12 @@
+C:\Users\Miike\source\repos\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\Miike\source\repos\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\Miike\source\repos\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\Miike\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\Miike\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.AddProductForm.resources
+C:\Users\Miike\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.Main.resources
+C:\Users\Miike\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\Miike\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\Miike\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Miike\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\Miike\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\Miike\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.ConsultProductForm.resources
