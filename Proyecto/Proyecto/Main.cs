@@ -28,5 +28,10 @@ namespace Proyecto
             ConsultProductForm consultForm = new ConsultProductForm();
             consultForm.ShowDialog();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

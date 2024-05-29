@@ -59,9 +59,9 @@ namespace Proyecto
                     return;
                 }
                 // Comprobar si el codigo ya existe
-                if (File.Exists("Ordenadores.txt"))
+                if (File.Exists("ordenadores.txt"))
                 {
-                    StreamReader sr = new StreamReader("Ordenadores.txt");
+                    StreamReader sr = new StreamReader("ordenadores.txt");
                     // Recorrer el archivo buscando el codigo antes del primer ;
                     while (!sr.EndOfStream)
                     {
@@ -81,6 +81,77 @@ namespace Proyecto
                     MessageBox.Show("El código introducido ya existe", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
+                // Comprobar que no haya espacios en el codigo
+                if (txtCodigoPC.Text.Contains(" "))
+                {
+                    MessageBox.Show("No se permiten espacios en el código", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                // Si hay un punto en el precio, cambiarlo por una coma
+                if (txtPrecioPC.Text.Contains("."))
+                {
+                    txtPrecioPC.Text = txtPrecioPC.Text.Replace(".", ",");
+                }
+                // Permitir solo numeros y una unica coma en el precio
+                if (txtPrecioPC.Text.Contains(","))
+                {
+                    int contadorComas = 0;
+                    foreach (char c in txtPrecioPC.Text)
+                    {
+                        if (c == ',')
+                        {
+                            contadorComas++;
+                        }
+                    }
+                    if (contadorComas > 1)
+                    {
+                        MessageBox.Show("Solo se permite una coma en el precio", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                    else
+                    {
+                        foreach (char c in txtPrecioPC.Text)
+                        {
+                            if (!char.IsDigit(c) && c != ',')
+                            {
+                                MessageBox.Show("Solo se permiten números y una coma en el precio", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                return;
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    foreach (char c in txtPrecioPC.Text)
+                    {
+                        if (!char.IsDigit(c) && c != ',')
+                        {
+                            MessageBox.Show("Solo se permiten números y una coma en el precio", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
+                    }
+                }
+                // Si hay una coma al final del precio, poner 00
+                if (txtPrecioPC.Text.EndsWith(","))
+                {
+                    txtPrecioPC.Text += "00";
+                }
+                // Si no hay coma en el precio, poner ,00
+                if (!txtPrecioPC.Text.Contains(","))
+                {
+                    txtPrecioPC.Text += ",00";
+                }
+                // Comprobar que en la RAM haya solo numeros
+                foreach (char c in txtRAMPC.Text)
+                {
+                    if (!char.IsDigit(c))
+                    {
+                        MessageBox.Show("Solo se permiten números en la RAM", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                }
+
+
                 // Si los campos están rellenos y el codigo no existe, guardar en el archivo
                 if (camposRellenos && !codigoRepetido)
                 {
@@ -94,7 +165,7 @@ namespace Proyecto
                         } // Si elige si, guardar
                         else
                         {
-                            StreamWriter sw = new StreamWriter("Ordenadores.txt", true);
+                            StreamWriter sw = new StreamWriter("ordenadores.txt", true);
                             sw.WriteLine(txtCodigoPC.Text + ";" + txtMarcaPC.Text + ";" + txtGPUPC.Text + ";" + txtRAMPC.Text + ";" + txtAlmacenamientoPC.Text + ";" + txtProcesadorPC.Text + ";" + txtPrecioPC.Text);
                             sw.Close();
                             MessageBox.Show("Ordenador guardado correctamente", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -107,10 +178,10 @@ namespace Proyecto
                     }
                     else
                     {
-                        StreamWriter sw = new StreamWriter("Ordenadores.txt", true);
+                        StreamWriter sw = new StreamWriter("ordenadores.txt", true);
                         sw.WriteLine(txtCodigoPC.Text + ";" + txtMarcaPC.Text + ";" + txtGPUPC.Text + ";" + txtRAMPC.Text + ";" + txtAlmacenamientoPC.Text + ";" + txtProcesadorPC.Text + ";" + txtPrecioPC.Text);
                         sw.Close();
-                        // Guardar imagen en la carpeta ImagenesOrdenadores con el codigo como nombre
+                        // Guardar imagen en la carpeta Imagenesordenadores con el codigo como nombre
                         // Crear carpeta si no existe
                         if (!Directory.Exists("ImagenesOrdenadores"))
                         {
@@ -170,6 +241,77 @@ namespace Proyecto
                     MessageBox.Show("El código introducido ya existe", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
+                // Comprobar que no haya espacios en el codigo
+                if (txtCodigoMovil.Text.Contains(" "))
+                {
+                    MessageBox.Show("No se permiten espacios en el código", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                // Si hay un punto en el precio, cambiarlo por una coma
+                if (txtPrecioMovil.Text.Contains("."))
+                {
+                    txtPrecioMovil.Text = txtPrecioMovil.Text.Replace(".", ",");
+                }
+                // Permitir solo numeros y una unica coma en el precio
+                if (txtPrecioMovil.Text.Contains(","))
+                {
+                    int contadorComas = 0;
+                    foreach (char c in txtPrecioMovil.Text)
+                    {
+                        if (c == ',')
+                        {
+                            contadorComas++;
+                        }
+                    }
+                    if (contadorComas > 1)
+                    {
+                        MessageBox.Show("Solo se permite una coma en el precio", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                    else
+                    {
+                        foreach (char c in txtPrecioMovil.Text)
+                        {
+                            if (!char.IsDigit(c) && c != ',')
+                            {
+                                MessageBox.Show("Solo se permiten números y una coma en el precio", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                return;
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    foreach (char c in txtPrecioMovil.Text)
+                    {
+                        if (!char.IsDigit(c) && c != ',')
+                        {
+                            MessageBox.Show("Solo se permiten números y una coma en el precio", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
+                    }
+                }
+                // Si hay una coma al final del precio, poner 00
+                if (txtPrecioMovil.Text.EndsWith(","))
+                {
+                    txtPrecioMovil.Text += "00";
+                }
+                // Si no hay coma en el precio, poner ,00
+                if (!txtPrecioMovil.Text.Contains(","))
+                {
+                    txtPrecioMovil.Text += ",00";
+                }
+                // Comprobar que en la RAM haya solo numeros
+                foreach (char c in txtRAMMovil.Text)
+                {
+                    if (!char.IsDigit(c))
+                    {
+                        MessageBox.Show("Solo se permiten números en la RAM", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                }
+
+
                 // Si los campos están rellenos y el codigo no existe, guardar en el archivo
                 if (camposRellenos && !codigoRepetido)
                 {
@@ -284,6 +426,11 @@ namespace Proyecto
         }
 
         private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddProductForm_Load(object sender, EventArgs e)
         {
 
         }

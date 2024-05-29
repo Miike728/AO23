@@ -1,2 +1,21 @@
-123;fgy;gy;gu;gu;tgyu;gyut;tgyua
-12345;asdfg;asdf;asdf;asdf;asdf;asdf;asdfh
+12345;Xiaomi;Redmi 9T;4;64;48MP;Snapdragon 662;130
+12346;Samsung;Galaxy A52;6;128;64MP;Snapdragon 720G;300
+12347;Apple;iPhone 12;4;64;12MP;A14 Bionic;800
+12348;OnePlus;Nord N10;6;128;64MP;Snapdragon 690;250
+12349;Huawei;P40 Lite;6;128;48MP;Kirin 810;220
+12350;Oppo;A54;4;64;13MP;Helio P35;180
+12351;Realme;7 Pro;8;128;64MP;Snapdragon 720G;300
+12352;Motorola;Moto G9 Power;4;128;64MP;Snapdragon 662;200
+12353;Sony;Xperia 10 II;4;128;12MP;Snapdragon 665;280
+12354;Nokia;5.4;4;64;48MP;Snapdragon 662;180
+12355;Google;Pixel 4a;6;128;12.2MP;Snapdragon 730G;350
+12356;Xiaomi;Mi 11 Lite;6;128;64MP;Snapdragon 732G;320
+12357;Samsung;Galaxy S21;8;128;64MP;Exynos 2100;900
+12358;Apple;iPhone SE (2020);3;64;12MP;A13 Bionic;400
+12359;OnePlus;8T;8;128;48MP;Snapdragon 865;600
+12360;Poco;X3 Pro;6;128;48MP;Snapdragon 860;250
+12361;Vivo;Y20s;4;128;13MP;Snapdragon 460;170
+12362;Asus;Zenfone 8;8;128;64MP;Snapdragon 888;700
+12363;Realme;8;6;128;64MP;Helio G95;220
+12364;TCL;10L;6;64;48MP;Snapdragon 665;200721;Marca;Modelo;16;2TB;52MP;Snapdragon;4000,00
+123123;y;ygyg;4;gyu;gyu;guyg;899,00

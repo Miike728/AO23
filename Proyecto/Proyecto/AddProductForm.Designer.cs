@@ -72,6 +72,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.lblNingunaImagenCargada = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupDatosOrdenador.SuspendLayout();
             this.groupDatosMovil.SuspendLayout();
@@ -115,6 +117,7 @@
             // 
             // groupDatosOrdenador
             // 
+            this.groupDatosOrdenador.Controls.Add(this.label19);
             this.groupDatosOrdenador.Controls.Add(this.label17);
             this.groupDatosOrdenador.Controls.Add(this.label8);
             this.groupDatosOrdenador.Controls.Add(this.btnImagenPC);
@@ -133,7 +136,7 @@
             this.groupDatosOrdenador.Controls.Add(this.txtCodigoPC);
             this.groupDatosOrdenador.Location = new System.Drawing.Point(218, 12);
             this.groupDatosOrdenador.Name = "groupDatosOrdenador";
-            this.groupDatosOrdenador.Size = new System.Drawing.Size(222, 237);
+            this.groupDatosOrdenador.Size = new System.Drawing.Size(233, 237);
             this.groupDatosOrdenador.TabIndex = 1;
             this.groupDatosOrdenador.TabStop = false;
             this.groupDatosOrdenador.Text = "Datos";
@@ -273,6 +276,7 @@
             // 
             // groupDatosMovil
             // 
+            this.groupDatosMovil.Controls.Add(this.label20);
             this.groupDatosMovil.Controls.Add(this.label18);
             this.groupDatosMovil.Controls.Add(this.label15);
             this.groupDatosMovil.Controls.Add(this.txtPrecioMovil);
@@ -293,7 +297,7 @@
             this.groupDatosMovil.Controls.Add(this.txtCodigoMovil);
             this.groupDatosMovil.Location = new System.Drawing.Point(218, 12);
             this.groupDatosMovil.Name = "groupDatosMovil";
-            this.groupDatosMovil.Size = new System.Drawing.Size(222, 262);
+            this.groupDatosMovil.Size = new System.Drawing.Size(232, 262);
             this.groupDatosMovil.TabIndex = 14;
             this.groupDatosMovil.TabStop = false;
             this.groupDatosMovil.Text = "Datos";
@@ -495,11 +499,29 @@
             this.lblNingunaImagenCargada.TabIndex = 21;
             this.lblNingunaImagenCargada.Text = "Ninguna imagen cargada";
             // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(205, 101);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(22, 13);
+            this.label19.TabIndex = 23;
+            this.label19.Text = "GB";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(205, 101);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(22, 13);
+            this.label20.TabIndex = 24;
+            this.label20.Text = "GB";
+            // 
             // AddProductForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(450, 351);
+            this.ClientSize = new System.Drawing.Size(460, 351);
             this.Controls.Add(this.lblNingunaImagenCargada);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.pictureBox1);
@@ -510,6 +532,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "AddProductForm";
             this.Text = "AddProductForm";
+            this.Load += new System.EventHandler(this.AddProductForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupDatosOrdenador.ResumeLayout(false);
@@ -568,5 +591,7 @@
         private System.Windows.Forms.Label lblNingunaImagenCargada;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
     }
 }

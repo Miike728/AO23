@@ -1,17 +1,26 @@
-123;12;1;1;1;1;1
-12345678;yui;c;uiv;uyvb;ob;vbiyo
-1231;ui;asd;yugvb;iuyovbi;yiob;io
-4444;bo;uyvyi;gbyuio;boiubgbyuob;oo;yo
-5555;tyc;uiyu;ipb;ibubiu;b;bu
-6666;bi;uvb;yb;yb;b;u
-4363456;vyi;vt;iuv;tyvgt;uiy;vg
-890;ugv;yuiv;vyuyv;vyuvuyvy;vu;vvuvu
-789;a;a;a;a;a;a
-345678;qwert;wert;ydfgh;dfg;ert;dfga
-3456789;dfghjkl;dcftfvgyhjb;yurfvtgvbhj;f6urvybghj;tdyrfugvbbh;dtycrfuvg
-34567891;trf;vgqyut;viu;yvg;byouil;a
-46s53y;trf;tyd;fyut;fyu;f;tyuf
-765rtg;gv678ig;7iyu;gu;gtybviu;sasdsa;asdasd
-786tgu;iyvui;ygvb;utyg;vtu;g;tuyv
-1234;dtf;vgyut;gb;uyk;ghbuih;12,12312€€€€€€€
-123123;uigvyu;goyg;ioygb;iouh;bhniopu;asdas
+54331;HP;GTX 1650;8;256GB SSD + 1TB HDD;i5-10400;700
+54332;Dell;RTX 3060;16;512GB SSD;i7-10700K;1200
+54333;Lenovo;RX 5600 XT;8;128GB SSD + 1TB HDD;Ryzen 5 3600;850
+54334;Acer;GTX 1660 Super;16;512GB SSD;i5-10600KF;950
+54335;Asus;RTX 3070;16;1TB SSD;i7-11700F;1500
+54336;MSI;RTX 3080;32;1TB SSD;Ryzen 9 5900X;2200
+54337;Apple;Radeon Pro 5500M;16;1TB SSD;M1;2000
+54338;CyberPowerPC;GTX 1650;8;256GB SSD + 2TB HDD;Ryzen 5 2600;750
+54339;Alienware;RTX 2080 Super;32;1TB SSD;i9-10900K;2500
+54340;Razer;RTX 2070;16;512GB SSD;i7-9750H;1800
+54341;Gigabyte;RTX 2060;16;512GB SSD;Ryzen 7 3700X;1300
+54342;ASRock;RX 5700 XT;16;1TB SSD;Ryzen 7 3800X;1400
+54343;Origin PC;RTX 3090;32;2TB SSD;i9-11900K;3000
+54344;Maingear;RTX 3070;16;1TB SSD;Ryzen 7 5800X;1600
+54345;CyberPowerPC;RX 580;8;512GB SSD + 1TB HDD;Ryzen 5 2600;800
+54346;HP;GTX 1050;8;256GB SSD;i5-9300H;600
+54347;Dell;RTX 2060;16;1TB SSD;i7-10750H;1300
+54348;Lenovo;RX 5500;8;256GB SSD;Ryzen 5 3550H;700
+54349;Acer;GTX 1660 Ti;16;512GB SSD;i5-10300H;1000
+54350;Asus;RTX 3060;32;1TB SSD;Ryzen 9 5900HS;2000
+54351;MSI;RTX 3080;32;1TB SSD;i9-11900H;2500
+54352;Apple;Radeon Pro 5300M;16;512GB SSD;M1;1800
+54353;CyberPowerPC;GTX 1650 Super;8;256GB SSD + 1TB HDD;Ryzen 5 3500;800
+54354;Alienware;RTX 3070;32;1TB SSD;i7-11800H;2200
+54355;Razer;RTX 2060;16;512GB SSD;i7-10750H;15007890;marca;no;1;5TB;Xeon;4500,00
+1234;Marca;Nvidia;32;5TB;Intel;12312,00
