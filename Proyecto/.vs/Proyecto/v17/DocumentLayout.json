@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Miike\\source\\repos\\Proyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5807E436-F981-4EFD-AADA-5CC63B830205}|Proyecto\\Proyecto.csproj|C:\\Users\\Miike\\source\\repos\\Proyecto\\proyecto\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5807E436-F981-4EFD-AADA-5CC63B830205}|Proyecto\\Proyecto.csproj|c:\\users\\miike\\source\\repos\\proyecto\\proyecto\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5807E436-F981-4EFD-AADA-5CC63B830205}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -11,11 +11,11 @@
       "RelativeMoniker": "D:0:0:{5807E436-F981-4EFD-AADA-5CC63B830205}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\consultproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5807E436-F981-4EFD-AADA-5CC63B830205}|Proyecto\\Proyecto.csproj|c:\\users\\miike\\source\\repos\\proyecto\\proyecto\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5807E436-F981-4EFD-AADA-5CC63B830205}|Proyecto\\Proyecto.csproj|C:\\Users\\Miike\\source\\repos\\Proyecto\\proyecto\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5807E436-F981-4EFD-AADA-5CC63B830205}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5807E436-F981-4EFD-AADA-5CC63B830205}|Proyecto\\Proyecto.csproj|c:\\users\\miike\\source\\repos\\proyecto\\proyecto\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5807E436-F981-4EFD-AADA-5CC63B830205}|Proyecto\\Proyecto.csproj|C:\\Users\\Miike\\source\\repos\\Proyecto\\proyecto\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5807E436-F981-4EFD-AADA-5CC63B830205}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "Proyecto\\AddProductForm.cs",
               "ViewState": "AQIAAJUAAAAAAAAAAAAnwD0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T00:29:08.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T00:29:08.347Z"
             },
             {
               "$type": "Document",
@@ -54,8 +53,7 @@
               "ToolTip": "C:\\Users\\Miike\\source\\repos\\Proyecto\\Proyecto\\AddProductForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "Proyecto\\AddProductForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T00:29:02.625Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-29T00:29:02.625Z"
             },
             {
               "$type": "Document",
@@ -66,8 +64,7 @@
               "ToolTip": "C:\\Users\\Miike\\source\\repos\\Proyecto\\Proyecto\\ConsultProductForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "Proyecto\\ConsultProductForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T22:12:43.89Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-28T22:12:43.89Z"
             },
             {
               "$type": "Document",
